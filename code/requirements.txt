@@ -1,0 +1,16 @@
+# Install a CUDA-enabled PyTorch build separately before this file.
+transformers
+datasets
+accelerate
+peft
+trl
+huggingface_hub
+tokenizers
+safetensors
+pyarrow
+numpy
+PyYAML
+scipy
+pandas
+matplotlib
+pytest
