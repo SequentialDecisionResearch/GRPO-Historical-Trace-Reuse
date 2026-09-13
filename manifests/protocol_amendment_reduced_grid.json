@@ -1,0 +1,52 @@
+{
+  "amended_test_pairs": 36,
+  "created_at_utc": "2026-09-09T21:20:00.764021+00:00",
+  "development_benchmark": {
+    "candidates_path": "benchmarks/pair_grid_reduction/pair_grid_candidates.csv",
+    "candidates_sha256": "a9d668d0c699d4688329bc1573058c7a7320ddae3011fc8bb6d82a4664e607b6",
+    "recommendation_path": "benchmarks/pair_grid_reduction/pair_grid_recommendation.json",
+    "recommendation_sha256": "e072e4e9618888a00a9a319ccac4b9e7cfc5ff02028067683b711b90692fae70",
+    "recommended_candidate": "C001",
+    "recommended_total_pairs": 36,
+    "test_outcomes_read_by_benchmark": false
+  },
+  "existing_test_state": {
+    "existing_test_rescore_manifest_count_at_amendment": 2872,
+    "official_test_ope_analysis_had_not_started": true,
+    "program04_test_had_started": true
+  },
+  "frozen_inputs": {
+    "frozen_gate_manifest_sha256": "1e52aac5325878b3eee2bc57925c11d715507c211bc883454c664c61f206450d",
+    "frozen_gate_sha256": "37c810f9c2c05b617e69dfe0b3b43561b791c1596ebce2c0fbc0f3566357f136",
+    "pair_registry_manifest_sha256": "802a0d6b518067665b251ba4414d6a1a462c1a3574a5723bd587cec39a98b3c8",
+    "pair_registry_parquet_sha256": "0b7de32f52bb3735f9d65b2a63de082235f3b98d44053c8143efcfaf00d23c78",
+    "prior_program04_amendment": {
+      "path": "manifests/protocol_amendment_program04.json",
+      "sha256": "00217da79ca68fdd7cb6de29938bd8b7b01ddb1eb95df039c44c15cd485eaee0"
+    },
+    "program04_source_sha256_at_amendment": "eda438a929b5370f1bf54a1be476b57e382412bcc33aa613bfa119fddad8d264",
+    "protocol_lock_sha256": "762c1727cee6f4fec6b65cbd649654376e4bb9521f782fbc52ec53ddb3fd9dfa",
+    "protocol_yaml_sha256": "2a4934d6036e5bc87e629dd2883dc7c38d65e0b98ad6bc248bec077ae654ecc8"
+  },
+  "invariants": {
+    "frozen_gate_unchanged": true,
+    "pair_registry_unchanged": true,
+    "program04_existing_test_shards_are_not_deleted": true,
+    "program04_scoring_contract_unchanged": true,
+    "reduction_is_pair_grid_only": true,
+    "training_seed_set_unchanged": true,
+    "trajectory_sample_size_K_unchanged": true
+  },
+  "manifest_type": "poststart_reduced_test_pair_grid_amendment",
+  "original_full_test_pairs": 117,
+  "project": "grpo_ope_reuse",
+  "reason": "After official Program04 TEST rescoring began, measured wall-clock cost was materially higher than desired. Before any official TEST OPE outcome analysis, a DEVELOPMENT-only benchmark compared geometry-defined reduced pair grids. Candidate C001 was the smallest tested grid satisfying the predeclared benchmark distortion criteria and was therefore selected to bound remaining computation.",
+  "reduction_fraction": 0.3076923076923077,
+  "required_next_step": "Use a transparent reduced-grid Program04 runner/patch that consumes manifests/reduced_test_pair_selection.json. Do not resume the unmodified full-grid Program04 command.",
+  "schema_version": "1.0",
+  "scientific_status": "post-start computational/design amendment selected without official TEST OPE outcome analysis; not the originally frozen full 117-pair test design",
+  "selection_manifest": {
+    "path": "manifests/reduced_test_pair_selection.json",
+    "sha256": "757aa3948df772c1415340918b350a080189280a799be9964d4095a0c9a2dcea"
+  }
+}

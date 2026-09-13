@@ -1,0 +1,16 @@
+{
+  "amendment_path": "manifests/protocol_amendment_reduced_grid.json",
+  "amendment_sha256": "a1592e0a6d596d2175c38de1838db1f138fe96c61cada1dd33aed0079d0046ce",
+  "implementation": "Verify original full frozen pair registry via original ensure_pair_registry, then return only predeclared selected TEST pair_ids in memory.",
+  "manifest_type": "reduced_test_pair_grid_runner",
+  "original_program04_path": "04_rescore_target_checkpoints.py",
+  "original_program04_sha256": "eda438a929b5370f1bf54a1be476b57e382412bcc33aa613bfa119fddad8d264",
+  "original_program04_source_modified": false,
+  "pair_registry_on_disk_modified": false,
+  "runner_path": "run_program04_reduced_grid.py",
+  "runner_sha256": "289597d6a7a18696a3fd373925ab280f3eb9548a5f9620a15f19405ef5543dde",
+  "schema_version": "1.0",
+  "selected_pair_count": 36,
+  "selection_path": "manifests/reduced_test_pair_selection.json",
+  "selection_sha256": "757aa3948df772c1415340918b350a080189280a799be9964d4095a0c9a2dcea"
+}

@@ -1,0 +1,49 @@
+{
+  "chunk_new_shards_per_process": 10,
+  "completed_at_utc": "2026-09-11T06:37:39.989883+00:00",
+  "concurrency_safety": "per-target workers suppress global collection/reference index writes; one single-process finalizer writes global indexes after all targets complete",
+  "created_at_utc": "2026-09-10T20:02:49.529367+00:00",
+  "final_8x8_online_shard_units": 5445,
+  "finalizer": {
+    "path": "finalize_program05_8x8_v2.py",
+    "sha256": "4b05d5d656de967cdd3473eeabc6eb59199d10d802fb19f8cd4fa0e96c68c7a2"
+  },
+  "initial_8x8_online_shard_units": 61,
+  "initial_completed_seed_targets": 0,
+  "manifest_type": "program05_8x8_parallel3_runner_manifest",
+  "parallel_generation_elapsed_seconds": 37908.1557571888,
+  "parallelism": 3,
+  "pending_seed_targets": 33,
+  "reduced_selection": {
+    "path": "manifests/reduced_test_pair_selection.json",
+    "sha256": "757aa3948df772c1415340918b350a080189280a799be9964d4095a0c9a2dcea"
+  },
+  "sample_size_amendment": {
+    "path": "manifests/protocol_amendment_program05_sample_size.json",
+    "sha256": "ab19de61aa05f4f8b67ea1887e405ce9f335f9a0cd1d32e9d636be11ca83122a"
+  },
+  "scheduling": "dynamic queue; one unique seed-target owned by one lane until complete",
+  "schema_version": "1.1",
+  "status": "completed_and_verified",
+  "throughput_test": {
+    "aggregate_wall_seconds_per_shard": 20.09,
+    "gpu_memory_max_mib": 8276,
+    "gpu_power_max_w": 107.4,
+    "gpu_power_mean_w": 75.2,
+    "gpu_telemetry_sha256": "ebc87537791950933aec71f868ab9f62ef456318efeba66a32e4acc6a88f56bf",
+    "gpu_temperature_max_c": 63,
+    "gpu_util_max_pct": 87.0,
+    "gpu_util_mean_pct": 54.1,
+    "official_shards": 9,
+    "parallel_processes": 3,
+    "selection_reason": "3-process materially outperformed the prior 2-process test while preserving VRAM headroom; no fourth process adopted.",
+    "test_passed": true,
+    "test_script_sha256": "ca918c5b7d2e2c9a639d43695a6b70a5fd7b4e92a245ec31f9777c7eec20d736",
+    "wall_seconds": 180.8
+  },
+  "total_expected_8x8_online_shard_units": 5445,
+  "worker": {
+    "path": "run_program05_8x8_chunk_worker_v2.py",
+    "sha256": "e2b40975278246e746d4a73e2ca0890aeab5dec32730742999bfa6cb01b8a920"
+  }
+}

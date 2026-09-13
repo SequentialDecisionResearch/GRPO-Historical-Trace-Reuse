@@ -1,0 +1,17 @@
+{
+  "calibration_table_path": "outputs/tables/T05_gate_calibration.csv",
+  "calibration_table_sha256": "a92d43bdde23ed4acd113b1095bf49f15fdd74eed703fae5cf17abdc005f1c89",
+  "created_at_utc": "2026-09-06T11:57:31.341654+00:00",
+  "created_by": {
+    "program": "07_calibrate_and_test_gate.py",
+    "program_version": "1.1"
+  },
+  "file_sha256": "37c810f9c2c05b617e69dfe0b3b43561b791c1596ebce2c0fbc0f3566357f136",
+  "frozen_gate_sha256": "37c810f9c2c05b617e69dfe0b3b43561b791c1596ebce2c0fbc0f3566357f136",
+  "gate_content_fingerprint_sha256": "ed2a099f7221b991ad36c51099e9c14f25f674955e410315d9b9faa92389cdfb",
+  "gate_file_sha256": "37c810f9c2c05b617e69dfe0b3b43561b791c1596ebce2c0fbc0f3566357f136",
+  "gate_path": "outputs/frozen_gate.json",
+  "immutable": true,
+  "manifest_type": "frozen_gate_manifest",
+  "schema_version": "1.0"
+}

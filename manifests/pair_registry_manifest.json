@@ -1,0 +1,78 @@
+{
+  "columns": [
+    "pair_id",
+    "training_seed",
+    "dataset",
+    "split",
+    "behavior_step",
+    "target_step",
+    "purpose",
+    "protocol_version"
+  ],
+  "content_sha256": "317649370ef3723613f662e8da4ba14002b72da4cc1a94a71006fce1fe062d68",
+  "created_at_utc": "2026-09-02T19:53:15Z",
+  "created_by": {
+    "program": "04_rescore_target_checkpoints.py",
+    "program_version": "1.2"
+  },
+  "dataset": "GSM8K",
+  "dataset_revision": "740312add88f781978c0658806c59bc2815b9866",
+  "design": {
+    "anti_cartesian_product": true,
+    "created_before_official_test_rewards": true,
+    "identity": [
+      [
+        0,
+        0
+      ],
+      [
+        100,
+        100
+      ],
+      [
+        200,
+        200
+      ],
+      [
+        300,
+        300
+      ]
+    ],
+    "paper_fixed": "(0,e), e=20,40,...,400",
+    "paper_rolling": {
+      "100": [
+        120,
+        140,
+        160,
+        180,
+        200
+      ],
+      "200": [
+        220,
+        240,
+        260,
+        280,
+        300
+      ],
+      "300": [
+        320,
+        340,
+        360,
+        380,
+        400
+      ]
+    }
+  },
+  "manifest_type": "behavior_target_pair_registry",
+  "mode": "paper",
+  "model_revision": "7ae557604adf67be50417f59c2c2f167def9a775",
+  "pair_count": 234,
+  "parquet": {
+    "file_sha256": "0b7de32f52bb3735f9d65b2a63de082235f3b98d44053c8143efcfaf00d23c78",
+    "local_path": "manifests/pair_registry.parquet",
+    "row_count": 234
+  },
+  "protocol_config_sha256": "2a4934d6036e5bc87e629dd2883dc7c38d65e0b98ad6bc248bec077ae654ecc8",
+  "protocol_version": "1.0",
+  "schema_version": "1.0"
+}

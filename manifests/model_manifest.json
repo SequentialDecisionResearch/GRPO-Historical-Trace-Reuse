@@ -1,0 +1,141 @@
+{
+  "content_fingerprint_sha256": "a6812d98820b9526544ea79caa105b96c797cadbb38667828fa8bb0e4c956629",
+  "created_at_utc": "2026-09-01T19:03:23Z",
+  "created_by": {
+    "program": "00_download_and_manifest.py",
+    "program_version": "1.0.0"
+  },
+  "manifest_type": "model",
+  "models": {
+    "primary": {
+      "downloaded_at_utc": "2026-09-01T19:03:22Z",
+      "file_count": 10,
+      "files": [
+        {
+          "path": ".gitattributes",
+          "sha256": "11ad7efa24975ee4b0c3c3a38ed18737f0658a5f75a0a96787b576a78a023361",
+          "size_bytes": 1519
+        },
+        {
+          "path": "LICENSE",
+          "sha256": "832dd9e00a68dd83b3c3fb9f5588dad7dcf337a0db50f7d9483f310cd292e92e",
+          "size_bytes": 11343
+        },
+        {
+          "path": "README.md",
+          "sha256": "b19c806a904db6dc878a0462e70b551f6b7ac78dfbb88c2eb966ca2b9109ae15",
+          "size_bytes": 4917
+        },
+        {
+          "path": "config.json",
+          "sha256": "18e18afcaccafade98daf13a54092927904649e1dd4eba8299ab717d5d94ff45",
+          "size_bytes": 659
+        },
+        {
+          "path": "generation_config.json",
+          "sha256": "e558847a8b4402616f1273797b015104dc266fe4b520056fca88823ba8f8ebe6",
+          "size_bytes": 242
+        },
+        {
+          "path": "merges.txt",
+          "sha256": "599bab54075088774b1733fde865d5bd747cbcc7a547c5bc12610e874e26f5e3",
+          "size_bytes": 1671839
+        },
+        {
+          "path": "model.safetensors",
+          "sha256": "fdf756fa7fcbe7404d5c60e26bff1a0c8b8aa1f72ced49e7dd0210fe288fb7fe",
+          "size_bytes": 988097824
+        },
+        {
+          "path": "tokenizer.json",
+          "sha256": "c0382117ea329cdf097041132f6d735924b697924d6f6fc3945713e96ce87539",
+          "size_bytes": 7031645
+        },
+        {
+          "path": "tokenizer_config.json",
+          "sha256": "5b5d4f65d0acd3b2d56a35b56d374a36cbc1c8fa5cf3b3febbbfabf22f359583",
+          "size_bytes": 7305
+        },
+        {
+          "path": "vocab.json",
+          "sha256": "ca10d7e9fb3ed18575dd1e277a2579c16d108e32f27439684afa0e10b1440910",
+          "size_bytes": 2776833
+        }
+      ],
+      "hub_metadata": {
+        "gated": false,
+        "last_modified": "2024-09-25 12:32:56+00:00",
+        "license": "apache-2.0",
+        "private": false
+      },
+      "license": "apache-2.0",
+      "local_path": "models/qwen25_05b",
+      "repo_id": "Qwen/Qwen2.5-0.5B-Instruct",
+      "repo_type": "model",
+      "requested_revision": "main",
+      "resolved_revision": "7ae557604adf67be50417f59c2c2f167def9a775",
+      "role": "primary_model",
+      "source_url": "https://huggingface.co/Qwen/Qwen2.5-0.5B-Instruct",
+      "tokenizer_revision": "7ae557604adf67be50417f59c2c2f167def9a775",
+      "total_bytes": 999604126,
+      "tree_sha256": "b5c53c05aa258cf85b8ac7c1f41ec81aaa6d9d66a656d32f7271bf5d4c9b8daa",
+      "validation": {
+        "config_json_sha256": "18e18afcaccafade98daf13a54092927904649e1dd4eba8299ab717d5d94ff45",
+        "generation_config": {
+          "config": {
+            "bos_token_id": 151643,
+            "do_sample": true,
+            "eos_token_id": [
+              151645,
+              151643
+            ],
+            "pad_token_id": 151643,
+            "repetition_penalty": 1.1,
+            "temperature": 0.7,
+            "top_k": 20,
+            "top_p": 0.8,
+            "transformers_version": "4.37.0"
+          },
+          "path": "generation_config.json",
+          "present": true,
+          "sha256": "e558847a8b4402616f1273797b015104dc266fe4b520056fca88823ba8f8ebe6"
+        },
+        "model_config_summary": {
+          "architectures": [
+            "Qwen2ForCausalLM"
+          ],
+          "hidden_size": 896,
+          "intermediate_size": 4864,
+          "max_position_embeddings": 32768,
+          "model_type": "qwen2",
+          "num_attention_heads": 14,
+          "num_hidden_layers": 24,
+          "num_key_value_heads": 2,
+          "tie_word_embeddings": true,
+          "torch_dtype": "bfloat16",
+          "vocab_size": 151936
+        },
+        "status": "passed",
+        "tokenizer": {
+          "chat_template_length_chars": 2507,
+          "chat_template_sha256": "cd8e9439f0570856fd70470bf8889ebd8b5d1107207f67a5efb46e342330527f",
+          "class": "Qwen2Tokenizer",
+          "model_max_length": 131072,
+          "special_tokens_map": {
+            "eos_token": "<|im_end|>",
+            "pad_token": "<|endoftext|>"
+          },
+          "tokenizer_files": [
+            "merges.txt",
+            "tokenizer.json",
+            "tokenizer_config.json",
+            "vocab.json"
+          ],
+          "tokenizer_files_sha256": "314961504ab3ade2a887327bfba1eabee629bf8a6dda1c4411cba1810784d087",
+          "vocab_size": 151643
+        }
+      }
+    }
+  },
+  "schema_version": "1.0"
+}

@@ -1,0 +1,652 @@
+{
+  "audit_steps": [
+    0,
+    100,
+    200,
+    300,
+    400
+  ],
+  "l_audit": 32,
+  "manifest_type": "online_reference_summary_index",
+  "mode": "paper",
+  "not_exact_truth": true,
+  "policy_inference_precision": "fp32",
+  "reference_name": "high-precision on-policy Monte Carlo reference",
+  "schema_version": "1.0",
+  "split": "development",
+  "summaries": [
+    {
+      "conditional_generation_mc_se": 0.0007468895992587642,
+      "online_reference": 0.029743720298710117,
+      "prompt_summary_path": "data/online_reference/gsm8k/split=development/seed=20260826/target_step=0000/prompt_summary.parquet",
+      "reference_summary_path": "data/online_reference/gsm8k/split=development/seed=20260826/target_step=0000/reference_summary.json",
+      "reference_summary_sha256": "acdee5ae34652a8011a4801770dc998c2d0b26b34164a3ddb99f531b8f1ea378",
+      "samples_per_prompt": 32,
+      "target_step": 0,
+      "training_seed": 20260826
+    },
+    {
+      "conditional_generation_mc_se": 0.0016601395765359645,
+      "online_reference": 0.04302443991853361,
+      "prompt_summary_path": "data/online_reference/gsm8k/split=development/seed=20260826/target_step=0020/prompt_summary.parquet",
+      "reference_summary_path": "data/online_reference/gsm8k/split=development/seed=20260826/target_step=0020/reference_summary.json",
+      "reference_summary_sha256": "3127eb322ecd22794d02f360643a37cc77e881956e5d57ecadd27b19df76b5f5",
+      "samples_per_prompt": 8,
+      "target_step": 20,
+      "training_seed": 20260826
+    },
+    {
+      "conditional_generation_mc_se": 0.0017266624193292433,
+      "online_reference": 0.04531568228105906,
+      "prompt_summary_path": "data/online_reference/gsm8k/split=development/seed=20260826/target_step=0040/prompt_summary.parquet",
+      "reference_summary_path": "data/online_reference/gsm8k/split=development/seed=20260826/target_step=0040/reference_summary.json",
+      "reference_summary_sha256": "6f7b1947c17a5cb6150c72b66a791cf643a2e0f44d1ed8ddbb6bcfc13eedb420",
+      "samples_per_prompt": 8,
+      "target_step": 40,
+      "training_seed": 20260826
+    },
+    {
+      "conditional_generation_mc_se": 0.0017944460877017167,
+      "online_reference": 0.05108621860149355,
+      "prompt_summary_path": "data/online_reference/gsm8k/split=development/seed=20260826/target_step=0060/prompt_summary.parquet",
+      "reference_summary_path": "data/online_reference/gsm8k/split=development/seed=20260826/target_step=0060/reference_summary.json",
+      "reference_summary_sha256": "3f85933c951987f308f7674ffe4ce560fbafcc463583f70a4d6511bf2d08367b",
+      "samples_per_prompt": 8,
+      "target_step": 60,
+      "training_seed": 20260826
+    },
+    {
+      "conditional_generation_mc_se": 0.0016743316987844453,
+      "online_reference": 0.0420061099796334,
+      "prompt_summary_path": "data/online_reference/gsm8k/split=development/seed=20260826/target_step=0080/prompt_summary.parquet",
+      "reference_summary_path": "data/online_reference/gsm8k/split=development/seed=20260826/target_step=0080/reference_summary.json",
+      "reference_summary_sha256": "a1848d49a832e09b57dcb95d9c9313d795d40425219c237417868e73099e25b3",
+      "samples_per_prompt": 8,
+      "target_step": 80,
+      "training_seed": 20260826
+    },
+    {
+      "conditional_generation_mc_se": 0.0008477010184183871,
+      "online_reference": 0.04446707399864223,
+      "prompt_summary_path": "data/online_reference/gsm8k/split=development/seed=20260826/target_step=0100/prompt_summary.parquet",
+      "reference_summary_path": "data/online_reference/gsm8k/split=development/seed=20260826/target_step=0100/reference_summary.json",
+      "reference_summary_sha256": "e5bb4777f676adaa4627a1dfc53f9cec97b52e3ccc9dee19418b12ac9b5e72e4",
+      "samples_per_prompt": 32,
+      "target_step": 100,
+      "training_seed": 20260826
+    },
+    {
+      "conditional_generation_mc_se": 0.001727853631902345,
+      "online_reference": 0.046673455532926005,
+      "prompt_summary_path": "data/online_reference/gsm8k/split=development/seed=20260826/target_step=0120/prompt_summary.parquet",
+      "reference_summary_path": "data/online_reference/gsm8k/split=development/seed=20260826/target_step=0120/reference_summary.json",
+      "reference_summary_sha256": "3cd133735136a9dcd71d67d8eecb4990018f4689d47c9d57c9f85c003dfc24b3",
+      "samples_per_prompt": 8,
+      "target_step": 120,
+      "training_seed": 20260826
+    },
+    {
+      "conditional_generation_mc_se": 0.001727853631902345,
+      "online_reference": 0.04446707399864223,
+      "prompt_summary_path": "data/online_reference/gsm8k/split=development/seed=20260826/target_step=0140/prompt_summary.parquet",
+      "reference_summary_path": "data/online_reference/gsm8k/split=development/seed=20260826/target_step=0140/reference_summary.json",
+      "reference_summary_sha256": "286dbb1baef1240e84410685942d6dce61537972869e3c9f5cbf1cbd7337d89d",
+      "samples_per_prompt": 8,
+      "target_step": 140,
+      "training_seed": 20260826
+    },
+    {
+      "conditional_generation_mc_se": 0.0017257684703077235,
+      "online_reference": 0.04590970807875085,
+      "prompt_summary_path": "data/online_reference/gsm8k/split=development/seed=20260826/target_step=0160/prompt_summary.parquet",
+      "reference_summary_path": "data/online_reference/gsm8k/split=development/seed=20260826/target_step=0160/reference_summary.json",
+      "reference_summary_sha256": "61495d04b4dba0791b0e9504bec455b39fe1ddfceddfd7fbdf7215ede966d43f",
+      "samples_per_prompt": 8,
+      "target_step": 160,
+      "training_seed": 20260826
+    },
+    {
+      "conditional_generation_mc_se": 0.0017774531169888633,
+      "online_reference": 0.04913441955193483,
+      "prompt_summary_path": "data/online_reference/gsm8k/split=development/seed=20260826/target_step=0180/prompt_summary.parquet",
+      "reference_summary_path": "data/online_reference/gsm8k/split=development/seed=20260826/target_step=0180/reference_summary.json",
+      "reference_summary_sha256": "738a0aa8e3868d83579bfd0ff5284fa6a24b9e3e08706b6074599ff8cb9ca043",
+      "samples_per_prompt": 8,
+      "target_step": 180,
+      "training_seed": 20260826
+    },
+    {
+      "conditional_generation_mc_se": 0.0008810101362889456,
+      "online_reference": 0.04917684996605567,
+      "prompt_summary_path": "data/online_reference/gsm8k/split=development/seed=20260826/target_step=0200/prompt_summary.parquet",
+      "reference_summary_path": "data/online_reference/gsm8k/split=development/seed=20260826/target_step=0200/reference_summary.json",
+      "reference_summary_sha256": "b463f6d49247980bb025accdfc74545122d6f66f5078b8ae589a467deffa98ac",
+      "samples_per_prompt": 32,
+      "target_step": 200,
+      "training_seed": 20260826
+    },
+    {
+      "conditional_generation_mc_se": 0.0018240143635611572,
+      "online_reference": 0.056517311608961306,
+      "prompt_summary_path": "data/online_reference/gsm8k/split=development/seed=20260826/target_step=0220/prompt_summary.parquet",
+      "reference_summary_path": "data/online_reference/gsm8k/split=development/seed=20260826/target_step=0220/reference_summary.json",
+      "reference_summary_sha256": "1fe098a6a1f4e82581c7059a598fa41d267841373c67e93a94c6293ba2ee7e0f",
+      "samples_per_prompt": 8,
+      "target_step": 220,
+      "training_seed": 20260826
+    },
+    {
+      "conditional_generation_mc_se": 0.001754735266496449,
+      "online_reference": 0.05066191446028513,
+      "prompt_summary_path": "data/online_reference/gsm8k/split=development/seed=20260826/target_step=0240/prompt_summary.parquet",
+      "reference_summary_path": "data/online_reference/gsm8k/split=development/seed=20260826/target_step=0240/reference_summary.json",
+      "reference_summary_sha256": "3d4bc1a0e52908afef8dee97cad7220f3154fa0b3ac1748e754a667dde390541",
+      "samples_per_prompt": 8,
+      "target_step": 240,
+      "training_seed": 20260826
+    },
+    {
+      "conditional_generation_mc_se": 0.0017930122512061198,
+      "online_reference": 0.054226069246435846,
+      "prompt_summary_path": "data/online_reference/gsm8k/split=development/seed=20260826/target_step=0260/prompt_summary.parquet",
+      "reference_summary_path": "data/online_reference/gsm8k/split=development/seed=20260826/target_step=0260/reference_summary.json",
+      "reference_summary_sha256": "a13d52a8edab0bac1b1b515ddabf2fbdc7e6d736a4104e090b155d6435dcfee4",
+      "samples_per_prompt": 8,
+      "target_step": 260,
+      "training_seed": 20260826
+    },
+    {
+      "conditional_generation_mc_se": 0.0017379459739557197,
+      "online_reference": 0.05091649694501019,
+      "prompt_summary_path": "data/online_reference/gsm8k/split=development/seed=20260826/target_step=0280/prompt_summary.parquet",
+      "reference_summary_path": "data/online_reference/gsm8k/split=development/seed=20260826/target_step=0280/reference_summary.json",
+      "reference_summary_sha256": "f1ebcd4b688f7cca28f0b2a82f00126efa79751e031d34846511556d6104f903",
+      "samples_per_prompt": 8,
+      "target_step": 280,
+      "training_seed": 20260826
+    },
+    {
+      "conditional_generation_mc_se": 0.0008851533038882094,
+      "online_reference": 0.053462321792260695,
+      "prompt_summary_path": "data/online_reference/gsm8k/split=development/seed=20260826/target_step=0300/prompt_summary.parquet",
+      "reference_summary_path": "data/online_reference/gsm8k/split=development/seed=20260826/target_step=0300/reference_summary.json",
+      "reference_summary_sha256": "284eff1d37b5a41d87a2a157c1574547585a777b22882ec0287da1497e58e8fb",
+      "samples_per_prompt": 32,
+      "target_step": 300,
+      "training_seed": 20260826
+    },
+    {
+      "conditional_generation_mc_se": 0.0017849614820202083,
+      "online_reference": 0.054226069246435846,
+      "prompt_summary_path": "data/online_reference/gsm8k/split=development/seed=20260826/target_step=0320/prompt_summary.parquet",
+      "reference_summary_path": "data/online_reference/gsm8k/split=development/seed=20260826/target_step=0320/reference_summary.json",
+      "reference_summary_sha256": "d221ca4cb5eb7168f80263919441bf3ba0ad41df05b41911314f4b70331ee8f7",
+      "samples_per_prompt": 8,
+      "target_step": 320,
+      "training_seed": 20260826
+    },
+    {
+      "conditional_generation_mc_se": 0.0017696222501292526,
+      "online_reference": 0.05482009504412763,
+      "prompt_summary_path": "data/online_reference/gsm8k/split=development/seed=20260826/target_step=0340/prompt_summary.parquet",
+      "reference_summary_path": "data/online_reference/gsm8k/split=development/seed=20260826/target_step=0340/reference_summary.json",
+      "reference_summary_sha256": "c5fc2e4a86703cc8cf9cce0ed925847dbde0168203814f190601f108fbfb74c3",
+      "samples_per_prompt": 8,
+      "target_step": 340,
+      "training_seed": 20260826
+    },
+    {
+      "conditional_generation_mc_se": 0.0017944460877017167,
+      "online_reference": 0.05482009504412763,
+      "prompt_summary_path": "data/online_reference/gsm8k/split=development/seed=20260826/target_step=0360/prompt_summary.parquet",
+      "reference_summary_path": "data/online_reference/gsm8k/split=development/seed=20260826/target_step=0360/reference_summary.json",
+      "reference_summary_sha256": "04816556911fc0e78e5422cb86e0cf2052ee39251f82833945db83465fb25fd7",
+      "samples_per_prompt": 8,
+      "target_step": 360,
+      "training_seed": 20260826
+    },
+    {
+      "conditional_generation_mc_se": 0.0017153046412398403,
+      "online_reference": 0.05023761031907671,
+      "prompt_summary_path": "data/online_reference/gsm8k/split=development/seed=20260826/target_step=0380/prompt_summary.parquet",
+      "reference_summary_path": "data/online_reference/gsm8k/split=development/seed=20260826/target_step=0380/reference_summary.json",
+      "reference_summary_sha256": "07690c7e81bd570215ca394a43d2c27964bd4ee588039bb7bcce4aba6fa4bfa4",
+      "samples_per_prompt": 8,
+      "target_step": 380,
+      "training_seed": 20260826
+    },
+    {
+      "conditional_generation_mc_se": 0.0008856616404730681,
+      "online_reference": 0.053250169721656485,
+      "prompt_summary_path": "data/online_reference/gsm8k/split=development/seed=20260826/target_step=0400/prompt_summary.parquet",
+      "reference_summary_path": "data/online_reference/gsm8k/split=development/seed=20260826/target_step=0400/reference_summary.json",
+      "reference_summary_sha256": "1f95d6cfb29f1c2ea977193026643cdfa8fd69ea6e6eb962b083815c1478bb0f",
+      "samples_per_prompt": 32,
+      "target_step": 400,
+      "training_seed": 20260826
+    },
+    {
+      "conditional_generation_mc_se": 0.0007457710126307157,
+      "online_reference": 0.02984979633401222,
+      "prompt_summary_path": "data/online_reference/gsm8k/split=development/seed=20260827/target_step=0000/prompt_summary.parquet",
+      "reference_summary_path": "data/online_reference/gsm8k/split=development/seed=20260827/target_step=0000/reference_summary.json",
+      "reference_summary_sha256": "6e9cc2ab52b570c99685b36d969ad88c6f1c68e1b5d4ea3ccfc11cd72129113e",
+      "samples_per_prompt": 32,
+      "target_step": 0,
+      "training_seed": 20260827
+    },
+    {
+      "conditional_generation_mc_se": 0.00173053086217065,
+      "online_reference": 0.04506109979633401,
+      "prompt_summary_path": "data/online_reference/gsm8k/split=development/seed=20260827/target_step=0020/prompt_summary.parquet",
+      "reference_summary_path": "data/online_reference/gsm8k/split=development/seed=20260827/target_step=0020/reference_summary.json",
+      "reference_summary_sha256": "b65b80d49b71fc005c23eba290e6c7dacbb145a1f6400fb3078b6745816abb16",
+      "samples_per_prompt": 8,
+      "target_step": 20,
+      "training_seed": 20260827
+    },
+    {
+      "conditional_generation_mc_se": 0.0017990266850396721,
+      "online_reference": 0.04989816700610998,
+      "prompt_summary_path": "data/online_reference/gsm8k/split=development/seed=20260827/target_step=0040/prompt_summary.parquet",
+      "reference_summary_path": "data/online_reference/gsm8k/split=development/seed=20260827/target_step=0040/reference_summary.json",
+      "reference_summary_sha256": "52029de09971e895ca9b8ee0ffb616e6d9911b3cb34734a5a4a90b3f7d14b834",
+      "samples_per_prompt": 8,
+      "target_step": 40,
+      "training_seed": 20260827
+    },
+    {
+      "conditional_generation_mc_se": 0.0017221880339398584,
+      "online_reference": 0.04794636795655126,
+      "prompt_summary_path": "data/online_reference/gsm8k/split=development/seed=20260827/target_step=0060/prompt_summary.parquet",
+      "reference_summary_path": "data/online_reference/gsm8k/split=development/seed=20260827/target_step=0060/reference_summary.json",
+      "reference_summary_sha256": "9f501a0a1b82c70d780b070c7dae7c0723a16e507a891018975bde9a9a366870",
+      "samples_per_prompt": 8,
+      "target_step": 60,
+      "training_seed": 20260827
+    },
+    {
+      "conditional_generation_mc_se": 0.0017456242773263807,
+      "online_reference": 0.05091649694501019,
+      "prompt_summary_path": "data/online_reference/gsm8k/split=development/seed=20260827/target_step=0080/prompt_summary.parquet",
+      "reference_summary_path": "data/online_reference/gsm8k/split=development/seed=20260827/target_step=0080/reference_summary.json",
+      "reference_summary_sha256": "829aca223388424e160a5c005f8ddb5a515b611a3946f4ee4ef7b217233cbdf9",
+      "samples_per_prompt": 8,
+      "target_step": 80,
+      "training_seed": 20260827
+    },
+    {
+      "conditional_generation_mc_se": 0.0008860140252116695,
+      "online_reference": 0.05085285132382892,
+      "prompt_summary_path": "data/online_reference/gsm8k/split=development/seed=20260827/target_step=0100/prompt_summary.parquet",
+      "reference_summary_path": "data/online_reference/gsm8k/split=development/seed=20260827/target_step=0100/reference_summary.json",
+      "reference_summary_sha256": "b49cd401a7a950451e4d330141ffce0e0068cd38da3998eae501d30492646994",
+      "samples_per_prompt": 32,
+      "target_step": 100,
+      "training_seed": 20260827
+    },
+    {
+      "conditional_generation_mc_se": 0.0017901411328690587,
+      "online_reference": 0.05201968771215207,
+      "prompt_summary_path": "data/online_reference/gsm8k/split=development/seed=20260827/target_step=0120/prompt_summary.parquet",
+      "reference_summary_path": "data/online_reference/gsm8k/split=development/seed=20260827/target_step=0120/reference_summary.json",
+      "reference_summary_sha256": "0ef343c60db5ca7c0921fac7bd7d9549c5779c0826ba13a4c7cdaf21f5416861",
+      "samples_per_prompt": 8,
+      "target_step": 120,
+      "training_seed": 20260827
+    },
+    {
+      "conditional_generation_mc_se": 0.001795305839929134,
+      "online_reference": 0.053038017651052274,
+      "prompt_summary_path": "data/online_reference/gsm8k/split=development/seed=20260827/target_step=0140/prompt_summary.parquet",
+      "reference_summary_path": "data/online_reference/gsm8k/split=development/seed=20260827/target_step=0140/reference_summary.json",
+      "reference_summary_sha256": "a638b9e7bfd3f46b94259e3e977f003c19080d883d3ef40bd3c25f112e15f8e9",
+      "samples_per_prompt": 8,
+      "target_step": 140,
+      "training_seed": 20260827
+    },
+    {
+      "conditional_generation_mc_se": 0.0017523885783632426,
+      "online_reference": 0.05269857433808554,
+      "prompt_summary_path": "data/online_reference/gsm8k/split=development/seed=20260827/target_step=0160/prompt_summary.parquet",
+      "reference_summary_path": "data/online_reference/gsm8k/split=development/seed=20260827/target_step=0160/reference_summary.json",
+      "reference_summary_sha256": "2e6f0120ee2076ea6af3f767a5a559784ba934c00c0eaf6631ce943a69391e3a",
+      "samples_per_prompt": 8,
+      "target_step": 160,
+      "training_seed": 20260827
+    },
+    {
+      "conditional_generation_mc_se": 0.0018391796400458616,
+      "online_reference": 0.05821452817379497,
+      "prompt_summary_path": "data/online_reference/gsm8k/split=development/seed=20260827/target_step=0180/prompt_summary.parquet",
+      "reference_summary_path": "data/online_reference/gsm8k/split=development/seed=20260827/target_step=0180/reference_summary.json",
+      "reference_summary_sha256": "e1365a266c6fd88dcb4cd613c77d09d20b65a07504923c36db224069fb95f580",
+      "samples_per_prompt": 8,
+      "target_step": 180,
+      "training_seed": 20260827
+    },
+    {
+      "conditional_generation_mc_se": 0.0008910305493395017,
+      "online_reference": 0.05216819416157502,
+      "prompt_summary_path": "data/online_reference/gsm8k/split=development/seed=20260827/target_step=0200/prompt_summary.parquet",
+      "reference_summary_path": "data/online_reference/gsm8k/split=development/seed=20260827/target_step=0200/reference_summary.json",
+      "reference_summary_sha256": "8362cf1a4e54dd21ead0478efabc6331a0cb833b1c2dd536356b2357bddb077e",
+      "samples_per_prompt": 32,
+      "target_step": 200,
+      "training_seed": 20260827
+    },
+    {
+      "conditional_generation_mc_se": 0.0018010270330160777,
+      "online_reference": 0.050492192803801766,
+      "prompt_summary_path": "data/online_reference/gsm8k/split=development/seed=20260827/target_step=0220/prompt_summary.parquet",
+      "reference_summary_path": "data/online_reference/gsm8k/split=development/seed=20260827/target_step=0220/reference_summary.json",
+      "reference_summary_sha256": "c196a197f041a0cd66d4ca7903eb27510a8f7ed8d1aeabaec41ac193434730d3",
+      "samples_per_prompt": 8,
+      "target_step": 220,
+      "training_seed": 20260827
+    },
+    {
+      "conditional_generation_mc_se": 0.0017684591726127893,
+      "online_reference": 0.050746775288526814,
+      "prompt_summary_path": "data/online_reference/gsm8k/split=development/seed=20260827/target_step=0240/prompt_summary.parquet",
+      "reference_summary_path": "data/online_reference/gsm8k/split=development/seed=20260827/target_step=0240/reference_summary.json",
+      "reference_summary_sha256": "e08566e3026b6bc46cd6e467d691892862afbd91e181cfe7d454afeaccfa478b",
+      "samples_per_prompt": 8,
+      "target_step": 240,
+      "training_seed": 20260827
+    },
+    {
+      "conditional_generation_mc_se": 0.0017643823635648203,
+      "online_reference": 0.05108621860149355,
+      "prompt_summary_path": "data/online_reference/gsm8k/split=development/seed=20260827/target_step=0260/prompt_summary.parquet",
+      "reference_summary_path": "data/online_reference/gsm8k/split=development/seed=20260827/target_step=0260/reference_summary.json",
+      "reference_summary_sha256": "ec3834556b4f9ca6097b2c3a035cafa6c413b75756f513f9fcd6c6df823d09ee",
+      "samples_per_prompt": 8,
+      "target_step": 260,
+      "training_seed": 20260827
+    },
+    {
+      "conditional_generation_mc_se": 0.0017570788204843801,
+      "online_reference": 0.05201968771215207,
+      "prompt_summary_path": "data/online_reference/gsm8k/split=development/seed=20260827/target_step=0280/prompt_summary.parquet",
+      "reference_summary_path": "data/online_reference/gsm8k/split=development/seed=20260827/target_step=0280/reference_summary.json",
+      "reference_summary_sha256": "c93af6a34ba6c286b2f217d2520cc242638e99aa50863e6f64a30ccae8cf1af8",
+      "samples_per_prompt": 8,
+      "target_step": 280,
+      "training_seed": 20260827
+    },
+    {
+      "conditional_generation_mc_se": 0.0008776914457696177,
+      "online_reference": 0.04917684996605567,
+      "prompt_summary_path": "data/online_reference/gsm8k/split=development/seed=20260827/target_step=0300/prompt_summary.parquet",
+      "reference_summary_path": "data/online_reference/gsm8k/split=development/seed=20260827/target_step=0300/reference_summary.json",
+      "reference_summary_sha256": "68e81257f1c4aa2632acfc4626ce305c16832e3932e3e61ac2e155c16a8150ee",
+      "samples_per_prompt": 32,
+      "target_step": 300,
+      "training_seed": 20260827
+    },
+    {
+      "conditional_generation_mc_se": 0.0017716557984897585,
+      "online_reference": 0.051171079429735235,
+      "prompt_summary_path": "data/online_reference/gsm8k/split=development/seed=20260827/target_step=0320/prompt_summary.parquet",
+      "reference_summary_path": "data/online_reference/gsm8k/split=development/seed=20260827/target_step=0320/reference_summary.json",
+      "reference_summary_sha256": "ebc6e0564d9cdebbae436c02ef44078442526ba76add9885256386e81c0a01fb",
+      "samples_per_prompt": 8,
+      "target_step": 320,
+      "training_seed": 20260827
+    },
+    {
+      "conditional_generation_mc_se": 0.0017620485234380366,
+      "online_reference": 0.04989816700610998,
+      "prompt_summary_path": "data/online_reference/gsm8k/split=development/seed=20260827/target_step=0340/prompt_summary.parquet",
+      "reference_summary_path": "data/online_reference/gsm8k/split=development/seed=20260827/target_step=0340/reference_summary.json",
+      "reference_summary_sha256": "9022f503cba7ac41c385999b64d866b54354f52dab6fcd4b805fdc2688d360ff",
+      "samples_per_prompt": 8,
+      "target_step": 340,
+      "training_seed": 20260827
+    },
+    {
+      "conditional_generation_mc_se": 0.0017820773930753565,
+      "online_reference": 0.04998302783435166,
+      "prompt_summary_path": "data/online_reference/gsm8k/split=development/seed=20260827/target_step=0360/prompt_summary.parquet",
+      "reference_summary_path": "data/online_reference/gsm8k/split=development/seed=20260827/target_step=0360/reference_summary.json",
+      "reference_summary_sha256": "6017107c72ebb86816a190353fd262693ac3b0c655b7a20e9933f575dc9ae390",
+      "samples_per_prompt": 8,
+      "target_step": 360,
+      "training_seed": 20260827
+    },
+    {
+      "conditional_generation_mc_se": 0.0018090063057751217,
+      "online_reference": 0.05337746096401901,
+      "prompt_summary_path": "data/online_reference/gsm8k/split=development/seed=20260827/target_step=0380/prompt_summary.parquet",
+      "reference_summary_path": "data/online_reference/gsm8k/split=development/seed=20260827/target_step=0380/reference_summary.json",
+      "reference_summary_sha256": "ebd98efbf7dd448e68adf1196bcf480acc2a2226ffb6b9c59585b9e8812233ca",
+      "samples_per_prompt": 8,
+      "target_step": 380,
+      "training_seed": 20260827
+    },
+    {
+      "conditional_generation_mc_se": 0.0008947623158066286,
+      "online_reference": 0.05129837067209776,
+      "prompt_summary_path": "data/online_reference/gsm8k/split=development/seed=20260827/target_step=0400/prompt_summary.parquet",
+      "reference_summary_path": "data/online_reference/gsm8k/split=development/seed=20260827/target_step=0400/reference_summary.json",
+      "reference_summary_sha256": "25b98d589f72a710e53c9f09bdde64969c56a0a444e538640f595008a3ab2436",
+      "samples_per_prompt": 32,
+      "target_step": 400,
+      "training_seed": 20260827
+    },
+    {
+      "conditional_generation_mc_se": 0.0007552982798343981,
+      "online_reference": 0.03054989816700611,
+      "prompt_summary_path": "data/online_reference/gsm8k/split=development/seed=20260828/target_step=0000/prompt_summary.parquet",
+      "reference_summary_path": "data/online_reference/gsm8k/split=development/seed=20260828/target_step=0000/reference_summary.json",
+      "reference_summary_sha256": "fbdb2f87d4bb220b0f6281097e5238db2d2e3271706264da2cbb0d36ae40d3f4",
+      "samples_per_prompt": 32,
+      "target_step": 0,
+      "training_seed": 20260828
+    },
+    {
+      "conditional_generation_mc_se": 0.001724874057980061,
+      "online_reference": 0.04293957909029192,
+      "prompt_summary_path": "data/online_reference/gsm8k/split=development/seed=20260828/target_step=0020/prompt_summary.parquet",
+      "reference_summary_path": "data/online_reference/gsm8k/split=development/seed=20260828/target_step=0020/reference_summary.json",
+      "reference_summary_sha256": "df19c4ff47ba0a76f67f7b30dcf8a83038335b1abce9772ee02e1ecc78de445a",
+      "samples_per_prompt": 8,
+      "target_step": 20,
+      "training_seed": 20260828
+    },
+    {
+      "conditional_generation_mc_se": 0.001714404769896328,
+      "online_reference": 0.046588594704684315,
+      "prompt_summary_path": "data/online_reference/gsm8k/split=development/seed=20260828/target_step=0040/prompt_summary.parquet",
+      "reference_summary_path": "data/online_reference/gsm8k/split=development/seed=20260828/target_step=0040/reference_summary.json",
+      "reference_summary_sha256": "b0a55c44014dbbd1556ecfdb903d9ce9c163feef6e1c738d946d08c6f0fe323d",
+      "samples_per_prompt": 8,
+      "target_step": 40,
+      "training_seed": 20260828
+    },
+    {
+      "conditional_generation_mc_se": 0.001728746502670007,
+      "online_reference": 0.049643584521384926,
+      "prompt_summary_path": "data/online_reference/gsm8k/split=development/seed=20260828/target_step=0060/prompt_summary.parquet",
+      "reference_summary_path": "data/online_reference/gsm8k/split=development/seed=20260828/target_step=0060/reference_summary.json",
+      "reference_summary_sha256": "36df1bf091853e2408965ef0ea6c421137a6907e26c6e9fa7b271cf1b36d0508",
+      "samples_per_prompt": 8,
+      "target_step": 60,
+      "training_seed": 20260828
+    },
+    {
+      "conditional_generation_mc_se": 0.0017629240755534033,
+      "online_reference": 0.05066191446028513,
+      "prompt_summary_path": "data/online_reference/gsm8k/split=development/seed=20260828/target_step=0080/prompt_summary.parquet",
+      "reference_summary_path": "data/online_reference/gsm8k/split=development/seed=20260828/target_step=0080/reference_summary.json",
+      "reference_summary_sha256": "1cd02ac0354e24c3a317c3a5ac332e1f422c92b7bc327f9258f0f220bb7bff41",
+      "samples_per_prompt": 8,
+      "target_step": 80,
+      "training_seed": 20260828
+    },
+    {
+      "conditional_generation_mc_se": 0.0008869148373524418,
+      "online_reference": 0.04907077393075356,
+      "prompt_summary_path": "data/online_reference/gsm8k/split=development/seed=20260828/target_step=0100/prompt_summary.parquet",
+      "reference_summary_path": "data/online_reference/gsm8k/split=development/seed=20260828/target_step=0100/reference_summary.json",
+      "reference_summary_sha256": "67cf1016d7637c38d62ffe011bee1378bb7bfa355037d6893b16c0e61d1da7e5",
+      "samples_per_prompt": 32,
+      "target_step": 100,
+      "training_seed": 20260828
+    },
+    {
+      "conditional_generation_mc_se": 0.001798168711848022,
+      "online_reference": 0.04913441955193483,
+      "prompt_summary_path": "data/online_reference/gsm8k/split=development/seed=20260828/target_step=0120/prompt_summary.parquet",
+      "reference_summary_path": "data/online_reference/gsm8k/split=development/seed=20260828/target_step=0120/reference_summary.json",
+      "reference_summary_sha256": "cb96c2d35b44904eee5442fd533a156066ebe2090bdfdc00250ba879e6c8f31c",
+      "samples_per_prompt": 8,
+      "target_step": 120,
+      "training_seed": 20260828
+    },
+    {
+      "conditional_generation_mc_se": 0.0018307699954398051,
+      "online_reference": 0.04904955872369314,
+      "prompt_summary_path": "data/online_reference/gsm8k/split=development/seed=20260828/target_step=0140/prompt_summary.parquet",
+      "reference_summary_path": "data/online_reference/gsm8k/split=development/seed=20260828/target_step=0140/reference_summary.json",
+      "reference_summary_sha256": "9fc047f100db33a5bc98229d4b4f29fd97d2335594239f45880b8d89f56d2db7",
+      "samples_per_prompt": 8,
+      "target_step": 140,
+      "training_seed": 20260828
+    },
+    {
+      "conditional_generation_mc_se": 0.001705681537868447,
+      "online_reference": 0.04260013577732519,
+      "prompt_summary_path": "data/online_reference/gsm8k/split=development/seed=20260828/target_step=0160/prompt_summary.parquet",
+      "reference_summary_path": "data/online_reference/gsm8k/split=development/seed=20260828/target_step=0160/reference_summary.json",
+      "reference_summary_sha256": "efe3e16250ca6897440590c5bfc82bb49b998f5aa76ee8ae927f8f37eafb8420",
+      "samples_per_prompt": 8,
+      "target_step": 160,
+      "training_seed": 20260828
+    },
+    {
+      "conditional_generation_mc_se": 0.0017576642207406635,
+      "online_reference": 0.04675831636116769,
+      "prompt_summary_path": "data/online_reference/gsm8k/split=development/seed=20260828/target_step=0180/prompt_summary.parquet",
+      "reference_summary_path": "data/online_reference/gsm8k/split=development/seed=20260828/target_step=0180/reference_summary.json",
+      "reference_summary_sha256": "04aa597aa4ca466afcbd75a559005c81241c624c5b522d5aa0035e80f694d118",
+      "samples_per_prompt": 8,
+      "target_step": 180,
+      "training_seed": 20260828
+    },
+    {
+      "conditional_generation_mc_se": 0.0008637851565243121,
+      "online_reference": 0.04518839103869654,
+      "prompt_summary_path": "data/online_reference/gsm8k/split=development/seed=20260828/target_step=0200/prompt_summary.parquet",
+      "reference_summary_path": "data/online_reference/gsm8k/split=development/seed=20260828/target_step=0200/reference_summary.json",
+      "reference_summary_sha256": "cbf7befc769469d94101aa1580ea5e19e269c75371ee26706621d00e798e4706",
+      "samples_per_prompt": 32,
+      "target_step": 200,
+      "training_seed": 20260828
+    },
+    {
+      "conditional_generation_mc_se": 0.0017643823635648203,
+      "online_reference": 0.0461642905634759,
+      "prompt_summary_path": "data/online_reference/gsm8k/split=development/seed=20260828/target_step=0220/prompt_summary.parquet",
+      "reference_summary_path": "data/online_reference/gsm8k/split=development/seed=20260828/target_step=0220/reference_summary.json",
+      "reference_summary_sha256": "3ebeb1a99f64401e44f42f040e7cde3c493004f3d4aa699bf9fb7cb0e7d33cfe",
+      "samples_per_prompt": 8,
+      "target_step": 220,
+      "training_seed": 20260828
+    },
+    {
+      "conditional_generation_mc_se": 0.0017658394472746786,
+      "online_reference": 0.04998302783435166,
+      "prompt_summary_path": "data/online_reference/gsm8k/split=development/seed=20260828/target_step=0240/prompt_summary.parquet",
+      "reference_summary_path": "data/online_reference/gsm8k/split=development/seed=20260828/target_step=0240/reference_summary.json",
+      "reference_summary_sha256": "20eb83dc9a774afb0d6d8cb873e1a73a47addc5d4e3268d27c04b683fb900668",
+      "samples_per_prompt": 8,
+      "target_step": 240,
+      "training_seed": 20260828
+    },
+    {
+      "conditional_generation_mc_se": 0.0017995984399198437,
+      "online_reference": 0.05091649694501019,
+      "prompt_summary_path": "data/online_reference/gsm8k/split=development/seed=20260828/target_step=0260/prompt_summary.parquet",
+      "reference_summary_path": "data/online_reference/gsm8k/split=development/seed=20260828/target_step=0260/reference_summary.json",
+      "reference_summary_sha256": "ccdac35d71dad8f35a34b4e01ea8414ae4ebc3ec4e92c025f1e6040e1ced89b6",
+      "samples_per_prompt": 8,
+      "target_step": 260,
+      "training_seed": 20260828
+    },
+    {
+      "conditional_generation_mc_se": 0.0017643823635648203,
+      "online_reference": 0.04989816700610998,
+      "prompt_summary_path": "data/online_reference/gsm8k/split=development/seed=20260828/target_step=0280/prompt_summary.parquet",
+      "reference_summary_path": "data/online_reference/gsm8k/split=development/seed=20260828/target_step=0280/reference_summary.json",
+      "reference_summary_sha256": "74f912e4f7f519507a5e6b84f2e6edc6f1d79b3770c862e01ab021333940a9c7",
+      "samples_per_prompt": 8,
+      "target_step": 280,
+      "training_seed": 20260828
+    },
+    {
+      "conditional_generation_mc_se": 0.0008816937827628218,
+      "online_reference": 0.050470977596741344,
+      "prompt_summary_path": "data/online_reference/gsm8k/split=development/seed=20260828/target_step=0300/prompt_summary.parquet",
+      "reference_summary_path": "data/online_reference/gsm8k/split=development/seed=20260828/target_step=0300/reference_summary.json",
+      "reference_summary_sha256": "ad3426f6e3cfbfaca46f9197ac3e1f31913461e5c1703f42f6e1cc74a5a72d67",
+      "samples_per_prompt": 32,
+      "target_step": 300,
+      "training_seed": 20260828
+    },
+    {
+      "conditional_generation_mc_se": 0.0018194966739899746,
+      "online_reference": 0.0539714867617108,
+      "prompt_summary_path": "data/online_reference/gsm8k/split=development/seed=20260828/target_step=0320/prompt_summary.parquet",
+      "reference_summary_path": "data/online_reference/gsm8k/split=development/seed=20260828/target_step=0320/reference_summary.json",
+      "reference_summary_sha256": "dcb4510772e6d00bb65399606628533aa20d58d5078eee20aa034bac51128fbd",
+      "samples_per_prompt": 8,
+      "target_step": 320,
+      "training_seed": 20260828
+    },
+    {
+      "conditional_generation_mc_se": 0.0017564932251271782,
+      "online_reference": 0.05100135777325187,
+      "prompt_summary_path": "data/online_reference/gsm8k/split=development/seed=20260828/target_step=0340/prompt_summary.parquet",
+      "reference_summary_path": "data/online_reference/gsm8k/split=development/seed=20260828/target_step=0340/reference_summary.json",
+      "reference_summary_sha256": "802f1467ff310993cdd95e7ec7e81498060a299ab6807dedcbda2458a0e21544",
+      "samples_per_prompt": 8,
+      "target_step": 340,
+      "training_seed": 20260828
+    },
+    {
+      "conditional_generation_mc_se": 0.001793872690630774,
+      "online_reference": 0.052613713509843854,
+      "prompt_summary_path": "data/online_reference/gsm8k/split=development/seed=20260828/target_step=0360/prompt_summary.parquet",
+      "reference_summary_path": "data/online_reference/gsm8k/split=development/seed=20260828/target_step=0360/reference_summary.json",
+      "reference_summary_sha256": "bc73dbdde3a3448fdd691ed096a0882cbd64a0fe069f55785bf571ae8bc97ed7",
+      "samples_per_prompt": 8,
+      "target_step": 360,
+      "training_seed": 20260828
+    },
+    {
+      "conditional_generation_mc_se": 0.0017958787794171292,
+      "online_reference": 0.052359131025118806,
+      "prompt_summary_path": "data/online_reference/gsm8k/split=development/seed=20260828/target_step=0380/prompt_summary.parquet",
+      "reference_summary_path": "data/online_reference/gsm8k/split=development/seed=20260828/target_step=0380/reference_summary.json",
+      "reference_summary_sha256": "0c92ee26b5f97dbcbd70137da7f9c0bbe311a31102825e90a472607ba0588f66",
+      "samples_per_prompt": 8,
+      "target_step": 380,
+      "training_seed": 20260828
+    },
+    {
+      "conditional_generation_mc_se": 0.0008986078486525649,
+      "online_reference": 0.051234725050916495,
+      "prompt_summary_path": "data/online_reference/gsm8k/split=development/seed=20260828/target_step=0400/prompt_summary.parquet",
+      "reference_summary_path": "data/online_reference/gsm8k/split=development/seed=20260828/target_step=0400/reference_summary.json",
+      "reference_summary_sha256": "42a72b41e0aeece5ec31a29fa24d8153c0d3c953b8e13e217f30b752679dd2da",
+      "samples_per_prompt": 32,
+      "target_step": 400,
+      "training_seed": 20260828
+    }
+  ],
+  "summary_set_sha256": "8e6e5694613e691c4da69c281dd1bf91b679adb4204ec435320be5ebea674d80",
+  "target_l_main": 8,
+  "updated_at_utc": "2026-09-09T15:28:11Z"
+}

@@ -1,0 +1,86 @@
+{
+  "content_fingerprint_sha256": "0abfa70b91221e211acc64a692c272db5145406817c71d2e2ae7439de9a0b76b",
+  "created_at_utc": "2026-09-01T19:11:20Z",
+  "created_by": {
+    "program": "01_prepare_splits.py",
+    "program_version": "1.0.0"
+  },
+  "creation_mode": "paper",
+  "manifest_type": "split_registry",
+  "protocol_config_observed": {
+    "note": "Full protocol.yaml is not frozen by Program 01; only the split policy is immutable here.",
+    "path": "C:\\lsg\\grpo_ope_reuse\\configs\\protocol.yaml",
+    "project_name": "grpo_ope_reuse",
+    "protocol_version_at_creation": "1.0",
+    "sha256_at_creation": "2a4934d6036e5bc87e629dd2883dc7c38d65e0b98ad6bc248bec077ae654ecc8"
+  },
+  "registry": {
+    "columns": [
+      "dataset",
+      "dataset_revision",
+      "source_row_index",
+      "prompt_id",
+      "original_split",
+      "research_split",
+      "question_hash",
+      "gold_answer_hash",
+      "split_assignment_hash"
+    ],
+    "content_sha256": "117205fddd66389c43283417a386c1eb037b206b3982cec4036dae8539899448",
+    "file_sha256": "a3a11ffdf0f6b8e022463f3fa592da2072e48e891c3560c95976a51dc016809b",
+    "file_size_bytes": 1283905,
+    "format": "parquet",
+    "local_path": "data/splits/gsm8k_split_registry.parquet",
+    "row_count": 8792,
+    "schema_version": "1.0",
+    "validation": {
+      "assignment_rederived_from_seed_and_prompt_id": true,
+      "duplicate_question_hash_extra_rows": 0,
+      "official_test_disjoint": true,
+      "original_split_counts": {
+        "test": 1319,
+        "train": 7473
+      },
+      "plaintext_gold_answer_stored": false,
+      "plaintext_question_stored": false,
+      "research_split_counts": {
+        "development": 1473,
+        "test": 1319,
+        "training": 6000
+      },
+      "row_count": 8792,
+      "status": "passed",
+      "unique_prompt_ids": 8792
+    }
+  },
+  "research_firewall": {
+    "note": "Program 01 records only source location and integrity hashes. Downstream development code must not dereference research_split='test' before the frozen-protocol test stage.",
+    "official_test_count": 1319,
+    "official_test_is_never_used_for_split_tuning": true,
+    "registry_contains_plaintext_gold_answer": false,
+    "registry_contains_plaintext_question": false,
+    "test_reward_or_parser_output_present": false
+  },
+  "schema_version": "1.0",
+  "source": {
+    "dataset": "openai/gsm8k",
+    "dataset_config": "main",
+    "dataset_revision": "740312add88f781978c0658806c59bc2815b9866",
+    "gsm8k_tree_sha256": "f5d927a35846705477cc2244e44f34c2fe3c6f2c04b2a9d847034331c39b7109",
+    "program00_data_manifest_content_fingerprint_sha256": "edac77a16e433458550c4cd46f61fbb1a7d7cdee3ac9090aad779ac1b340dd38",
+    "program00_data_manifest_path": "manifests/data_manifest.json"
+  },
+  "split_policy": {
+    "algorithm": "sha256_rank_v1",
+    "expected_research_rows": {
+      "development": 1473,
+      "test": 1319,
+      "training": 6000
+    },
+    "mode_invariant": true,
+    "split_seed": 20260826,
+    "split_seed_source": "program_default",
+    "upstream_test_rule": "all 1319 upstream test rows -> research_split='test'",
+    "upstream_train_rule": "rank every upstream train row by SHA256(canonical_json({split_seed,prompt_id})); lowest 6000 -> training; remaining 1473 -> development"
+  }
+}

@@ -1,0 +1,33 @@
+{
+  "created_at_utc": "2026-09-02T21:38:59Z",
+  "identity_firewall_triggered_before_nonidentity": true,
+  "identity_sequence_atol": 0.05,
+  "identity_token_atol": 0.01,
+  "identity_tolerances_unchanged": true,
+  "manifest_type": "preanalysis_program04_scoring_amendment",
+  "new_program04_source_sha256": "eda438a929b5370f1bf54a1be476b57e382412bcc33aa613bfa119fddad8d264",
+  "nonidentity_pairs_evaluated_before_amendment_is_false": true,
+  "old_program04_source_sha256": "038155e6773acb07fea22709ee26d23947ee703d49b40eca60627f1b7abff6e4",
+  "original_protocol_lock_sha256": "762c1727cee6f4fec6b65cbd649654376e4bb9521f782fbc52ec53ddb3fd9dfa",
+  "pair_registry_manifest_sha256": "802a0d6b518067665b251ba4414d6a1a462c1a3574a5723bd587cec39a98b3c8",
+  "pair_registry_parquet_sha256": "0b7de32f52bb3735f9d65b2a63de082235f3b98d44053c8143efcfaf00d23c78",
+  "pair_registry_unchanged": true,
+  "pre_amendment_program04_output_audit": {
+    "formal_development_rescore_root": "C:/lsg/grpo_ope_reuse/data/target_rescores/gsm8k/split=development",
+    "identity_rows_present": 23568,
+    "identity_shards_present": 185,
+    "nonidentity_rows_present": 0,
+    "nonidentity_shards_present": 0,
+    "purposes_present": {
+      "identity": 185
+    }
+  },
+  "program": "04_rescore_target_checkpoints.py",
+  "program03_behavior_logs_unchanged": true,
+  "program03_development_collection_index_sha256": "83a7436bf06506628ec2bcb1019cf580c8cfb26a1397d50c8de527489bfeef4b",
+  "protocol_config_sha256": "2a4934d6036e5bc87e629dd2883dc7c38d65e0b98ad6bc248bec077ae654ecc8",
+  "protocol_version": "1.0",
+  "reason": "The prespecified identity firewall detected a rare long-sequence numerical mismatch between Program 03 generation-time log probabilities and Program 04 full-sequence teacher-forced log probabilities before any non-identity OPE pair was evaluated. Program 03 trajectories were independently reproduced exactly. Program 04 was therefore amended pre-analysis to use one symmetric canonical FP32 teacher-forced probability engine for both behavior and target sequence probabilities, without changing pairs or identity tolerances.",
+  "schema_version": "1.0",
+  "scoring_contract": "symmetric_fp32_teacher_forced_v1"
+}

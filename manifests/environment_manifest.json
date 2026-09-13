@@ -1,0 +1,81 @@
+{
+  "created_at_utc": "2026-09-01T19:02:35Z",
+  "created_by": {
+    "program": "00_download_and_manifest.py",
+    "program_version": "1.0.0"
+  },
+  "environment_fingerprint_basis": {
+    "cudnn_version": 91900,
+    "implementation": "CPython",
+    "packages": {
+      "PyYAML": "6.0.3",
+      "accelerate": "1.14.0",
+      "datasets": "5.0.1",
+      "huggingface_hub": "1.29.0",
+      "numpy": "2.4.6",
+      "peft": "0.20.0",
+      "pyarrow": "25.0.1",
+      "safetensors": "0.8.0",
+      "tokenizers": "0.23.1",
+      "torch": "2.11.0+cu128",
+      "transformers": "5.16.1",
+      "trl": "1.12.0"
+    },
+    "python": "3.11.16",
+    "torch_cuda_build": "12.8"
+  },
+  "environment_fingerprint_sha256": "0e5eb0e0a498f3bdcd2d374bff27fff343d57f4885a997b5e4881a2ef435b972",
+  "manifest_type": "environment",
+  "packages": {
+    "PyYAML": "6.0.3",
+    "accelerate": "1.14.0",
+    "datasets": "5.0.1",
+    "huggingface_hub": "1.29.0",
+    "numpy": "2.4.6",
+    "peft": "0.20.0",
+    "pyarrow": "25.0.1",
+    "safetensors": "0.8.0",
+    "tokenizers": "0.23.1",
+    "torch": "2.11.0+cu128",
+    "transformers": "5.16.1",
+    "trl": "1.12.0"
+  },
+  "platform": {
+    "machine": "AMD64",
+    "platform": "Windows-10-10.0.26200-SP0",
+    "release": "10",
+    "system": "Windows"
+  },
+  "protocol_config_observed": {
+    "exists": true,
+    "model_primary": "Qwen/Qwen2.5-0.5B-Instruct",
+    "model_revision_field": null,
+    "path": "C:\\lsg\\grpo_ope_reuse\\configs\\protocol.yaml",
+    "project_name": "grpo_ope_reuse",
+    "protocol_version": "1.0",
+    "sha256": "2a4934d6036e5bc87e629dd2883dc7c38d65e0b98ad6bc248bec077ae654ecc8"
+  },
+  "python": {
+    "executable": "C:\\Anaconda\\envs\\grpo_ope\\python.exe",
+    "implementation": "CPython",
+    "version": "3.11.16"
+  },
+  "schema_version": "1.0",
+  "torch_runtime": {
+    "cuda_available": true,
+    "cuda_build": "12.8",
+    "cudnn_version": 91900,
+    "devices": [
+      {
+        "compute_capability": [
+          12,
+          0
+        ],
+        "index": 0,
+        "memory_bytes": 12820480000,
+        "name": "NVIDIA GeForce RTX 5070"
+      }
+    ],
+    "version": "2.11.0+cu128"
+  }
+}

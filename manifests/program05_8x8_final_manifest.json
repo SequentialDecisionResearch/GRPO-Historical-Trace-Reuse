@@ -1,0 +1,43 @@
+{
+  "collection_index": {
+    "path": "manifests/online_reference/test/collection_index.json",
+    "sha256": "38edc7e3daef543d421ec07d8ef1e9426756aa6fb4c5155c59e4ed7df9bd1048"
+  },
+  "created_at_utc": "2026-09-11T06:37:07Z",
+  "effective_samples_per_prompt": 8,
+  "manifest_type": "program05_8x8_final_manifest",
+  "online_shard_units": 5445,
+  "original_program05": {
+    "path": "05_generate_online_reference.py",
+    "sha256": "67f977f03a29f418857ae8218b929364f355f9399c585120dd69d133ba200335"
+  },
+  "reference_summaries": {
+    "path": "manifests/online_reference/test/reference_summaries.json",
+    "sha256": "794216f6dcb3c07f01b73c3149da4fab02dfcd63247687ab179447ac4998148a"
+  },
+  "sample_size_amendment": {
+    "path": "manifests/protocol_amendment_program05_sample_size.json",
+    "sha256": "ab19de61aa05f4f8b67ea1887e405ce9f335f9a0cd1d32e9d636be11ca83122a"
+  },
+  "schema_version": "1.0",
+  "seed_target_references": 33,
+  "seeds": [
+    20260826,
+    20260827,
+    20260828
+  ],
+  "split": "test",
+  "target_steps": [
+    0,
+    20,
+    100,
+    120,
+    160,
+    200,
+    220,
+    260,
+    300,
+    360,
+    400
+  ]
+}

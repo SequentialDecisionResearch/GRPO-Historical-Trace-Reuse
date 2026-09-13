@@ -1,0 +1,77 @@
+project:
+  name: grpo_ope_reuse
+  protocol_version: "1.0"
+
+model:
+  primary: "Qwen/Qwen2.5-0.5B-Instruct"
+
+training:
+  seeds: [20260826, 20260827, 20260828]
+  max_steps: 400
+  save_steps: 20
+  logging_steps: 5
+  num_generations: 4
+  max_completion_length: 128
+  temperature: 1.0
+  top_p: 1.0
+  top_k: 0
+  repetition_penalty: 1.0
+  learning_rate: 5.0e-6
+  per_device_train_batch_size: 1
+  gradient_accumulation_steps: 4
+  beta: 0.02
+  epsilon: 0.2
+  scale_rewards: group
+  loss_type: grpo
+  num_iterations: 1
+  use_vllm: false
+  gradient_checkpointing: true
+  max_grad_norm: 1.0
+  warmup_ratio: 0.0
+  weight_decay: 0.0
+  lr_scheduler_type: linear
+  precision: auto
+  format_reward_weight: 0.05
+  shuffle_dataset: true
+  lora:
+    r: 16
+    alpha: 32
+    dropout: 0.05
+    bias: none
+    target_modules: all-linear
+
+behavior:
+  anchors: [0, 100, 200, 300]
+  K_main: 16
+  sample_block_size: 16
+  generation_batch_size: 4
+  prompts_per_shard: 8
+
+online_reference:
+  L_main: 8
+  L_audit: 32
+  audit_steps: [0, 100, 200, 300, 400]
+  sample_block_size: 8
+  generation_batch_size: 4
+  prompts_per_shard: 8
+
+rescore:
+  batch_size: 8
+  identity_token_atol: 0.01
+  identity_sequence_atol: 0.05
+
+ope:
+  target_steps: [0, 20, 40, 60, 80, 100, 120, 140, 160, 180, 200, 220, 240, 260, 280, 300, 320, 340, 360, 380, 400]
+  bootstrap_reps: 2000
+  bootstrap_seed: 20260826
+
+reuse_gate:
+  tolerances: [0.01, 0.02, 0.05]
+  primary_diagnostic: median_prompt_relative_ess
+  fit_split: development_only
+
+robustness:
+  svamp_representative_pairs: 8
+  sample_block_size: 8
+  prompts_per_shard: 8
+  generation_batch_size: 4

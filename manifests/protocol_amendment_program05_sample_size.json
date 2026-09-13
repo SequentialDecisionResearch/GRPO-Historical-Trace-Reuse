@@ -1,0 +1,159 @@
+{
+  "amended_effective_design": {
+    "L_audit": 8,
+    "L_main": 8,
+    "effective_samples_per_prompt": 8,
+    "generation_distribution": "unchanged",
+    "note": "The frozen Program 05 generation policy/configuration remains unchanged. The amendment changes only how many Monte Carlo samples per prompt are required for official TEST reference summaries: all selected target checkpoints use the first 8 samples.",
+    "sample_block_size": 8
+  },
+  "content_sha256": "32a2d80ddba6679669b6ed3d8ff2111cb76bd5f50f0e9b013644c92a3b5e7e1a",
+  "created_at_utc": "2026-09-10T19:29:31.290070+00:00",
+  "immutability_and_provenance": {
+    "frozen_gate_changed": false,
+    "pair_registry_changed": false,
+    "program04_outputs_changed": false,
+    "program05_source": {
+      "path": "05_generate_online_reference.py",
+      "sha256": "67f977f03a29f418857ae8218b929364f355f9399c585120dd69d133ba200335"
+    },
+    "protocol_config": {
+      "path": "configs/protocol.yaml",
+      "sha256": "2a4934d6036e5bc87e629dd2883dc7c38d65e0b98ad6bc248bec077ae654ecc8"
+    },
+    "reduced_grid_amendment": {
+      "path": "manifests/protocol_amendment_reduced_grid.json",
+      "sha256": "a1592e0a6d596d2175c38de1838db1f138fe96c61cada1dd33aed0079d0046ce"
+    },
+    "reduced_pair_selection": {
+      "path": "manifests/reduced_test_pair_selection.json",
+      "sha256": "757aa3948df772c1415340918b350a080189280a799be9964d4095a0c9a2dcea"
+    }
+  },
+  "manifest_type": "preanalysis_program05_reference_sample_size_amendment",
+  "original_frozen_design": {
+    "L_audit": 32,
+    "L_main": 8,
+    "audit_steps": [
+      0,
+      100,
+      200,
+      300,
+      400
+    ]
+  },
+  "outcome_blinding_and_timing": {
+    "benchmark_declares_test_online_reference_read": false,
+    "benchmark_declares_test_ope_outcomes_read": false,
+    "preexisting_program05_test_online_shard_units": 22,
+    "preexisting_sample_ranges": [
+      "0:8"
+    ],
+    "preexisting_units_by_seed_target": {
+      "20260826:0": 19,
+      "20260826:20": 3
+    },
+    "program05_test_generation_had_already_started": true,
+    "program06_test_manifest_present_at_amendment": false,
+    "statement": "This is a post-start computational amendment made after some Program 05 TEST online generation had begun, but before any Program 06 official-TEST OPE/ESS/gate outputs existed. The selection criterion is development-only and does not use official-test OPE outcomes.",
+    "test_rows_detected_in_outputs_tables_at_amendment": 0
+  },
+  "paper_disclosure": "Before inspecting official-test OPE outcomes, a development-only sensitivity analysis showed that using eight on-policy Monte Carlo samples per prompt at the audit checkpoints introduced negligible reference distortion on a held-out development seed. We therefore retained the frozen L_main=8 and reduced only the audit reference size from L_audit=32 to 8 for the reduced test grid.",
+  "schema_version": "1.0",
+  "scope": {
+    "mode": "paper",
+    "program": "05_generate_online_reference.py",
+    "reduced_pair_grid_pairs": 36,
+    "split": "test",
+    "target_steps": [
+      0,
+      20,
+      100,
+      120,
+      160,
+      200,
+      220,
+      260,
+      300,
+      360,
+      400
+    ],
+    "training_seeds": [
+      20260826,
+      20260827,
+      20260828
+    ]
+  },
+  "selection_basis": {
+    "all_development_metrics": {
+      "fixed_ope_abs_error_change": {
+        "max": 0.002609470468431775,
+        "mean": 0.00043826671335969064,
+        "median": 0.0,
+        "n": 60,
+        "p95": 0.0019401306856754892
+      },
+      "rolling_delta_error_change": {
+        "max": 0.0028428377460964077,
+        "mean": 0.000272261718146907,
+        "median": 0.0,
+        "n": 48,
+        "p95": 0.0018000023982072035
+      },
+      "target_reference_abs_diff": {
+        "max": 0.002609470468431775,
+        "mean": 0.0005965973379415334,
+        "median": 0.0,
+        "n": 33,
+        "p95": 0.002019687712152071
+      }
+    },
+    "benchmark_report": {
+      "embedded_content_sha256": "f4935e5aef7d7ff97cd37a6b631553b11019e416932b72b33e8eb014b89566cb",
+      "file_sha256": "f710989ee985f07bc399bad63563cb36645c57a17709dfd8340a89cead3581fb",
+      "path": "benchmarks/program05_reference_sample_size/benchmark_report.json"
+    },
+    "candidate": {
+      "L_audit": 8,
+      "L_main": 8,
+      "decision": "PASS"
+    },
+    "estimated_generation_cost_fraction_of_frozen_reduced_grid": 0.4230769230769231,
+    "held_out_validation_metrics": {
+      "fixed_ope_abs_error_change": {
+        "max": 0.0019305838424983,
+        "mean": 0.0004688560760353018,
+        "median": 0.0,
+        "n": 20,
+        "p95": 0.0019305838424983
+      },
+      "rolling_delta_error_change": {
+        "max": 0.0028428377460964077,
+        "mean": 0.0005499530242966313,
+        "median": 0.0,
+        "n": 16,
+        "p95": 0.0028428377460964077
+      },
+      "target_prompt_mae_vs_full": {
+        "max": 0.030952987101154107,
+        "mean": 0.01318621551564525,
+        "median": 0.0,
+        "n": 11,
+        "p95": 0.030740835030549897
+      },
+      "target_reference_abs_diff": {
+        "max": 0.0019517990495587223,
+        "mean": 0.00060366907362834,
+        "median": 0.0,
+        "n": 11,
+        "p95": 0.001941191446028511
+      }
+    },
+    "rationale": [
+      "The development-only benchmark shows L_main=8, L_audit=8 passes both all-development and held-out-seed criteria.",
+      "This choice preserves the originally frozen non-audit L_main=8 and changes only audit oversampling from 32 to 8.",
+      "It is more conservative than the benchmark's cheapest passing 4/8 design while still materially reducing computation.",
+      "It reuses already-published 0:8 official TEST online shards without truncating them or changing their generation semantics."
+    ]
+  }
+}

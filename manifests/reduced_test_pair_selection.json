@@ -1,0 +1,435 @@
+{
+  "all_training_seeds": [
+    20260826,
+    20260827,
+    20260828
+  ],
+  "benchmark_candidate": "C001",
+  "created_at_utc": "2026-09-09T21:20:00.750779+00:00",
+  "dataset": "GSM8K",
+  "design": {
+    "fixed_pairs_per_seed": [
+      [
+        0,
+        20
+      ],
+      [
+        0,
+        120
+      ],
+      [
+        0,
+        220
+      ],
+      [
+        0,
+        300
+      ],
+      [
+        0,
+        400
+      ]
+    ],
+    "identity_steps_per_seed": [
+      0,
+      100,
+      200,
+      300
+    ],
+    "pairs_per_seed": 12,
+    "rolling_pairs_per_seed": [
+      [
+        100,
+        160
+      ],
+      [
+        200,
+        260
+      ],
+      [
+        300,
+        360
+      ]
+    ],
+    "total_pairs": 36
+  },
+  "manifest_type": "reduced_test_pair_selection",
+  "original_pair_registry": {
+    "file_sha256": "0b7de32f52bb3735f9d65b2a63de082235f3b98d44053c8143efcfaf00d23c78",
+    "manifest_path": "manifests/pair_registry_manifest.json",
+    "manifest_sha256": "802a0d6b518067665b251ba4414d6a1a462c1a3574a5723bd587cec39a98b3c8",
+    "path": "manifests/pair_registry.parquet",
+    "unchanged": true
+  },
+  "schema_version": "1.0",
+  "selected_pair_ids_sha256": "ccf89be43cce9a2793c8d069e3fade97318f02fec5c412eb18c4ba58ccc6d322",
+  "selected_pairs": [
+    {
+      "behavior_step": 0,
+      "dataset": "GSM8K",
+      "pair_id": "426ff371ddd5d17a229ef9d53395decf01429cc8278e61826f2c9cd16f87937b",
+      "protocol_version": "1.0",
+      "purpose": "identity",
+      "split": "test",
+      "target_step": 0,
+      "training_seed": 20260826
+    },
+    {
+      "behavior_step": 100,
+      "dataset": "GSM8K",
+      "pair_id": "720ce4a2199cb4ad7767d2cafc978e515e32506e8582e97bd05a73bdc9c82c5e",
+      "protocol_version": "1.0",
+      "purpose": "identity",
+      "split": "test",
+      "target_step": 100,
+      "training_seed": 20260826
+    },
+    {
+      "behavior_step": 200,
+      "dataset": "GSM8K",
+      "pair_id": "79084ff9aa1a118096b187ca81e8b75531bfd3366cd3cf5c5bc171ee19a0f5ea",
+      "protocol_version": "1.0",
+      "purpose": "identity",
+      "split": "test",
+      "target_step": 200,
+      "training_seed": 20260826
+    },
+    {
+      "behavior_step": 300,
+      "dataset": "GSM8K",
+      "pair_id": "3b3176d982dc92bdd190bedac51d5f816eaf1ebee6a6edadcef561c768c1276e",
+      "protocol_version": "1.0",
+      "purpose": "identity",
+      "split": "test",
+      "target_step": 300,
+      "training_seed": 20260826
+    },
+    {
+      "behavior_step": 0,
+      "dataset": "GSM8K",
+      "pair_id": "0ff4c5dc92a53a7ec41bcd4263192a7e2b74b782580a6bf5be82263747fcc1ff",
+      "protocol_version": "1.0",
+      "purpose": "fixed",
+      "split": "test",
+      "target_step": 20,
+      "training_seed": 20260826
+    },
+    {
+      "behavior_step": 0,
+      "dataset": "GSM8K",
+      "pair_id": "c8d9c5db20e34f0122e5e27f85ad5dd491f9241b42b717ca57ec4ecc12c76c11",
+      "protocol_version": "1.0",
+      "purpose": "fixed",
+      "split": "test",
+      "target_step": 120,
+      "training_seed": 20260826
+    },
+    {
+      "behavior_step": 0,
+      "dataset": "GSM8K",
+      "pair_id": "8fda9323afb3e066f2cb58e78af47a28d5ced8480005003ea7855ffdbe4a4156",
+      "protocol_version": "1.0",
+      "purpose": "fixed",
+      "split": "test",
+      "target_step": 220,
+      "training_seed": 20260826
+    },
+    {
+      "behavior_step": 0,
+      "dataset": "GSM8K",
+      "pair_id": "ce65727dd61474a8856c50eb5faaf16f8139b906e5c3d5e15c80ed874b356ba4",
+      "protocol_version": "1.0",
+      "purpose": "fixed",
+      "split": "test",
+      "target_step": 300,
+      "training_seed": 20260826
+    },
+    {
+      "behavior_step": 0,
+      "dataset": "GSM8K",
+      "pair_id": "ee1e6d208aff4e041763a34da2a6b53ef59696b7b3a45f8529579975499f9e18",
+      "protocol_version": "1.0",
+      "purpose": "fixed",
+      "split": "test",
+      "target_step": 400,
+      "training_seed": 20260826
+    },
+    {
+      "behavior_step": 100,
+      "dataset": "GSM8K",
+      "pair_id": "1a159884782bc171bf139ed1bad1709a5a93cc7069573bcfb6b66a10fe03f2f4",
+      "protocol_version": "1.0",
+      "purpose": "rolling",
+      "split": "test",
+      "target_step": 160,
+      "training_seed": 20260826
+    },
+    {
+      "behavior_step": 200,
+      "dataset": "GSM8K",
+      "pair_id": "e602dfbd652cee0f30b5c286b87ef852df11ab0b66d2f112caef5a5c647f6ece",
+      "protocol_version": "1.0",
+      "purpose": "rolling",
+      "split": "test",
+      "target_step": 260,
+      "training_seed": 20260826
+    },
+    {
+      "behavior_step": 300,
+      "dataset": "GSM8K",
+      "pair_id": "5274a83708063f22256ee79edbc774a12294f28dd481714c6d437a18a673ce00",
+      "protocol_version": "1.0",
+      "purpose": "rolling",
+      "split": "test",
+      "target_step": 360,
+      "training_seed": 20260826
+    },
+    {
+      "behavior_step": 0,
+      "dataset": "GSM8K",
+      "pair_id": "03fdad8d5c0bb7901c54f6d438f530f8f0bc50426c427630a4a5b1fd708be5c7",
+      "protocol_version": "1.0",
+      "purpose": "identity",
+      "split": "test",
+      "target_step": 0,
+      "training_seed": 20260827
+    },
+    {
+      "behavior_step": 100,
+      "dataset": "GSM8K",
+      "pair_id": "f56eeb97e888e052ae0b83d6f4d8ccf060273af85e7434a6b70c326ed2d65ca8",
+      "protocol_version": "1.0",
+      "purpose": "identity",
+      "split": "test",
+      "target_step": 100,
+      "training_seed": 20260827
+    },
+    {
+      "behavior_step": 200,
+      "dataset": "GSM8K",
+      "pair_id": "1a5bd3b07e657133efae227b1b05ff186a99a6c3331ed2e47d0b93e5db83cc05",
+      "protocol_version": "1.0",
+      "purpose": "identity",
+      "split": "test",
+      "target_step": 200,
+      "training_seed": 20260827
+    },
+    {
+      "behavior_step": 300,
+      "dataset": "GSM8K",
+      "pair_id": "c9bff9c0f69674e825b70ac117a3a18f5f9c64f07129c42d8978c9c6136a4fd2",
+      "protocol_version": "1.0",
+      "purpose": "identity",
+      "split": "test",
+      "target_step": 300,
+      "training_seed": 20260827
+    },
+    {
+      "behavior_step": 0,
+      "dataset": "GSM8K",
+      "pair_id": "067aba251e5678c6f2685e2011cbc691d90dbe3f6bf446c0503ac1f1f925fb2f",
+      "protocol_version": "1.0",
+      "purpose": "fixed",
+      "split": "test",
+      "target_step": 20,
+      "training_seed": 20260827
+    },
+    {
+      "behavior_step": 0,
+      "dataset": "GSM8K",
+      "pair_id": "8a7d8cd4e738f6d2daf49a4b85e2740c4179ae880ac282baf9ec23a2e3827954",
+      "protocol_version": "1.0",
+      "purpose": "fixed",
+      "split": "test",
+      "target_step": 120,
+      "training_seed": 20260827
+    },
+    {
+      "behavior_step": 0,
+      "dataset": "GSM8K",
+      "pair_id": "a74c4f6708d3f8eeec6e5ec0ba6326d24115cc6d368e30cf6022ef056109b0bf",
+      "protocol_version": "1.0",
+      "purpose": "fixed",
+      "split": "test",
+      "target_step": 220,
+      "training_seed": 20260827
+    },
+    {
+      "behavior_step": 0,
+      "dataset": "GSM8K",
+      "pair_id": "2f477b64d1036be08af774d7c59eac863b91cfb236f7093978a13b4e36b73907",
+      "protocol_version": "1.0",
+      "purpose": "fixed",
+      "split": "test",
+      "target_step": 300,
+      "training_seed": 20260827
+    },
+    {
+      "behavior_step": 0,
+      "dataset": "GSM8K",
+      "pair_id": "af00ed6ef29587e5bafe2d9830c42a6e2ae81ca1e42ae64363a971bca2b81aa3",
+      "protocol_version": "1.0",
+      "purpose": "fixed",
+      "split": "test",
+      "target_step": 400,
+      "training_seed": 20260827
+    },
+    {
+      "behavior_step": 100,
+      "dataset": "GSM8K",
+      "pair_id": "ac92b04478943ecc0de2d4975efd75351cef84512a5f37f13fcefe70ff72a905",
+      "protocol_version": "1.0",
+      "purpose": "rolling",
+      "split": "test",
+      "target_step": 160,
+      "training_seed": 20260827
+    },
+    {
+      "behavior_step": 200,
+      "dataset": "GSM8K",
+      "pair_id": "0a0dec3e943e1d43a86f2895e897712385dfc390a7596acf29999cebedc06bde",
+      "protocol_version": "1.0",
+      "purpose": "rolling",
+      "split": "test",
+      "target_step": 260,
+      "training_seed": 20260827
+    },
+    {
+      "behavior_step": 300,
+      "dataset": "GSM8K",
+      "pair_id": "eb4b45b8379fc8905b5e7a048f341f3841e3caf82236b316debc3b2c439287b7",
+      "protocol_version": "1.0",
+      "purpose": "rolling",
+      "split": "test",
+      "target_step": 360,
+      "training_seed": 20260827
+    },
+    {
+      "behavior_step": 0,
+      "dataset": "GSM8K",
+      "pair_id": "d8e680c08e8368e953091587f87eafc3314fbe3deb723d0c46338d00067696f0",
+      "protocol_version": "1.0",
+      "purpose": "identity",
+      "split": "test",
+      "target_step": 0,
+      "training_seed": 20260828
+    },
+    {
+      "behavior_step": 100,
+      "dataset": "GSM8K",
+      "pair_id": "03a14cc0f8d3fe4d3de2a6abe409494d5b30e20fe27b7aa8dd2150412e872f8a",
+      "protocol_version": "1.0",
+      "purpose": "identity",
+      "split": "test",
+      "target_step": 100,
+      "training_seed": 20260828
+    },
+    {
+      "behavior_step": 200,
+      "dataset": "GSM8K",
+      "pair_id": "4ef26f24a98199532848912e11d2a17372dd2cbab5959efe94ac00f19afa9c79",
+      "protocol_version": "1.0",
+      "purpose": "identity",
+      "split": "test",
+      "target_step": 200,
+      "training_seed": 20260828
+    },
+    {
+      "behavior_step": 300,
+      "dataset": "GSM8K",
+      "pair_id": "e951a2188fdaa68d23215485e4d582106b821ea50cbbbf069c103ff89c2beb69",
+      "protocol_version": "1.0",
+      "purpose": "identity",
+      "split": "test",
+      "target_step": 300,
+      "training_seed": 20260828
+    },
+    {
+      "behavior_step": 0,
+      "dataset": "GSM8K",
+      "pair_id": "904ad06ccc208a97de37943f488085f06b30fb606387d405e8421e4f71a9c18f",
+      "protocol_version": "1.0",
+      "purpose": "fixed",
+      "split": "test",
+      "target_step": 20,
+      "training_seed": 20260828
+    },
+    {
+      "behavior_step": 0,
+      "dataset": "GSM8K",
+      "pair_id": "b3c4beedbc029c6e9efc0b5d681f08e355d75695f35fca79cbfddc7dfcbf1a42",
+      "protocol_version": "1.0",
+      "purpose": "fixed",
+      "split": "test",
+      "target_step": 120,
+      "training_seed": 20260828
+    },
+    {
+      "behavior_step": 0,
+      "dataset": "GSM8K",
+      "pair_id": "78e2eff871f4f2222e498f0bea34a9e050c95defd7ae03bfde551f28bcc1112c",
+      "protocol_version": "1.0",
+      "purpose": "fixed",
+      "split": "test",
+      "target_step": 220,
+      "training_seed": 20260828
+    },
+    {
+      "behavior_step": 0,
+      "dataset": "GSM8K",
+      "pair_id": "ec204950add8fcfa241be893a77c2cd3130e175acd9053ca59ea485bb72378db",
+      "protocol_version": "1.0",
+      "purpose": "fixed",
+      "split": "test",
+      "target_step": 300,
+      "training_seed": 20260828
+    },
+    {
+      "behavior_step": 0,
+      "dataset": "GSM8K",
+      "pair_id": "0b429c40b5a24e1abce2ff0ebc7024815b524e976c1b244bb1fb7a09b2cfea1a",
+      "protocol_version": "1.0",
+      "purpose": "fixed",
+      "split": "test",
+      "target_step": 400,
+      "training_seed": 20260828
+    },
+    {
+      "behavior_step": 100,
+      "dataset": "GSM8K",
+      "pair_id": "e54bc009df79112b849015fa3d27a187c91b807dafe441fbcac7e31b3ad8edd3",
+      "protocol_version": "1.0",
+      "purpose": "rolling",
+      "split": "test",
+      "target_step": 160,
+      "training_seed": 20260828
+    },
+    {
+      "behavior_step": 200,
+      "dataset": "GSM8K",
+      "pair_id": "b45b7f69d18b7801137dbe6ba74d03373e2746b4d6f1c2ba9d25bf6584471dc2",
+      "protocol_version": "1.0",
+      "purpose": "rolling",
+      "split": "test",
+      "target_step": 260,
+      "training_seed": 20260828
+    },
+    {
+      "behavior_step": 300,
+      "dataset": "GSM8K",
+      "pair_id": "2455acce7d764a3fa2ba0c188eb7b7006ca84317fc15044fb059d1e1b1d67dc3",
+      "protocol_version": "1.0",
+      "purpose": "rolling",
+      "split": "test",
+      "target_step": 360,
+      "training_seed": 20260828
+    }
+  ],
+  "selection_basis": "development_only_pair_grid_reduction_benchmark",
+  "split": "test",
+  "test_outcome_firewall": {
+    "T02_T04_contained_no_test_rows_at_amendment": true,
+    "program06_test_manifest_absent_at_amendment": true,
+    "program07_test_only_manifest_absent_at_amendment": true
+  }
+}

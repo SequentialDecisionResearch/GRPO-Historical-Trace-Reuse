@@ -1,0 +1,134 @@
+{
+  "added_structural_comparators": [
+    {
+      "behavior_step": 0,
+      "dataset": "GSM8K",
+      "pair_id": "e956ab3ba81af34258928d2e7ecabf1f7965b110793b4e966a8c0f5600c169d3",
+      "protocol_version": "1.0",
+      "purpose": "fixed",
+      "split": "test",
+      "target_step": 160,
+      "training_seed": 20260826
+    },
+    {
+      "behavior_step": 0,
+      "dataset": "GSM8K",
+      "pair_id": "8348b24649cccd4d862347165ec70f739d225effd55f32f03f65f965c2ed401f",
+      "protocol_version": "1.0",
+      "purpose": "fixed",
+      "split": "test",
+      "target_step": 260,
+      "training_seed": 20260826
+    },
+    {
+      "behavior_step": 0,
+      "dataset": "GSM8K",
+      "pair_id": "dd16ae1885ecf0dabcdf72ef42b17c649bfd1316c9456fbde369c767d8debc37",
+      "protocol_version": "1.0",
+      "purpose": "fixed",
+      "split": "test",
+      "target_step": 360,
+      "training_seed": 20260826
+    },
+    {
+      "behavior_step": 0,
+      "dataset": "GSM8K",
+      "pair_id": "72f7901a32fafc79e0f188f34dbf7fa326ad048099d645abec4457450ac71833",
+      "protocol_version": "1.0",
+      "purpose": "fixed",
+      "split": "test",
+      "target_step": 160,
+      "training_seed": 20260827
+    },
+    {
+      "behavior_step": 0,
+      "dataset": "GSM8K",
+      "pair_id": "e30b68181ed04e7ccf39e4d43eb22e49320d47c0400118b815ec040883a6ba68",
+      "protocol_version": "1.0",
+      "purpose": "fixed",
+      "split": "test",
+      "target_step": 260,
+      "training_seed": 20260827
+    },
+    {
+      "behavior_step": 0,
+      "dataset": "GSM8K",
+      "pair_id": "cb15baa2df5065e4dabfd8a00f0b632068faf4a61ab30107f3c13970eeaac795",
+      "protocol_version": "1.0",
+      "purpose": "fixed",
+      "split": "test",
+      "target_step": 360,
+      "training_seed": 20260827
+    },
+    {
+      "behavior_step": 0,
+      "dataset": "GSM8K",
+      "pair_id": "61298a53ef0101ac900f68c1dcb1fc932de5583948938dbd087bba1510fb2ab8",
+      "protocol_version": "1.0",
+      "purpose": "fixed",
+      "split": "test",
+      "target_step": 160,
+      "training_seed": 20260828
+    },
+    {
+      "behavior_step": 0,
+      "dataset": "GSM8K",
+      "pair_id": "8d331e17c0d2df20a2bbfc11da5435ed98bde6690cc017fa6aab1273e714e9c2",
+      "protocol_version": "1.0",
+      "purpose": "fixed",
+      "split": "test",
+      "target_step": 260,
+      "training_seed": 20260828
+    },
+    {
+      "behavior_step": 0,
+      "dataset": "GSM8K",
+      "pair_id": "1bea01265e2d019ebd5899ee41618dd675aec70a97d693ed060f38ce98d44923",
+      "protocol_version": "1.0",
+      "purpose": "fixed",
+      "split": "test",
+      "target_step": 360,
+      "training_seed": 20260828
+    }
+  ],
+  "content_sha256": "13fb44cbfab2edfc3679f7d0d881a3c155783268821942c57d39e0637e898ee9",
+  "created_at_utc": "2026-09-11T11:39:20.388616+00:00",
+  "deterministic_dependency": {
+    "required_old_behavior_step": 0,
+    "required_pairs_per_seed": 3,
+    "rolling_targets": [
+      160,
+      260,
+      360
+    ],
+    "rule": "For each retained rolling pair (seed,b,e), Program06 build_rolling_rows requires pair_results[(seed,0,e)].",
+    "total_added_pairs": 9
+  },
+  "failure_context": {
+    "T02_test_rows_present": 30,
+    "T03_test_rows_present": 31656,
+    "T04_test_rows_present": 0,
+    "program06_test_manifest_present": false,
+    "statement": "An official-test Program06 run computed pair statistics and then failed while constructing/provenancing T04 because the old-behavior same-target comparators were absent. This repair is dictated solely by the pre-existing rolling-comparison code dependency; no test metric values are used to choose the nine added pairs."
+  },
+  "manifest_type": "post_start_structural_program06_rolling_comparator_repair",
+  "original_reduced_selection": {
+    "pair_count": 36,
+    "path": "manifests/reduced_test_pair_selection.json",
+    "sha256": "757aa3948df772c1415340918b350a080189280a799be9964d4095a0c9a2dcea"
+  },
+  "paper_disclosure": "After the reduced-grid computation had begun, we identified a structural dependency in the rolling comparison: each retained rolling pair requires the corresponding behavior-step-0 evaluation at the same target checkpoint. We therefore added exactly these nine comparator pairs (three targets across three seeds), without using test outcome values to select them.",
+  "provenance": {
+    "original_grid_amendment_sha256": "a1592e0a6d596d2175c38de1838db1f138fe96c61cada1dd33aed0079d0046ce",
+    "pair_registry_sha256": "0b7de32f52bb3735f9d65b2a63de082235f3b98d44053c8143efcfaf00d23c78",
+    "program04_source_sha256": "eda438a929b5370f1bf54a1be476b57e382412bcc33aa613bfa119fddad8d264",
+    "program06_source_sha256": "8d13776f10950d1a4e907c945ec5227798dd74e84140ae399f6a81966ad74682"
+  },
+  "repaired_selection": {
+    "pair_count": 45,
+    "path": "manifests/reduced_test_pair_selection_program06_compatible.json",
+    "sha256": "5df1f6664a8eb21a52146a0c2b47f4eb8aab267127d65c39a254423dd5caa44c"
+  },
+  "schema_version": "1.0",
+  "scientific_effect": "Expands the computational TEST pair set from 36 to 45 only to restore the required fixed comparator for each retained rolling case. The retained rolling cases, frozen gate, Program05 8/8 reference amendment, estimators, K, and bootstrap specification are unchanged."
+}

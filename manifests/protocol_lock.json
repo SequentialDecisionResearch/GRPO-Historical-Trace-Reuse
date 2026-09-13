@@ -1,0 +1,43 @@
+{
+  "config_sha256": "2a4934d6036e5bc87e629dd2883dc7c38d65e0b98ad6bc248bec077ae654ecc8",
+  "created_at_utc": "2026-09-01T22:18:32+00:00",
+  "created_by": {
+    "program": "freeze_protocol.py",
+    "program_version": "1.0"
+  },
+  "data_manifest_sha256": "edac77a16e433458550c4cd46f61fbb1a7d7cdee3ac9090aad779ac1b340dd38",
+  "environment_fingerprint_sha256": "0e5eb0e0a498f3bdcd2d374bff27fff343d57f4885a997b5e4881a2ef435b972",
+  "git_commit": null,
+  "lock_fingerprint_sha256": "baeda1ba7e488d68f78df5acb42b43dc705a3d7bba6868a79937f4e5ff7da877",
+  "manifest_file_sha256": {
+    "data_manifest.json": "3aeb5ab2b251fb0f9eaf31ea91a5a97e5da8e936b371bf4e7ecc51b91c84313c",
+    "environment_manifest.json": "a7ed58dc3d5b23b07f3a7cfef841b475f8b0b771e64b3d76cf48fb44ac618a22",
+    "model_manifest.json": "1d6d52a101f16e7e7b8d276e218edd5f905ddf1d08841170bc54fd84a2ff710d",
+    "split_registry_manifest.json": "a9b4c0f0ca4a544e422775b73b343202c33a74a9935df5568102853c63a80c80"
+  },
+  "manifest_type": "grpo_ope_protocol_lock",
+  "model_revision": "7ae557604adf67be50417f59c2c2f167def9a775",
+  "project_name": "grpo_ope_reuse",
+  "protocol_version": "1.0",
+  "research_firewall": {
+    "development_decisions_frozen": true,
+    "gate_frozen_separately_after_program07_calibration": true,
+    "official_test_tuning_forbidden": true
+  },
+  "schema_version": "1.0",
+  "source_code_sha256": {
+    "00_download_and_manifest.py": "65d85bc9be192589c55509ea92ee2bc48e43b57402b5d85874aaae6d84bf9bc1",
+    "01_prepare_splits.py": "5661193e4eac4f19655151067724e35c514c902694fb62795d2b69d6c3f1f84d",
+    "02_train_all_seeds.py": "432a9d0f6351a3ece1cd34c1ca4dbcebb79771daba4157706538ec2bb0d44710",
+    "03_collect_behavior_logs.py": "37d2d988a4be7f8d8f2fd7f6116fb7abfbfd7378235d1cd74429ec3f2769bc2b",
+    "04_rescore_target_checkpoints.py": "038155e6773acb07fea22709ee26d23947ee703d49b40eca60627f1b7abff6e4",
+    "05_generate_online_reference.py": "67f977f03a29f418857ae8218b929364f355f9399c585120dd69d133ba200335",
+    "06_compute_ope_and_diagnostics.py": "8d13776f10950d1a4e907c945ec5227798dd74e84140ae399f6a81966ad74682",
+    "07_calibrate_and_test_gate.py": "2b452525db1888fd9041c4e6426f568ce834901eaa3be5104be62a3f8c3530c8",
+    "08_run_svamp_robustness.py": "025a7ae43c6650c4ecd764ef72b1644f6380eae64b500d4e62d236356fbb2a16",
+    "09_make_paper_outputs.py": "fac8c8848a1087a5297217261f25ff2ba3fb036eab6dfd6bcdfc2dc7c48bb6bd",
+    "freeze_protocol.py": "c49918ccf2fb6c864890d8bd0bd97d0fe869bc131c0ff626cbed0a0fdae59035"
+  },
+  "split_registry_sha256": "0abfa70b91221e211acc64a692c272db5145406817c71d2e2ae7439de9a0b76b",
+  "training_config_sha256": "3f29e25fba5d47b9ab3a01e1b9d9509b6d95b54ec733c702bbc4d78fdc358e0a"
+}
