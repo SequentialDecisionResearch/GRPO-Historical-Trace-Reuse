@@ -1,0 +1,18 @@
+cff-version: 1.2.0
+message: "If you use this repository, please cite the accompanying paper."
+title: "GRPO Historical Trace Reuse: Paper and Reproducibility Package"
+type: software
+version: 1.0.0
+date-released: 2026-09-13
+authors:
+  - family-names: Li
+    given-names: Shenggang
+    email: datalev@gmail.com
+preferred-citation:
+  type: article
+  title: "When Can Historical GRPO Reasoning Traces Be Reused? Off-Policy Evaluation and Trace Refresh under Policy Drift"
+  authors:
+    - family-names: Li
+      given-names: Shenggang
+  year: 2026
+license: MIT

@@ -1,0 +1,8 @@
+# Dual-license notice
+
+This repository contains both software and research/documentation materials.
+
+1. Source code and executable scripts are licensed under the MIT License. See `LICENSE-CODE`.
+2. The paper, figures, explanatory memoranda, README-style research documentation, and other non-code scholarly materials are licensed under Creative Commons Attribution 4.0 International (CC BY 4.0). See `LICENSE-DOCUMENTATION`.
+
+Where a file contains an explicit license notice, that file-specific notice controls.
