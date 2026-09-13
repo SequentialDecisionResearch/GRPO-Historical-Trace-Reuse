@@ -1,0 +1,78 @@
+{
+  "counts": {
+    "T08_rows": 168,
+    "prompts": 1000,
+    "representative_pairs": 8,
+    "seeds": 3
+  },
+  "created_at_utc": "2026-09-13T07:40:45Z",
+  "created_by": {
+    "program": "08_run_svamp_robustness.py",
+    "program_version": "1.1.0"
+  },
+  "dataset": "SVAMP",
+  "generation_time_behavior_logprob_role": "audit_only_not_importance_denominator",
+  "git_commit": null,
+  "identity_checks_path": "data/svamp_robustness_fp32_v2/identity_checks.json",
+  "identity_checks_sha256": "2d2a4f0ff93e2d5f366c86505d2c4283c2f2058808701a27a0fa0caa741675f3",
+  "inputs": {
+    "T02_development_sha256": "242132a2e680c44b82d5606d7c3c868c0f5fa790d9302a48b0a8ac4d4aaf3317",
+    "T04_development_sha256": "02fe756ea7f22e67734dc4613a394e9750d14c605eb48cd73610588f83841cb5",
+    "T06_gate_test_sha256": "09d185167d2fa73dce30ffc2813f21af0e0f92bccdd0dc72d6b78a2c821427fd",
+    "environment_manifest_fingerprint": "0e5eb0e0a498f3bdcd2d374bff27fff343d57f4885a997b5e4881a2ef435b972",
+    "frozen_gate_sha256": "37c810f9c2c05b617e69dfe0b3b43561b791c1596ebce2c0fbc0f3566357f136",
+    "model_revision": "7ae557604adf67be50417f59c2c2f167def9a775",
+    "program06_development_manifest_sha256": "57de04eba567449ae92a4f3f738f36ad14b33887952c2ff2436adf4f80cd06a0",
+    "program06_test_manifest_sha256": "13550c8e34f681be0ee109818c5d95307a12cf364678845169a7c4f058a1a84a",
+    "svamp_pair_registry_sha256": "e82f3f800081f5d69ebfd090b0f972b05baf58e2e884eebb62a0e860bd80c4c5",
+    "svamp_revision": "689d7ccac74b9983a2ac7cc3b264f441b99e7c53",
+    "svamp_tree_sha256": "b45637e0780a9349af9b0fe819efabd052d99d16c89e79d9abf29f27546c3a6c"
+  },
+  "interpretation": "External prompt-distribution validation of the already-frozen GSM8K reuse gate; no SVAMP-based tuning is permitted.",
+  "manifest_type": "program08_svamp_robustness_manifest",
+  "mode": "paper",
+  "old_bf16_assets_used_for_results": false,
+  "outputs": {
+    "T08_svamp": {
+      "path": "outputs/tables/T08_svamp.csv",
+      "sha256": "f7c90c506008ba8c167be8f131b208a467ff905891f0118792eac52a6de7cfd8"
+    },
+    "gate_summary": {
+      "path": "outputs/diagnostics/T08_svamp_gate_summary.csv",
+      "sha256": "4178c6e0d3629f74a9a58d06136eeed1125d79fa54f80d24c56b6626ac32e0e5"
+    }
+  },
+  "policy_inference_precision": "fp32",
+  "protocol_amendment": {
+    "path": "manifests/protocol_amendment_program08_fp32.json",
+    "sha256": "8cf7319f3bd47e43708bc12d8eb76f69d5d5660a40aa4f1d5f1324254e73bef8"
+  },
+  "protocol_config_sha256": "2a4934d6036e5bc87e629dd2883dc7c38d65e0b98ad6bc248bec077ae654ecc8",
+  "protocol_version": "1.0",
+  "repaired_asset_root": "data/svamp_robustness_fp32_v2",
+  "research_boundary": {
+    "new_ablation_matrix": false,
+    "refit_gate": false,
+    "retrained_grpo": false,
+    "selected_pairs_using_svamp": false
+  },
+  "sampling": {
+    "K": 16,
+    "L_audit": 32,
+    "L_main": 8,
+    "audit_steps": [
+      0,
+      100,
+      200,
+      300,
+      400
+    ],
+    "max_completion_length": 128,
+    "repetition_penalty": 1.0,
+    "temperature": 1.0,
+    "top_k": 0,
+    "top_p": 1.0
+  },
+  "schema_version": "grpo_ope_program08_v1",
+  "scoring_contract": "symmetric_fp32_teacher_forced_v1"
+}

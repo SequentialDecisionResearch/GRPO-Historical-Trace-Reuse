@@ -1,0 +1,32 @@
+\begin{table}[t]
+\centering
+\small
+\caption{Development-only diagnostic association with absolute OPE error; no classifier is fitted.}
+\label{tab:diagnostic\_benchmark}
+\begin{tabular}{lrrrrrrrrr}
+\toprule
+dataset & split & scope & training seed & estimator & diagnostic & diagnostic family & n pair cases & spearman with absolute error & absolute spearman \\
+\midrule
+GSM8K & development & pooled & NA & prompt\_wis & median\_prompt\_relative\_ess & second\_order\_overlap & 60 & -0.3163 & 0.3163 \\
+GSM8K & development & pooled & NA & prompt\_wis & mean\_d2 & second\_order\_overlap & 60 & -0.3258 & 0.3258 \\
+GSM8K & development & pooled & NA & prompt\_wis & mean\_max\_normalized\_weight & tail\_concentration & 60 & 0.3066 & 0.3066 \\
+GSM8K & development & pooled & NA & prompt\_wis & tokenwise\_kl\_proxy & average\_drift & 60 & 0.3163 & 0.3163 \\
+GSM8K & development & pooled & NA & prompt\_wis & mean\_completion\_length & length & 60 & -0.6353 & 0.6353 \\
+GSM8K & development & seed & 20260826 & prompt\_wis & median\_prompt\_relative\_ess & second\_order\_overlap & 20 & -0.5985 & 0.5985 \\
+GSM8K & development & seed & 20260826 & prompt\_wis & mean\_d2 & second\_order\_overlap & 20 & -0.6195 & 0.6195 \\
+GSM8K & development & seed & 20260826 & prompt\_wis & mean\_max\_normalized\_weight & tail\_concentration & 20 & 0.6180 & 0.6180 \\
+GSM8K & development & seed & 20260826 & prompt\_wis & tokenwise\_kl\_proxy & average\_drift & 20 & 0.5985 & 0.5985 \\
+GSM8K & development & seed & 20260826 & prompt\_wis & mean\_completion\_length & length & 20 & NA & NA \\
+GSM8K & development & seed & 20260827 & prompt\_wis & median\_prompt\_relative\_ess & second\_order\_overlap & 20 & -0.1278 & 0.1278 \\
+GSM8K & development & seed & 20260827 & prompt\_wis & mean\_d2 & second\_order\_overlap & 20 & -0.1850 & 0.1850 \\
+GSM8K & development & seed & 20260827 & prompt\_wis & mean\_max\_normalized\_weight & tail\_concentration & 20 & 0.1504 & 0.1504 \\
+GSM8K & development & seed & 20260827 & prompt\_wis & tokenwise\_kl\_proxy & average\_drift & 20 & 0.2767 & 0.2767 \\
+GSM8K & development & seed & 20260827 & prompt\_wis & mean\_completion\_length & length & 20 & NA & NA \\
+GSM8K & development & seed & 20260828 & prompt\_wis & median\_prompt\_relative\_ess & second\_order\_overlap & 20 & 0.2391 & 0.2391 \\
+GSM8K & development & seed & 20260828 & prompt\_wis & mean\_d2 & second\_order\_overlap & 20 & 0.1564 & 0.1564 \\
+GSM8K & development & seed & 20260828 & prompt\_wis & mean\_max\_normalized\_weight & tail\_concentration & 20 & -0.2887 & 0.2887 \\
+GSM8K & development & seed & 20260828 & prompt\_wis & tokenwise\_kl\_proxy & average\_drift & 20 & -0.0782 & 0.0782 \\
+GSM8K & development & seed & 20260828 & prompt\_wis & mean\_completion\_length & length & 20 & NA & NA \\
+\bottomrule
+\end{tabular}
+\end{table}

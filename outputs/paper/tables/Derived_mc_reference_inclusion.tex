@@ -1,0 +1,16 @@
+\begin{table}[t]
+\centering
+\small
+\caption{OPE interval inclusion of the finite on-policy Monte Carlo reference.}
+\label{tab:mc\_reference\_inclusion}
+\begin{tabular}{lrrrrrr}
+\toprule
+dataset & split & estimator & n pair seed cases & mc reference inclusion count & mc reference inclusion rate & interpretation \\
+\midrule
+GSM8K & development & is & 60 & 60 & 1.0000 & finite\_on\_policy\_MC\_reference\_inclusion\_not\_exact\_truth\_coverage \\
+GSM8K & development & prompt\_wis & 60 & 44 & 0.7333 & finite\_on\_policy\_MC\_reference\_inclusion\_not\_exact\_truth\_coverage \\
+GSM8K & test & is & 24 & 24 & 1.0000 & finite\_on\_policy\_MC\_reference\_inclusion\_not\_exact\_truth\_coverage \\
+GSM8K & test & prompt\_wis & 24 & 16 & 0.6667 & finite\_on\_policy\_MC\_reference\_inclusion\_not\_exact\_truth\_coverage \\
+\bottomrule
+\end{tabular}
+\end{table}

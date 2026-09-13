@@ -1,0 +1,1120 @@
+{
+  "comparisons": {
+    "count": 54,
+    "development": 45,
+    "source_records": [
+      {
+        "old": {
+          "behavior_step": 0,
+          "pair_id": "fa4067656626c46bf5573b6b532a9fac3c99378599c2f59e516ec237d5103c38",
+          "purpose": "fixed",
+          "shard_count": 185,
+          "source_fingerprint_sha256": "77c5c46ba0b4aa81ad04b39c5096d70293c7869328cbb44b1e036ed15ffa7540"
+        },
+        "recent": {
+          "behavior_step": 100,
+          "pair_id": "757449b710e074cd58b439b3a07d17992698c1d6e910f2be7de7c88d2ba6d9ac",
+          "purpose": "rolling",
+          "shard_count": 185,
+          "source_fingerprint_sha256": "f9045a2775ea781f19ab2dbfd0540fb5c7004fefcad6ba96220dc0eb257ef4ab"
+        },
+        "split": "development",
+        "target_step": 120,
+        "training_seed": 20260826
+      },
+      {
+        "old": {
+          "behavior_step": 0,
+          "pair_id": "507ba45af5a58b7ef6b41566e1caef16673ede6451afd2d739917fd29fe479ba",
+          "purpose": "fixed",
+          "shard_count": 185,
+          "source_fingerprint_sha256": "c32289dff0bfc1435790dfac90db1315642d820ab8a33cda94e333656902ee63"
+        },
+        "recent": {
+          "behavior_step": 100,
+          "pair_id": "c69fe222449c5c0a6e971932dba0feaba0f3b567fe5c84bdd4f3bb417baf4423",
+          "purpose": "rolling",
+          "shard_count": 185,
+          "source_fingerprint_sha256": "fdbd74ffe7069413969ef5ec2745fb4efd5e8a7605d0a958be70f57b5cf43925"
+        },
+        "split": "development",
+        "target_step": 140,
+        "training_seed": 20260826
+      },
+      {
+        "old": {
+          "behavior_step": 0,
+          "pair_id": "64f6e964d9e85a266f8e672de1de4f1a69f4652347102c46ca068cb8c435679e",
+          "purpose": "fixed",
+          "shard_count": 185,
+          "source_fingerprint_sha256": "0d4a8bfb40c98b30d7438958167286d4cc8f9ac6e89228c8afab9474966a693f"
+        },
+        "recent": {
+          "behavior_step": 100,
+          "pair_id": "b05d4ff2c1b714eafd2a263bde467ee98476569e01c5daaae22e982900ace130",
+          "purpose": "rolling",
+          "shard_count": 185,
+          "source_fingerprint_sha256": "6fd9cf6a2b6639fb5102623fe2e5abc4eb414ecaa9410f3fe0a97096f3cc0491"
+        },
+        "split": "development",
+        "target_step": 160,
+        "training_seed": 20260826
+      },
+      {
+        "old": {
+          "behavior_step": 0,
+          "pair_id": "8f68826d1d9a5c7568a5f19e4a96d327701a3850c25855856ccb431e06c5b62f",
+          "purpose": "fixed",
+          "shard_count": 185,
+          "source_fingerprint_sha256": "25440c0e662358eaed4493ba29c9ae746ff9667994ad0031455219b6ff90207b"
+        },
+        "recent": {
+          "behavior_step": 100,
+          "pair_id": "a1d1257c47076a4c87cc930f482cdbd41b3bfc22952b23b1c9ae490eca1df70d",
+          "purpose": "rolling",
+          "shard_count": 185,
+          "source_fingerprint_sha256": "c6ee73a39939c2dd648c3dc9a859ed0cee4674bdec930e47aff7d2450f38cef4"
+        },
+        "split": "development",
+        "target_step": 180,
+        "training_seed": 20260826
+      },
+      {
+        "old": {
+          "behavior_step": 0,
+          "pair_id": "bf37b2b29a86b3edf9243c697d67e54a160e941bd4e1778f2042789a000ba997",
+          "purpose": "fixed",
+          "shard_count": 185,
+          "source_fingerprint_sha256": "e8d91c5c7e5d770c5a18256d9bc7bd14ddbe573488a4cbe353cd2615b5c9af03"
+        },
+        "recent": {
+          "behavior_step": 100,
+          "pair_id": "aab9b5cc42d9f2bf760418a1477994e77c37de41954cfa3aea6a151bd54d56fc",
+          "purpose": "rolling",
+          "shard_count": 185,
+          "source_fingerprint_sha256": "e4c0d0afd7e2de276504b5a0a0569df9fc17d8e802ecf589cf618b9b33dd786d"
+        },
+        "split": "development",
+        "target_step": 200,
+        "training_seed": 20260826
+      },
+      {
+        "old": {
+          "behavior_step": 0,
+          "pair_id": "76a3f6d45eb313e454362ade59d25a8f809434d625bb5015c85315722d9eb945",
+          "purpose": "fixed",
+          "shard_count": 185,
+          "source_fingerprint_sha256": "7301af19a57fd5619c3bfb5d39efff54fde05a039a556948f075fdb186cadf6f"
+        },
+        "recent": {
+          "behavior_step": 200,
+          "pair_id": "77e7330346c1c1a8869cd8a7bcc28aca52cc411e6459b1b5b47c981662b82a48",
+          "purpose": "rolling",
+          "shard_count": 185,
+          "source_fingerprint_sha256": "e2d86f8164c7eabbe650dceb59198987ed0f115c151125caba33a3951ef8c0dc"
+        },
+        "split": "development",
+        "target_step": 220,
+        "training_seed": 20260826
+      },
+      {
+        "old": {
+          "behavior_step": 0,
+          "pair_id": "15a1beaa486fcea9b4531ebc625d900558ee99fd61db97f4853afea5d2390cc6",
+          "purpose": "fixed",
+          "shard_count": 185,
+          "source_fingerprint_sha256": "8a96306cd33941e7b20bd189a71a1e2fde873dec8aaf2c8fe08b827fe1a5075a"
+        },
+        "recent": {
+          "behavior_step": 200,
+          "pair_id": "ab4b3ac91378097179be84fe9cd5f3801b06fc14535599a92b88ead0e2a80140",
+          "purpose": "rolling",
+          "shard_count": 185,
+          "source_fingerprint_sha256": "5d90089b7848a85d307e0d59aa140f9360c2c00014b3fb3cd81d47e9299b4164"
+        },
+        "split": "development",
+        "target_step": 240,
+        "training_seed": 20260826
+      },
+      {
+        "old": {
+          "behavior_step": 0,
+          "pair_id": "d96058717d49ac5f6ec3b83265389c5d065deb28993513249cd5681ccc916d16",
+          "purpose": "fixed",
+          "shard_count": 185,
+          "source_fingerprint_sha256": "74a6e9fdc1f74bf82fa2a673d173f642fee59db85bb38ba4f40ce249e204fd9d"
+        },
+        "recent": {
+          "behavior_step": 200,
+          "pair_id": "3d01879c808a242c2f8d596c2dd1772af8c7b6cfe607c4cefbf5a5a2360dbcf0",
+          "purpose": "rolling",
+          "shard_count": 185,
+          "source_fingerprint_sha256": "587a5bbfd02405b6e010a80e2512bfafe0ef9335169b2e5e6c29c7784b7b7e6e"
+        },
+        "split": "development",
+        "target_step": 260,
+        "training_seed": 20260826
+      },
+      {
+        "old": {
+          "behavior_step": 0,
+          "pair_id": "29ef51823ea7ab6f9d5137b16770597d6acba94bf86a86e2662b4ed669bdbd8b",
+          "purpose": "fixed",
+          "shard_count": 185,
+          "source_fingerprint_sha256": "c1e991111d226fb5771669ac1b3e764de151f7e0d40b107960d86fe0cd476181"
+        },
+        "recent": {
+          "behavior_step": 200,
+          "pair_id": "cd517aca11df373dafc18814bd84e556619346ab4d0339277d537b82b52db90a",
+          "purpose": "rolling",
+          "shard_count": 185,
+          "source_fingerprint_sha256": "f6aa421f37d84aa28a62288194aee87c665aee692405074c9e731c2122fcdb32"
+        },
+        "split": "development",
+        "target_step": 280,
+        "training_seed": 20260826
+      },
+      {
+        "old": {
+          "behavior_step": 0,
+          "pair_id": "a69117f1412e76eb73b4f8f448e6837390b4a582ec09927ec6fdd3e51b5c99ee",
+          "purpose": "fixed",
+          "shard_count": 185,
+          "source_fingerprint_sha256": "9f76e43a4454668db5a0a9a15cd4aa908695c3e9321f01d4f9575a867449ee3b"
+        },
+        "recent": {
+          "behavior_step": 200,
+          "pair_id": "f7dee2cbcb4513ec899fe0963234a716d39c1d5974e5aaafda25e64829886d81",
+          "purpose": "rolling",
+          "shard_count": 185,
+          "source_fingerprint_sha256": "b57dfea8ab3355bb252b9de79f9ecafd193b8f6284a7d0fec481853df15d877a"
+        },
+        "split": "development",
+        "target_step": 300,
+        "training_seed": 20260826
+      },
+      {
+        "old": {
+          "behavior_step": 0,
+          "pair_id": "ff202547e2ba1cd94b8f0c9465aee03248a92517625f91ce96b997df43f47128",
+          "purpose": "fixed",
+          "shard_count": 185,
+          "source_fingerprint_sha256": "e015ea3c321c4649bc43fd1119f0e8e27fa9784ac29664699a93e602d15f2eda"
+        },
+        "recent": {
+          "behavior_step": 300,
+          "pair_id": "603624f3a0496cbe1ea9f4d5c30b4d6dd3e3e34d953c4444b29759a4b9492268",
+          "purpose": "rolling",
+          "shard_count": 185,
+          "source_fingerprint_sha256": "1bddb2d913a0bed6e28c945bc7fac0d1a79b96c490f3d405048517ce343b2fd3"
+        },
+        "split": "development",
+        "target_step": 320,
+        "training_seed": 20260826
+      },
+      {
+        "old": {
+          "behavior_step": 0,
+          "pair_id": "3d0375d04663737fcb2e5119e062a0caecb11b158c500c52232bde625d70db0e",
+          "purpose": "fixed",
+          "shard_count": 185,
+          "source_fingerprint_sha256": "8cc45efd28eb215e039d90e2eeb68c7410fda595e4cabf74e8086702f9e27510"
+        },
+        "recent": {
+          "behavior_step": 300,
+          "pair_id": "d767351ce6302a995d837d61be1da89ddc0232564011ad5f3e091f67cd5477fd",
+          "purpose": "rolling",
+          "shard_count": 185,
+          "source_fingerprint_sha256": "01a71c66e17a0aa14c5e4883c13fee06b3cbbfd8f0870776bd81960fca00d2d9"
+        },
+        "split": "development",
+        "target_step": 340,
+        "training_seed": 20260826
+      },
+      {
+        "old": {
+          "behavior_step": 0,
+          "pair_id": "d1bab5b0c229b0970500d406a7832ff1dd89727f7bc15f7ec905c2aee2442476",
+          "purpose": "fixed",
+          "shard_count": 185,
+          "source_fingerprint_sha256": "37d1d7fc0939f69d2c2c23e7a1edc74225c22c5e98fb9be3a70efc0a6042cd09"
+        },
+        "recent": {
+          "behavior_step": 300,
+          "pair_id": "3fee725cb6fd18af33b2e2c191c2bd49782759e63eee81786bdba0608f718c4e",
+          "purpose": "rolling",
+          "shard_count": 185,
+          "source_fingerprint_sha256": "835d518b6211ebfe9eb4d1ea5318b1c3448b78eadce7b473f06036ae9e2b1c39"
+        },
+        "split": "development",
+        "target_step": 360,
+        "training_seed": 20260826
+      },
+      {
+        "old": {
+          "behavior_step": 0,
+          "pair_id": "710e329b3f21cb99aad86845d14bfb061febc621fa14884570f111c4de59c695",
+          "purpose": "fixed",
+          "shard_count": 185,
+          "source_fingerprint_sha256": "615b3b1bfd7abe846f3bae7efe1fedbb592e7da15fb0a371ab26d9dc74bedd15"
+        },
+        "recent": {
+          "behavior_step": 300,
+          "pair_id": "e6d078af92bfb26a0da10d6072b7131cc1e9c96956c64579a7b5b7a345271fae",
+          "purpose": "rolling",
+          "shard_count": 185,
+          "source_fingerprint_sha256": "6c0234dc2e9a24c5ffbf16fb227401cf110fd46c508062e6d0265c93bb83f274"
+        },
+        "split": "development",
+        "target_step": 380,
+        "training_seed": 20260826
+      },
+      {
+        "old": {
+          "behavior_step": 0,
+          "pair_id": "1eb9fdbaf911b4275943417cd926b0a3275128489b7ba2a8b3b419d4da840d0e",
+          "purpose": "fixed",
+          "shard_count": 185,
+          "source_fingerprint_sha256": "298a90faafad6ab0599fa710b13dc2f34027fcd3fa400b49499cc8260c31b386"
+        },
+        "recent": {
+          "behavior_step": 300,
+          "pair_id": "c06130e24e9acccbaab4908bd14d3792a4cebb22f588f5d053eedf43520f8cd7",
+          "purpose": "rolling",
+          "shard_count": 185,
+          "source_fingerprint_sha256": "82bc022c680ede1c168e3473890223c25f917d645c8f75096af8f40196b87643"
+        },
+        "split": "development",
+        "target_step": 400,
+        "training_seed": 20260826
+      },
+      {
+        "old": {
+          "behavior_step": 0,
+          "pair_id": "dd75556317ec76f6f9e3501b9e3d755979b6992570373f9f12f334af1fb44465",
+          "purpose": "fixed",
+          "shard_count": 185,
+          "source_fingerprint_sha256": "be88d4ff6d334e5a3abe15f28b6a958adbe8f691d4ed3a51e2dc10311d7f1e54"
+        },
+        "recent": {
+          "behavior_step": 100,
+          "pair_id": "c243936e81b3075e604f4434f749a400472940f3c780b8d6f12abf20e0d89840",
+          "purpose": "rolling",
+          "shard_count": 185,
+          "source_fingerprint_sha256": "08d79c60e9a11079977e585bed3d1c9ecbdf916e07f875af83068166d3dd9ff0"
+        },
+        "split": "development",
+        "target_step": 120,
+        "training_seed": 20260827
+      },
+      {
+        "old": {
+          "behavior_step": 0,
+          "pair_id": "6d49665b6111d35ad2df4f8f7e385af37703fc02d39bb0e76994b9c20355a66d",
+          "purpose": "fixed",
+          "shard_count": 185,
+          "source_fingerprint_sha256": "a291138cd47db12d7d74fa63f6a8c20dbd88775f1951017a58a1c295321d8bbe"
+        },
+        "recent": {
+          "behavior_step": 100,
+          "pair_id": "9a6b704db2a1cb98533d2e409edc897e4889b0246458c1f21a7eb2a53c52b396",
+          "purpose": "rolling",
+          "shard_count": 185,
+          "source_fingerprint_sha256": "cae98b44c9d22c53223753816be6891a0efb01df4913cae7a6b9644938672a0f"
+        },
+        "split": "development",
+        "target_step": 140,
+        "training_seed": 20260827
+      },
+      {
+        "old": {
+          "behavior_step": 0,
+          "pair_id": "ed340e873a2f232fe1e82be602198b42a30ebebe6026d3182f2077958a25c65e",
+          "purpose": "fixed",
+          "shard_count": 185,
+          "source_fingerprint_sha256": "6ec328d42c29bf9306c28038f09edfbb2b798c6830449e537115a79a6a2d86d3"
+        },
+        "recent": {
+          "behavior_step": 100,
+          "pair_id": "e32edc1def1c7c2d771e898333ce39cf5edacbc7c5e007827f35b834835e9db0",
+          "purpose": "rolling",
+          "shard_count": 185,
+          "source_fingerprint_sha256": "05dac707de785ec5875979a52d072b5a9c857f60012addb347069a73357b94ec"
+        },
+        "split": "development",
+        "target_step": 160,
+        "training_seed": 20260827
+      },
+      {
+        "old": {
+          "behavior_step": 0,
+          "pair_id": "c9f0805d0a1e55373fed2fdb9f6036b96528582f8cc447878ddf2bba76c1a377",
+          "purpose": "fixed",
+          "shard_count": 185,
+          "source_fingerprint_sha256": "44c04f682a7c57ed4d4249dcfa3bb257f2e9460f51560290774e087e1609fd93"
+        },
+        "recent": {
+          "behavior_step": 100,
+          "pair_id": "bc8cabd28cccdbed8e504c32e96a9c8755878c4f8f201e8224a94c9f7e82c548",
+          "purpose": "rolling",
+          "shard_count": 185,
+          "source_fingerprint_sha256": "f67d3b31014fc20bec7dca5dce16536d9bdcbc60a136ee526cefa1a509cf5554"
+        },
+        "split": "development",
+        "target_step": 180,
+        "training_seed": 20260827
+      },
+      {
+        "old": {
+          "behavior_step": 0,
+          "pair_id": "dea05c8bc5604e74c5607c6f007fc4ccc5926c89b5b29ac37035f5446b05eaf1",
+          "purpose": "fixed",
+          "shard_count": 185,
+          "source_fingerprint_sha256": "a367fb0dcfd7f4a01c63aa8a0071c906afdd282bc7adf4bd8b405ca0126a1f29"
+        },
+        "recent": {
+          "behavior_step": 100,
+          "pair_id": "7783556ad099da58a6de84d99714c53493aaad3016a7a785816e460bebf59fba",
+          "purpose": "rolling",
+          "shard_count": 185,
+          "source_fingerprint_sha256": "83d1adca7c45924ddc98b428b5f0817d967aa010c1655ab0518196ffed869585"
+        },
+        "split": "development",
+        "target_step": 200,
+        "training_seed": 20260827
+      },
+      {
+        "old": {
+          "behavior_step": 0,
+          "pair_id": "5daf1dd9e628030163f3491fcf284634d7d4a30f13e5600a4966aefbbda795be",
+          "purpose": "fixed",
+          "shard_count": 185,
+          "source_fingerprint_sha256": "65e1686fee275ab0ce8d9cd6c3a1457f0ccaa2c05dfa37ea79e865757cea6a92"
+        },
+        "recent": {
+          "behavior_step": 200,
+          "pair_id": "c8c93205e307413dcd04bc185ff98fc66bbd04c929ecf7685cc108749ab1828d",
+          "purpose": "rolling",
+          "shard_count": 185,
+          "source_fingerprint_sha256": "e1ccc600966c1b97cb6422626aadb6d778117f8e10b74e2488f3eebf18bbe412"
+        },
+        "split": "development",
+        "target_step": 220,
+        "training_seed": 20260827
+      },
+      {
+        "old": {
+          "behavior_step": 0,
+          "pair_id": "2055e1e2c93b41f0f5d36c1f9e928e912ed296d69009e3a96a99ec5f02727c13",
+          "purpose": "fixed",
+          "shard_count": 185,
+          "source_fingerprint_sha256": "ac2850c0b941bf640bfb3ff3169c7598f1915d5f01319aa94b7be6db3d2e1f71"
+        },
+        "recent": {
+          "behavior_step": 200,
+          "pair_id": "1a46fb97dbc1087cafbc713e7c925f203181381a38191a16f87a279ac6ebbf34",
+          "purpose": "rolling",
+          "shard_count": 185,
+          "source_fingerprint_sha256": "4dbf72bd0cb436a501670dd8962619096f6a3cde5c46d2cfb6be55c7d3074ab7"
+        },
+        "split": "development",
+        "target_step": 240,
+        "training_seed": 20260827
+      },
+      {
+        "old": {
+          "behavior_step": 0,
+          "pair_id": "ac511aa387c3c694377412fe341e1f107a6610944ac170a678d932d7dccb6381",
+          "purpose": "fixed",
+          "shard_count": 185,
+          "source_fingerprint_sha256": "89cb6f6fc6b9ac75ac239364e0e7360d95074d0cd997fbb9cf1e7b40be148479"
+        },
+        "recent": {
+          "behavior_step": 200,
+          "pair_id": "232f24fd8af04340ed3016d2fcdd78421f023431e78f9e7991e6160be0b28726",
+          "purpose": "rolling",
+          "shard_count": 185,
+          "source_fingerprint_sha256": "c2a231a6cc34e522d55a6610735558e52e1f912b18332caecb7b4ec84078c085"
+        },
+        "split": "development",
+        "target_step": 260,
+        "training_seed": 20260827
+      },
+      {
+        "old": {
+          "behavior_step": 0,
+          "pair_id": "790a2cef8df6707f2c4bab8925fa2fa1caaa769a3d298f14c08960625c670c1c",
+          "purpose": "fixed",
+          "shard_count": 185,
+          "source_fingerprint_sha256": "483c479dc36ba264d254fae839cdf985aadd1c4e630496b3b4a097a666bcb6cf"
+        },
+        "recent": {
+          "behavior_step": 200,
+          "pair_id": "fbad71339f2d515edae9c9064eced9d97a0de5416890958db7efd37ad8522b3d",
+          "purpose": "rolling",
+          "shard_count": 185,
+          "source_fingerprint_sha256": "a022d69e1a92ca6206b41028624129c5b6d13adf9cb3f0c77634d1fccd00e120"
+        },
+        "split": "development",
+        "target_step": 280,
+        "training_seed": 20260827
+      },
+      {
+        "old": {
+          "behavior_step": 0,
+          "pair_id": "76bfce29463768f5161f87387da77070fcd05ce21104e7187623e2c9fa02df19",
+          "purpose": "fixed",
+          "shard_count": 185,
+          "source_fingerprint_sha256": "a7a1b7a3ffcd46ce0fe3024d0e2fe18fedc48fabf0ec4ffda62077dfa1bf2efe"
+        },
+        "recent": {
+          "behavior_step": 200,
+          "pair_id": "de5e7be0df4320fe225865708d779e3689a93dd7ae066fca86805e53faad2eab",
+          "purpose": "rolling",
+          "shard_count": 185,
+          "source_fingerprint_sha256": "31c46dee00375cf9120427156b779cc290bfcc71b74f54eb69d1b6a2b44512fb"
+        },
+        "split": "development",
+        "target_step": 300,
+        "training_seed": 20260827
+      },
+      {
+        "old": {
+          "behavior_step": 0,
+          "pair_id": "a13962aee9be2717016639f47eecf60df23505434378aee9103a5c0cec7b4976",
+          "purpose": "fixed",
+          "shard_count": 185,
+          "source_fingerprint_sha256": "d3810f8236b56c2e54f47e69fa231a61352fc417f2a845434a1361e2547fadbc"
+        },
+        "recent": {
+          "behavior_step": 300,
+          "pair_id": "f4ad2595d1b92174b9756ba816c140a32e8f824582d01d8996ef0e14c170c33b",
+          "purpose": "rolling",
+          "shard_count": 185,
+          "source_fingerprint_sha256": "2758584f2a30c298093933fa0fca47d3d5a79c176589b40419e166eca411dbae"
+        },
+        "split": "development",
+        "target_step": 320,
+        "training_seed": 20260827
+      },
+      {
+        "old": {
+          "behavior_step": 0,
+          "pair_id": "1b86e64bf088a254257f2eac603400a5cdd831725a3f317fefc15788830e492c",
+          "purpose": "fixed",
+          "shard_count": 185,
+          "source_fingerprint_sha256": "59fe865a5391b4ec22ffc34609156c241685da46083fc4bd2660aac09bbe30b3"
+        },
+        "recent": {
+          "behavior_step": 300,
+          "pair_id": "00c5185f3c970b91d1697b30763dabd47021538f17c0ede73686a0df25ee6ea8",
+          "purpose": "rolling",
+          "shard_count": 185,
+          "source_fingerprint_sha256": "268ca0b88d0fe956be05ca9de931524f979908db1f1c22cadf9cee845f465d44"
+        },
+        "split": "development",
+        "target_step": 340,
+        "training_seed": 20260827
+      },
+      {
+        "old": {
+          "behavior_step": 0,
+          "pair_id": "ba53a962ccf804d221f74112bbe6f8ec0f3df86275f1ea4ff8794ef61c3dc70b",
+          "purpose": "fixed",
+          "shard_count": 185,
+          "source_fingerprint_sha256": "a86949527b4250d7629b2b24c40ff9d40dde74d48e621cd38572158efd24f031"
+        },
+        "recent": {
+          "behavior_step": 300,
+          "pair_id": "68c45b27956343ab3b5731b46a840bccb5e0050076f3c58c859769a5e9802e45",
+          "purpose": "rolling",
+          "shard_count": 185,
+          "source_fingerprint_sha256": "df31fecf9044b1ca60060c650183889e787b90aa3130bec13761566bba243700"
+        },
+        "split": "development",
+        "target_step": 360,
+        "training_seed": 20260827
+      },
+      {
+        "old": {
+          "behavior_step": 0,
+          "pair_id": "b4c4ead1aeb8c4060d50370e0f9a648a06828097baa59b8caff1a44fcac5a877",
+          "purpose": "fixed",
+          "shard_count": 185,
+          "source_fingerprint_sha256": "0ef81513bf7fad6a8e6dee05785b800529d0e74a6547a17460ef62133c0d180e"
+        },
+        "recent": {
+          "behavior_step": 300,
+          "pair_id": "75ef6041b81e5cf85531ff51a4c94ef14df93e46da39a72180931b0fd7331954",
+          "purpose": "rolling",
+          "shard_count": 185,
+          "source_fingerprint_sha256": "29571200bef118996a4d465d04056508038a4e5ce3cc0c06168918f1bd10f041"
+        },
+        "split": "development",
+        "target_step": 380,
+        "training_seed": 20260827
+      },
+      {
+        "old": {
+          "behavior_step": 0,
+          "pair_id": "79167394eee2fc8b33bb8cd8f8573837c191b8ce0d44cb08a83ef517a1cddcf2",
+          "purpose": "fixed",
+          "shard_count": 185,
+          "source_fingerprint_sha256": "62a4926f98d0e20fa980265761b4a67a42e7852c4d0be3d741bc0ba1c7cd7bdb"
+        },
+        "recent": {
+          "behavior_step": 300,
+          "pair_id": "8f609cf18509860668aa29edec67452b9c9f7be2d8c272675b1ea84d2233d53f",
+          "purpose": "rolling",
+          "shard_count": 185,
+          "source_fingerprint_sha256": "612b2b64426dac045c84e3f9122283162e8f049c9d64460a4744001b013fa9e3"
+        },
+        "split": "development",
+        "target_step": 400,
+        "training_seed": 20260827
+      },
+      {
+        "old": {
+          "behavior_step": 0,
+          "pair_id": "bfb339dddfec89238b07b555c22ae1ba684d70c5efdab29086fb48af283bb490",
+          "purpose": "fixed",
+          "shard_count": 185,
+          "source_fingerprint_sha256": "be84771c6f6d372a786bcc30d03521f95cf263c11b664891864774293e15a3d7"
+        },
+        "recent": {
+          "behavior_step": 100,
+          "pair_id": "fbac5ea8b2721fc9d919cf549b389f2fb08effd7456b2deaec329d2c30f2bae5",
+          "purpose": "rolling",
+          "shard_count": 185,
+          "source_fingerprint_sha256": "ed7a2f78dd2e1122a2d13802e83a0918cdb6884f84274df9a70b0c3a9e082934"
+        },
+        "split": "development",
+        "target_step": 120,
+        "training_seed": 20260828
+      },
+      {
+        "old": {
+          "behavior_step": 0,
+          "pair_id": "fff552c5c17569d3a61f7280828e32bc105a6b78ec8cb69328cbdfa9c4785371",
+          "purpose": "fixed",
+          "shard_count": 185,
+          "source_fingerprint_sha256": "9aec8a0fafd38b777061622f87d98729f1263002b6637462a2fb05ab594b7757"
+        },
+        "recent": {
+          "behavior_step": 100,
+          "pair_id": "fef2cbd165b9401fc41cf56d0397862653686f573787caeadc56ddd4e4502a7a",
+          "purpose": "rolling",
+          "shard_count": 185,
+          "source_fingerprint_sha256": "1f4c1e6ca037232a2bf8ab1572196bdc56789a4cc8dffad5438e414000e4d3dc"
+        },
+        "split": "development",
+        "target_step": 140,
+        "training_seed": 20260828
+      },
+      {
+        "old": {
+          "behavior_step": 0,
+          "pair_id": "064764c7c038b530b567786aa7b37fd7b40d41db279eb976f865afdea1b269c5",
+          "purpose": "fixed",
+          "shard_count": 185,
+          "source_fingerprint_sha256": "980b2b6800318c9abf227c2a821ae8e6521804ff73ae90e73afc5ddbb25172dc"
+        },
+        "recent": {
+          "behavior_step": 100,
+          "pair_id": "121e19adf86b7273e78dfe1986f8efc61ce1f96e1d25af773f0e507866e99e32",
+          "purpose": "rolling",
+          "shard_count": 185,
+          "source_fingerprint_sha256": "02e64d0c3c7616dcfcc75884a52505def7779040a77576087a5d6645cd678e40"
+        },
+        "split": "development",
+        "target_step": 160,
+        "training_seed": 20260828
+      },
+      {
+        "old": {
+          "behavior_step": 0,
+          "pair_id": "51f0a7c3d61f75e5e9fca51fac9926315549cd9dad9b25b05ad0d469b43170c4",
+          "purpose": "fixed",
+          "shard_count": 185,
+          "source_fingerprint_sha256": "39ec5ae90dc39d83b85ffb3e294bf816e99c0db9e271e1bba10f0adf003d3573"
+        },
+        "recent": {
+          "behavior_step": 100,
+          "pair_id": "a407c89c33df5fa8198ad5909d264ececdb7621b23c5f67cf326d7de9444261a",
+          "purpose": "rolling",
+          "shard_count": 185,
+          "source_fingerprint_sha256": "7c07b11c3eea2576ba1d3250232f2c1bf68213d3ba604f516e02faace593d4d7"
+        },
+        "split": "development",
+        "target_step": 180,
+        "training_seed": 20260828
+      },
+      {
+        "old": {
+          "behavior_step": 0,
+          "pair_id": "67c35d590fce938514ca71474d83cfc1ceed747806b574139b545acfa3c478d8",
+          "purpose": "fixed",
+          "shard_count": 185,
+          "source_fingerprint_sha256": "bae117debeba3062ff4af6b13b4a749213fbe42f803927dd2d9963489babc9ec"
+        },
+        "recent": {
+          "behavior_step": 100,
+          "pair_id": "8c8602e825522f28b95bfcb247fc25ba690a975ee7f1e807cd5363c49c73872e",
+          "purpose": "rolling",
+          "shard_count": 185,
+          "source_fingerprint_sha256": "c3e541869f1b6d0eea01f43cfffc75fff5da5f319cbb00af9546ee4495f33bce"
+        },
+        "split": "development",
+        "target_step": 200,
+        "training_seed": 20260828
+      },
+      {
+        "old": {
+          "behavior_step": 0,
+          "pair_id": "1af1da27dbd5acfbe1ca257f0910ec1f68219eff8a44bdc4a5617c27e82c6eec",
+          "purpose": "fixed",
+          "shard_count": 185,
+          "source_fingerprint_sha256": "38b9af775a9f9d71a81c72bffacbcce5089e424a19888ec665425cb9a0e9b128"
+        },
+        "recent": {
+          "behavior_step": 200,
+          "pair_id": "1795f643e40ac53f6b8ffdbdcb4f0ea4fb5a08bb2ca3f78237250a62269a2e7a",
+          "purpose": "rolling",
+          "shard_count": 185,
+          "source_fingerprint_sha256": "ad7e398e61b1a7ed6e67148427b5d484e39ffa4e0c591536263f3918cd5fcba9"
+        },
+        "split": "development",
+        "target_step": 220,
+        "training_seed": 20260828
+      },
+      {
+        "old": {
+          "behavior_step": 0,
+          "pair_id": "45e49a6f85818d00cebb48a1c1caea6ca34c4e5204e8e3330a4685dd10afb233",
+          "purpose": "fixed",
+          "shard_count": 185,
+          "source_fingerprint_sha256": "ef7b10333027d678e5eeae8b2c2d6e856f0e0a4d1cffcf7a61877d3d83034bfa"
+        },
+        "recent": {
+          "behavior_step": 200,
+          "pair_id": "eee7e539cc8b0be97402d89b8b9d37709cd1b4baac49eff634ff392958d4e050",
+          "purpose": "rolling",
+          "shard_count": 185,
+          "source_fingerprint_sha256": "05e3e497bd2a21719707e64c2e825d08e24ad01830e0088a08dce2ada5edac49"
+        },
+        "split": "development",
+        "target_step": 240,
+        "training_seed": 20260828
+      },
+      {
+        "old": {
+          "behavior_step": 0,
+          "pair_id": "9f3ad683230a8b8783c1dd63f3b4ec130f6c73ca17e23e8d12329e7a044547cc",
+          "purpose": "fixed",
+          "shard_count": 185,
+          "source_fingerprint_sha256": "1114fadfaac64659af923869d7f34254efc422c67402eed68556956a2d8a7282"
+        },
+        "recent": {
+          "behavior_step": 200,
+          "pair_id": "3c0fb07d93fea8483790c4f49b087948ae4a5e120ed292b5df322736aabe9f22",
+          "purpose": "rolling",
+          "shard_count": 185,
+          "source_fingerprint_sha256": "0518db97482a2e57bbc79b6d14f685907bbb9d0b1959888482dc5b614d824053"
+        },
+        "split": "development",
+        "target_step": 260,
+        "training_seed": 20260828
+      },
+      {
+        "old": {
+          "behavior_step": 0,
+          "pair_id": "33821252b79cfe4f29862ef93faa03d04bb7e39445e02fd82731f95bdf376ab2",
+          "purpose": "fixed",
+          "shard_count": 185,
+          "source_fingerprint_sha256": "978b1bd433bb184f98f51ab81367774a7df38209845736255f2020e509ad0bad"
+        },
+        "recent": {
+          "behavior_step": 200,
+          "pair_id": "cc24f0d36582e23824ee6b69b89619044ca6401d4f2d9eef0db0c67a25ebffbf",
+          "purpose": "rolling",
+          "shard_count": 185,
+          "source_fingerprint_sha256": "e8e4853ad4dce8cf4ed4a1ebafd1005606a28624cf1a82d5e6c4b6e6cd6d9ee6"
+        },
+        "split": "development",
+        "target_step": 280,
+        "training_seed": 20260828
+      },
+      {
+        "old": {
+          "behavior_step": 0,
+          "pair_id": "922bb54097e99863b1aa304a815f82877e05989fd504555f88815a6e4c993a3d",
+          "purpose": "fixed",
+          "shard_count": 185,
+          "source_fingerprint_sha256": "fa683bc57430528a87abc69d686c4e4ceb78fc9e65fa5f298134d75949d99076"
+        },
+        "recent": {
+          "behavior_step": 200,
+          "pair_id": "9405bc8ee9c6fac3d542ab93992463b78b7ad670ddda2a563006f93301ecc6f0",
+          "purpose": "rolling",
+          "shard_count": 185,
+          "source_fingerprint_sha256": "96cd0e252b6009892df46b1c61791e6c7b550f878ff5e8433cea4574d2ac7b4c"
+        },
+        "split": "development",
+        "target_step": 300,
+        "training_seed": 20260828
+      },
+      {
+        "old": {
+          "behavior_step": 0,
+          "pair_id": "b8aa67e75f68c2681536170980d3801ee5825a00c212aa272ba8431a570878d8",
+          "purpose": "fixed",
+          "shard_count": 185,
+          "source_fingerprint_sha256": "149ee2c78949798c70b1263a0b103fc702838760673d2e95ebc33e099c000c8e"
+        },
+        "recent": {
+          "behavior_step": 300,
+          "pair_id": "0334d141a31068a83a040516e24bce2974f101dbe0a03f1ba482ddfd3e030e4c",
+          "purpose": "rolling",
+          "shard_count": 185,
+          "source_fingerprint_sha256": "b33b2bb0eaac26c3aa3592692b4afe2ca8a9bccf5f70d6d201f37c445a395e92"
+        },
+        "split": "development",
+        "target_step": 320,
+        "training_seed": 20260828
+      },
+      {
+        "old": {
+          "behavior_step": 0,
+          "pair_id": "9a299a3489fd4dc9e342c3e72caa275b370546f8fc955b393356014dd05f6735",
+          "purpose": "fixed",
+          "shard_count": 185,
+          "source_fingerprint_sha256": "9c4862b7e8cdb4cc8c5fbedf5cd5627680a0faed5a35d6e9c6aa969f3cc817a2"
+        },
+        "recent": {
+          "behavior_step": 300,
+          "pair_id": "d9680b78db4c1d9f07c385f6d84aa7f3cef7336e4beb1c17cad0225c8fb84ed3",
+          "purpose": "rolling",
+          "shard_count": 185,
+          "source_fingerprint_sha256": "80d82101f09837da86fde73840356910fbcaa28e0cb482f2e05a0a0b520a44e8"
+        },
+        "split": "development",
+        "target_step": 340,
+        "training_seed": 20260828
+      },
+      {
+        "old": {
+          "behavior_step": 0,
+          "pair_id": "e1eea64e2ee7fa2ba8a5ee627db549ebc3b904498c6f4ee06b4fafe0befbc52a",
+          "purpose": "fixed",
+          "shard_count": 185,
+          "source_fingerprint_sha256": "e44e4525df714660f20ee73d132e272886a15e4ad5f814ee6c511982f9339cad"
+        },
+        "recent": {
+          "behavior_step": 300,
+          "pair_id": "a046a677084cb4079e7d835bff81b724e1122f162dd58ed6610ba2e7b16ff894",
+          "purpose": "rolling",
+          "shard_count": 185,
+          "source_fingerprint_sha256": "e563a9a757029ea9dbd40695308752bda1db28e2fbcc9354f8b2471fb390e7f1"
+        },
+        "split": "development",
+        "target_step": 360,
+        "training_seed": 20260828
+      },
+      {
+        "old": {
+          "behavior_step": 0,
+          "pair_id": "4f362dffa35dfd39e2404c48373a83093c23ec10adf22658e348a84b6da01b24",
+          "purpose": "fixed",
+          "shard_count": 185,
+          "source_fingerprint_sha256": "33d6e11a3a3d0c002c18aa802d9ff2649ca806ecc37f57f830c995eb961fec86"
+        },
+        "recent": {
+          "behavior_step": 300,
+          "pair_id": "289afd36340ef47bfe001f9d097d2dc8fb9118615f1e99c2fa312ddf811f47fc",
+          "purpose": "rolling",
+          "shard_count": 185,
+          "source_fingerprint_sha256": "0d91018f7c051d354dd82b14779d22afe929fa639776424a0c684ce05d722edc"
+        },
+        "split": "development",
+        "target_step": 380,
+        "training_seed": 20260828
+      },
+      {
+        "old": {
+          "behavior_step": 0,
+          "pair_id": "999076497046848dcdfc39699954f8719960da9286890b2d21c48b504be557f3",
+          "purpose": "fixed",
+          "shard_count": 185,
+          "source_fingerprint_sha256": "55e4e0b96e9fffa8709d47af57896f611caf1344fb8ae26e7f53b0e6e61fa4f4"
+        },
+        "recent": {
+          "behavior_step": 300,
+          "pair_id": "4fa2b41f0c51a558d926234a47657fd3748834ee5ad4debbcacebedaea0b4116",
+          "purpose": "rolling",
+          "shard_count": 185,
+          "source_fingerprint_sha256": "bc7bbf76483e3c12d6a564370e167b2b9b0364fee87897d01d2e844ed25f0b73"
+        },
+        "split": "development",
+        "target_step": 400,
+        "training_seed": 20260828
+      },
+      {
+        "old": {
+          "behavior_step": 0,
+          "pair_id": "e956ab3ba81af34258928d2e7ecabf1f7965b110793b4e966a8c0f5600c169d3",
+          "purpose": "fixed",
+          "shard_count": 165,
+          "source_fingerprint_sha256": "563d6aa35576e896fc414efef8d77d859dd0c6bf32623efa0b5182fb1f0bc5b5"
+        },
+        "recent": {
+          "behavior_step": 100,
+          "pair_id": "1a159884782bc171bf139ed1bad1709a5a93cc7069573bcfb6b66a10fe03f2f4",
+          "purpose": "rolling",
+          "shard_count": 165,
+          "source_fingerprint_sha256": "205a845321ac74858412e04cd5b40901cf33d85e63f7d9e8925f2d399d58053b"
+        },
+        "split": "test",
+        "target_step": 160,
+        "training_seed": 20260826
+      },
+      {
+        "old": {
+          "behavior_step": 0,
+          "pair_id": "8348b24649cccd4d862347165ec70f739d225effd55f32f03f65f965c2ed401f",
+          "purpose": "fixed",
+          "shard_count": 165,
+          "source_fingerprint_sha256": "3fab9ad93db744adcec3958f3ef169dc38780fc36d79456b886ca9025c69e658"
+        },
+        "recent": {
+          "behavior_step": 200,
+          "pair_id": "e602dfbd652cee0f30b5c286b87ef852df11ab0b66d2f112caef5a5c647f6ece",
+          "purpose": "rolling",
+          "shard_count": 165,
+          "source_fingerprint_sha256": "896535b62dd8073b00e95f3df168e120c000c463478ba01d5a87fff9508bb691"
+        },
+        "split": "test",
+        "target_step": 260,
+        "training_seed": 20260826
+      },
+      {
+        "old": {
+          "behavior_step": 0,
+          "pair_id": "dd16ae1885ecf0dabcdf72ef42b17c649bfd1316c9456fbde369c767d8debc37",
+          "purpose": "fixed",
+          "shard_count": 165,
+          "source_fingerprint_sha256": "f7c5e60e49e91d21ef5777d50f1c229dd6c2adb3ec7fc768d79f3fe7e7fde5a6"
+        },
+        "recent": {
+          "behavior_step": 300,
+          "pair_id": "5274a83708063f22256ee79edbc774a12294f28dd481714c6d437a18a673ce00",
+          "purpose": "rolling",
+          "shard_count": 165,
+          "source_fingerprint_sha256": "03908427441046d0e2fa946c19ee7accc3eb2448fb073c6495da0a6a9ff421c3"
+        },
+        "split": "test",
+        "target_step": 360,
+        "training_seed": 20260826
+      },
+      {
+        "old": {
+          "behavior_step": 0,
+          "pair_id": "72f7901a32fafc79e0f188f34dbf7fa326ad048099d645abec4457450ac71833",
+          "purpose": "fixed",
+          "shard_count": 165,
+          "source_fingerprint_sha256": "9fcc8d3d4deec8305a381f0b9ba446a6215356620bc03bcaffee02f03483eb11"
+        },
+        "recent": {
+          "behavior_step": 100,
+          "pair_id": "ac92b04478943ecc0de2d4975efd75351cef84512a5f37f13fcefe70ff72a905",
+          "purpose": "rolling",
+          "shard_count": 165,
+          "source_fingerprint_sha256": "063d6bc2483dd3be3c21b3752733413d4b3c496b51f6e778d33da42f5feb3dd4"
+        },
+        "split": "test",
+        "target_step": 160,
+        "training_seed": 20260827
+      },
+      {
+        "old": {
+          "behavior_step": 0,
+          "pair_id": "e30b68181ed04e7ccf39e4d43eb22e49320d47c0400118b815ec040883a6ba68",
+          "purpose": "fixed",
+          "shard_count": 165,
+          "source_fingerprint_sha256": "d3d177320f5d4a232822f0fc131922cb9eb644d42ca44136835ddac8b862d2e5"
+        },
+        "recent": {
+          "behavior_step": 200,
+          "pair_id": "0a0dec3e943e1d43a86f2895e897712385dfc390a7596acf29999cebedc06bde",
+          "purpose": "rolling",
+          "shard_count": 165,
+          "source_fingerprint_sha256": "3955593faeaea91e4711de1c164f6030ca7e090c44b1171c7e0fa07438de0d73"
+        },
+        "split": "test",
+        "target_step": 260,
+        "training_seed": 20260827
+      },
+      {
+        "old": {
+          "behavior_step": 0,
+          "pair_id": "cb15baa2df5065e4dabfd8a00f0b632068faf4a61ab30107f3c13970eeaac795",
+          "purpose": "fixed",
+          "shard_count": 165,
+          "source_fingerprint_sha256": "d85143fd2548f604a32a5bdea768fb2c03b40ce12602b216fe47695f1a9c238b"
+        },
+        "recent": {
+          "behavior_step": 300,
+          "pair_id": "eb4b45b8379fc8905b5e7a048f341f3841e3caf82236b316debc3b2c439287b7",
+          "purpose": "rolling",
+          "shard_count": 165,
+          "source_fingerprint_sha256": "96f80476a86f587beb335f070d33d54444912ad25e7977a86a23b8cc81764137"
+        },
+        "split": "test",
+        "target_step": 360,
+        "training_seed": 20260827
+      },
+      {
+        "old": {
+          "behavior_step": 0,
+          "pair_id": "61298a53ef0101ac900f68c1dcb1fc932de5583948938dbd087bba1510fb2ab8",
+          "purpose": "fixed",
+          "shard_count": 165,
+          "source_fingerprint_sha256": "3ba8cf66e8d970beb4120c310c17d759b41873e780d57cdb20d6bf32a8d51a51"
+        },
+        "recent": {
+          "behavior_step": 100,
+          "pair_id": "e54bc009df79112b849015fa3d27a187c91b807dafe441fbcac7e31b3ad8edd3",
+          "purpose": "rolling",
+          "shard_count": 165,
+          "source_fingerprint_sha256": "503676610b04e54b498320971b52f857e8d263e8ed5f8492cd3af852f1911a65"
+        },
+        "split": "test",
+        "target_step": 160,
+        "training_seed": 20260828
+      },
+      {
+        "old": {
+          "behavior_step": 0,
+          "pair_id": "8d331e17c0d2df20a2bbfc11da5435ed98bde6690cc017fa6aab1273e714e9c2",
+          "purpose": "fixed",
+          "shard_count": 165,
+          "source_fingerprint_sha256": "0e84ebc4f3d961ae7a8faabe1dcdd26460441479fb996b9098a586512379b9b7"
+        },
+        "recent": {
+          "behavior_step": 200,
+          "pair_id": "b45b7f69d18b7801137dbe6ba74d03373e2746b4d6f1c2ba9d25bf6584471dc2",
+          "purpose": "rolling",
+          "shard_count": 165,
+          "source_fingerprint_sha256": "29507205c22666e049d061acf2a57c99cfbdac6719bace1fcddc1d9f1e97ffe9"
+        },
+        "split": "test",
+        "target_step": 260,
+        "training_seed": 20260828
+      },
+      {
+        "old": {
+          "behavior_step": 0,
+          "pair_id": "1bea01265e2d019ebd5899ee41618dd675aec70a97d693ed060f38ce98d44923",
+          "purpose": "fixed",
+          "shard_count": 165,
+          "source_fingerprint_sha256": "04c4baa1a14d533d5c7110ed145e919ebefbe6f630f4fbd0ad8454fbbde48f55"
+        },
+        "recent": {
+          "behavior_step": 300,
+          "pair_id": "2455acce7d764a3fa2ba0c188eb7b7006ca84317fc15044fb059d1e1b1d67dc3",
+          "purpose": "rolling",
+          "shard_count": 165,
+          "source_fingerprint_sha256": "6754c0629ad4c9e6e309bc5ae3ac6cf353d6d721d065040d61d6041f7ac1aa1d"
+        },
+        "split": "test",
+        "target_step": 360,
+        "training_seed": 20260828
+      }
+    ],
+    "test": 9
+  },
+  "created_at_utc": "2026-09-13T13:05:49Z",
+  "created_by": {
+    "program": "posthoc_alpha_mechanism_analysis_v2.py",
+    "program_version": "1.1"
+  },
+  "firewall": {
+    "calls_model": false,
+    "mutates_upstream_results": false,
+    "pair_selection_source": "exact prompt_wis matched-refresh rows already present in T04_rolling_comparison.csv",
+    "refits_gate": false,
+    "selects_new_pairs": false,
+    "uses_cuda": false,
+    "verify_shard_hashes": false
+  },
+  "inputs": {
+    "T04_path": "C:\\lsg\\grpo_ope_reuse\\outputs\\tables\\T04_rolling_comparison.csv",
+    "T04_sha256": "8898096d590eac52f9da2398d7f0c3fb0539ea26ac923f23f223738b9121a8d2",
+    "comparison_counts": {
+      "development": 45,
+      "test": 9
+    },
+    "program06_manifests": {
+      "development": {
+        "created_by": {
+          "program": "06_compute_ope_and_diagnostics.py",
+          "program_version": "1.2"
+        },
+        "path": "C:\\lsg\\grpo_ope_reuse\\outputs\\diagnostics\\program06_development_manifest.json",
+        "protocol_config_sha256": "2a4934d6036e5bc87e629dd2883dc7c38d65e0b98ad6bc248bec077ae654ecc8",
+        "sha256": "57de04eba567449ae92a4f3f738f36ad14b33887952c2ff2436adf4f80cd06a0"
+      },
+      "test": {
+        "created_by": {
+          "program": "06_compute_ope_and_diagnostics.py",
+          "program_version": "1.2"
+        },
+        "path": "C:\\lsg\\grpo_ope_reuse\\outputs\\diagnostics\\program06_test_manifest.json",
+        "protocol_config_sha256": "2a4934d6036e5bc87e629dd2883dc7c38d65e0b98ad6bc248bec077ae654ecc8",
+        "sha256": "13550c8e34f681be0ee109818c5d95307a12cf364678845169a7c4f058a1a84a"
+      }
+    }
+  },
+  "manifest_type": "posthoc_alpha_mechanism_manifest",
+  "mathematical_contract": {
+    "A_proxy_i": "V^2 + (1 - 2V) alpha_hat_i, using the matched pair aggregate finite on-policy reference V from T04",
+    "aggregation_contract": "For the prompt-averaged pWIS leading coefficient in Corollary 2, the publication-facing pair summary uses the arithmetic mean of promptwise m2 proxies. A geometric mean of promptwise m2 ratios is retained only as a heterogeneity diagnostic and is not used to classify aggregate risk.",
+    "alpha_hat_i": "sum_j W_ij^2 R_ij / sum_j W_ij^2",
+    "interpretation": "mechanism diagnostic only; not a finite-sample certificate and not confirmatory",
+    "log_kappa2_hat_i": "log((1/K) sum_j W_ij^2)",
+    "log_m2_proxy_i": "log_kappa2_hat_i + log(A_proxy_i)",
+    "scope_note": "A_proxy/m2_proxy use aggregate V rather than latent prompt-specific v_i; they are post-hoc mechanism diagnostics, not promptwise theoretical coefficient estimates"
+  },
+  "max_runtime_hours_guard": 7.5,
+  "outputs": [
+    {
+      "bytes": 35017,
+      "path": "outputs/posthoc_alpha/alpha_pair_summary.csv",
+      "sha256": "7aade4085914849a6b274f188da4a98936ca187ff103db892f7b326a834b8990"
+    },
+    {
+      "bytes": 1409,
+      "path": "outputs/posthoc_alpha/alpha_split_summary.csv",
+      "sha256": "630719a9c9de205e1442e67481643f443b972d2dbdc765977e4dec661443c26f"
+    },
+    {
+      "bytes": 8465129,
+      "path": "outputs/posthoc_alpha/alpha_prompt_detail.parquet",
+      "sha256": "7eb0f3874068da343cc08946f2fe430c6a122d7bab3aedf186d0fd00e2bc7df1"
+    },
+    {
+      "bytes": 682,
+      "path": "outputs/posthoc_alpha/README.txt",
+      "sha256": "b0fb1d71cfe40dce909a187827dd7af6a2c4690b2a7e52da926c1a25ba5e8951"
+    }
+  ],
+  "research_status": "exploratory_post_hoc",
+  "row_counts": {
+    "alpha_pair_summary": 54,
+    "alpha_prompt_detail": 78156,
+    "alpha_split_summary": 2
+  },
+  "runtime_seconds": 53.48399999999674,
+  "schema_version": "grpo_ope_posthoc_alpha_v2",
+  "source_code_sha256": "bbfdee0a984ac3110d6d590ade13a7ce059957c70ba25fafa77335d80ba19a09",
+  "started_at_utc": "2026-09-13T13:04:55Z"
+}

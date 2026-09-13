@@ -1,0 +1,21 @@
+\begin{table}[t]
+\centering
+\small
+\caption{Single KL-threshold baseline for the frozen reuse gate.}
+\label{tab:gate\_baseline}
+\begin{tabular}{lrrrrrrrrrr}
+\toprule
+dataset & evaluation role & gate kind & tolerance & n pair seed cases & accept rate & false accept rate among accepted & false accept fraction all & accepted mae & rejected mae & overall mae \\
+\midrule
+GSM8K & heldout\_training\_seed & kl\_baseline & 0.0100 & 35 & 1.0000 & 0.3429 & 0.3429 & 0.0061 & NA & 0.0061 \\
+GSM8K & heldout\_training\_seed & kl\_baseline & 0.0200 & 35 & 1.0000 & 0.0000 & 0.0000 & 0.0061 & NA & 0.0061 \\
+GSM8K & heldout\_training\_seed & kl\_baseline & 0.0500 & 35 & 1.0000 & 0.0000 & 0.0000 & 0.0061 & NA & 0.0061 \\
+GSM8K & official\_test & kl\_baseline & 0.0100 & 33 & 1.0000 & 0.1515 & 0.1515 & 0.0044 & NA & 0.0044 \\
+GSM8K & official\_test & kl\_baseline & 0.0200 & 33 & 1.0000 & 0.0000 & 0.0000 & 0.0044 & NA & 0.0044 \\
+GSM8K & official\_test & kl\_baseline & 0.0500 & 33 & 1.0000 & 0.0000 & 0.0000 & 0.0044 & NA & 0.0044 \\
+SVAMP & external\_prompt\_distribution & kl\_baseline & 0.0100 & 24 & 0.7500 & 0.1667 & 0.1250 & 0.0053 & 0.0126 & 0.0071 \\
+SVAMP & external\_prompt\_distribution & kl\_baseline & 0.0200 & 24 & 0.7500 & 0.0000 & 0.0000 & 0.0053 & 0.0126 & 0.0071 \\
+SVAMP & external\_prompt\_distribution & kl\_baseline & 0.0500 & 24 & 0.7500 & 0.0000 & 0.0000 & 0.0053 & 0.0126 & 0.0071 \\
+\bottomrule
+\end{tabular}
+\end{table}

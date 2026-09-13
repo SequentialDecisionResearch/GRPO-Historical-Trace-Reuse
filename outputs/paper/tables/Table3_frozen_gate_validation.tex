@@ -1,0 +1,21 @@
+\begin{table}[t]
+\centering
+\small
+\caption{Validation of the frozen rESS reuse gate.}
+\label{tab:frozen\_gate\_validation}
+\begin{tabular}{lrrrrrrrrr}
+\toprule
+dataset & evaluation role & tolerance & n pair seed cases & accept rate & false accept rate among accepted & false accept fraction all & accepted mae & rejected mae & overall mae \\
+\midrule
+GSM8K & heldout\_training\_seed & 0.0100 & 35 & 0.8571 & 0.3667 & 0.3143 & 0.0058 & 0.0084 & 0.0061 \\
+GSM8K & heldout\_training\_seed & 0.0200 & 35 & 0.8571 & 0.0000 & 0.0000 & 0.0058 & 0.0084 & 0.0061 \\
+GSM8K & heldout\_training\_seed & 0.0500 & 35 & 0.8571 & 0.0000 & 0.0000 & 0.0058 & 0.0084 & 0.0061 \\
+GSM8K & official\_test & 0.0100 & 33 & 1.0000 & 0.1515 & 0.1515 & 0.0044 & NA & 0.0044 \\
+GSM8K & official\_test & 0.0200 & 33 & 1.0000 & 0.0000 & 0.0000 & 0.0044 & NA & 0.0044 \\
+GSM8K & official\_test & 0.0500 & 33 & 1.0000 & 0.0000 & 0.0000 & 0.0044 & NA & 0.0044 \\
+SVAMP & external\_prompt\_distribution & 0.0100 & 24 & 1.0000 & 0.2500 & 0.2500 & 0.0071 & NA & 0.0071 \\
+SVAMP & external\_prompt\_distribution & 0.0200 & 24 & 1.0000 & 0.0417 & 0.0417 & 0.0071 & NA & 0.0071 \\
+SVAMP & external\_prompt\_distribution & 0.0500 & 24 & 1.0000 & 0.0000 & 0.0000 & 0.0071 & NA & 0.0071 \\
+\bottomrule
+\end{tabular}
+\end{table}

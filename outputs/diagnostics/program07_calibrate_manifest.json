@@ -1,0 +1,77 @@
+{
+  "created_at_utc": "2026-09-06T11:57:31.352662+00:00",
+  "created_by": {
+    "program": "07_calibrate_and_test_gate.py",
+    "program_version": "1.1"
+  },
+  "gate_file_sha256": "37c810f9c2c05b617e69dfe0b3b43561b791c1596ebce2c0fbc0f3566357f136",
+  "gate_manifest_sha256": "1e52aac5325878b3eee2bc57925c11d715507c211bc883454c664c61f206450d",
+  "gate_spec": {
+    "calibration_policy": "zero_observed_false_accept_max_coverage",
+    "calibration_seeds": [
+      20260826,
+      20260827
+    ],
+    "estimator": "prompt_wis",
+    "primary_diagnostic": "median_prompt_relative_ess",
+    "tolerances": [
+      0.01,
+      0.02,
+      0.05
+    ],
+    "validation_seeds": [
+      20260828
+    ]
+  },
+  "inputs": {
+    "program06_manifest_path": "outputs/diagnostics/program06_development_manifest.json",
+    "program06_manifest_sha256": "7052f9578b1ace52b84c4a2434da1ae1ca21e2b008acb8dc6936ecc35ab8079c",
+    "upstream_static_manifests": {
+      "data_manifest_path": "manifests/data_manifest.json",
+      "data_manifest_sha256": "3aeb5ab2b251fb0f9eaf31ea91a5a97e5da8e936b371bf4e7ecc51b91c84313c",
+      "dataset_revision": "740312add88f781978c0658806c59bc2815b9866",
+      "model_manifest_path": "manifests/model_manifest.json",
+      "model_manifest_sha256": "1d6d52a101f16e7e7b8d276e218edd5f905ddf1d08841170bc54fd84a2ff710d",
+      "model_revision": "7ae557604adf67be50417f59c2c2f167def9a775",
+      "split_content_fingerprint_sha256": "0abfa70b91221e211acc64a692c272db5145406817c71d2e2ae7439de9a0b76b",
+      "split_manifest_path": "manifests/split_registry_manifest.json",
+      "split_manifest_sha256": "a9b4c0f0ca4a544e422775b73b343202c33a74a9935df5568102853c63a80c80"
+    }
+  },
+  "manifest_type": "program07_gate_manifest",
+  "mode": "calibrate",
+  "outputs": [
+    {
+      "bytes": 1617,
+      "path": "outputs/tables/T05_gate_calibration.csv",
+      "sha256": "a92d43bdde23ed4acd113b1095bf49f15fdd74eed703fae5cf17abdc005f1c89"
+    },
+    {
+      "bytes": 3115,
+      "path": "outputs/diagnostics/gate_evaluation_summary.csv",
+      "sha256": "efe4c9b75a61914fbd648cc7585688ff1fe67647fff38169aaf47f7cd6e2109a"
+    },
+    {
+      "bytes": 18315,
+      "path": "outputs/frozen_gate.json",
+      "sha256": "37c810f9c2c05b617e69dfe0b3b43561b791c1596ebce2c0fbc0f3566357f136"
+    },
+    {
+      "bytes": 834,
+      "path": "manifests/frozen_gate_manifest.json",
+      "sha256": "1e52aac5325878b3eee2bc57925c11d715507c211bc883454c664c61f206450d"
+    }
+  ],
+  "protocol_config_sha256": "2a4934d6036e5bc87e629dd2883dc7c38d65e0b98ad6bc248bec077ae654ecc8",
+  "protocol_version": "1.0",
+  "row_counts": {
+    "T05": 6,
+    "calibration_decisions": 420,
+    "summary": 18
+  },
+  "runtime": {
+    "platform": "Windows-10-10.0.26200-SP0",
+    "python": "3.11.16"
+  },
+  "schema_version": "grpo_ope_program07_v1"
+}
