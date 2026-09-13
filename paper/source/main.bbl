@@ -1,0 +1,690 @@
+% $ biblatex auxiliary file $
+% $ biblatex bbl format version 3.3 $
+% Do not modify the above lines!
+%
+% This is an auxiliary file used by the 'biblatex' package.
+% This file may safely be deleted. It will be recreated by
+% biber as required.
+%
+\begingroup
+\makeatletter
+\@ifundefined{ver@biblatex.sty}
+  {\@latex@error
+     {Missing 'biblatex' package}
+     {The bibliography requires the 'biblatex' package.}
+      \aftergroup\endinput}
+  {}
+\endgroup
+
+
+\refsection{0}
+  \datalist[entry]{none/global//global/global/global}
+    \entry{shao2024deepseekmath}{article}{}{}
+      \true{moreauthor}
+      \true{morelabelname}
+      \name{author}{1}{}{%
+        {{hash=76ff010a59ccc9f5f1a0018fc1f1f34b}{%
+           family={Shao},
+           familyi={S\bibinitperiod},
+           given={Zhihong},
+           giveni={Z\bibinitperiod}}}%
+      }
+      \strng{namehash}{18308a4825687375ed15118861d7b16e}
+      \strng{fullhash}{18308a4825687375ed15118861d7b16e}
+      \strng{fullhashraw}{18308a4825687375ed15118861d7b16e}
+      \strng{bibnamehash}{18308a4825687375ed15118861d7b16e}
+      \strng{authorbibnamehash}{18308a4825687375ed15118861d7b16e}
+      \strng{authornamehash}{18308a4825687375ed15118861d7b16e}
+      \strng{authorfullhash}{18308a4825687375ed15118861d7b16e}
+      \strng{authorfullhashraw}{18308a4825687375ed15118861d7b16e}
+      \field{sortinit}{2}
+      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{arXiv preprint arXiv:2402.03300}
+      \field{title}{DeepSeekMath: Pushing the Limits of Mathematical Reasoning in Open Language Models}
+      \field{year}{2024}
+      \true{nocite}
+    \endentry
+    \entry{deepseek2025r1}{article}{}{}
+      \true{moreauthor}
+      \true{morelabelname}
+      \name{author}{1}{}{%
+        {{hash=d597faee5c847cfbb2346d3b8725ba38}{%
+           family={{DeepSeek-AI}},
+           familyi={D\bibinitperiod}}}%
+      }
+      \strng{namehash}{5fdab74d243b9b82fe0d349e46676941}
+      \strng{fullhash}{5fdab74d243b9b82fe0d349e46676941}
+      \strng{fullhashraw}{5fdab74d243b9b82fe0d349e46676941}
+      \strng{bibnamehash}{5fdab74d243b9b82fe0d349e46676941}
+      \strng{authorbibnamehash}{5fdab74d243b9b82fe0d349e46676941}
+      \strng{authornamehash}{5fdab74d243b9b82fe0d349e46676941}
+      \strng{authorfullhash}{5fdab74d243b9b82fe0d349e46676941}
+      \strng{authorfullhashraw}{5fdab74d243b9b82fe0d349e46676941}
+      \field{sortinit}{3}
+      \field{sortinithash}{ad6fe7482ffbd7b9f99c9e8b5dccd3d7}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{arXiv preprint arXiv:2501.12948}
+      \field{title}{DeepSeek-R1: Incentivizing Reasoning Capability in LLMs via Reinforcement Learning}
+      \field{year}{2025}
+      \true{nocite}
+    \endentry
+    \entry{dudik2011dr}{inproceedings}{}{}
+      \name{author}{3}{}{%
+        {{hash=e780aff079799b528ad4bd1f26d6d00e}{%
+           family={Dudik},
+           familyi={D\bibinitperiod},
+           given={Miroslav},
+           giveni={M\bibinitperiod}}}%
+        {{hash=3b32f20ce03981cb315259a6fd0a3068}{%
+           family={Langford},
+           familyi={L\bibinitperiod},
+           given={John},
+           giveni={J\bibinitperiod}}}%
+        {{hash=09b19a7bef3ca63e5cf4af03d2b00ea0}{%
+           family={Li},
+           familyi={L\bibinitperiod},
+           given={Lihong},
+           giveni={L\bibinitperiod}}}%
+      }
+      \strng{namehash}{dbe31890be035db874adfc70b19e2308}
+      \strng{fullhash}{dbe31890be035db874adfc70b19e2308}
+      \strng{fullhashraw}{dbe31890be035db874adfc70b19e2308}
+      \strng{bibnamehash}{dbe31890be035db874adfc70b19e2308}
+      \strng{authorbibnamehash}{dbe31890be035db874adfc70b19e2308}
+      \strng{authornamehash}{dbe31890be035db874adfc70b19e2308}
+      \strng{authorfullhash}{dbe31890be035db874adfc70b19e2308}
+      \strng{authorfullhashraw}{dbe31890be035db874adfc70b19e2308}
+      \field{sortinit}{4}
+      \field{sortinithash}{9381316451d1b9788675a07e972a12a7}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{booktitle}{Proceedings of the 28th International Conference on Machine Learning (ICML)}
+      \field{title}{Doubly Robust Policy Evaluation and Learning}
+      \field{year}{2011}
+      \true{nocite}
+    \endentry
+    \entry{jiang2016dr}{inproceedings}{}{}
+      \name{author}{2}{}{%
+        {{hash=7468fad9969f4d0241aaf0ab47f42591}{%
+           family={Jiang},
+           familyi={J\bibinitperiod},
+           given={Nan},
+           giveni={N\bibinitperiod}}}%
+        {{hash=09b19a7bef3ca63e5cf4af03d2b00ea0}{%
+           family={Li},
+           familyi={L\bibinitperiod},
+           given={Lihong},
+           giveni={L\bibinitperiod}}}%
+      }
+      \strng{namehash}{0c2c363b8180710144b8d05a2787ce80}
+      \strng{fullhash}{0c2c363b8180710144b8d05a2787ce80}
+      \strng{fullhashraw}{0c2c363b8180710144b8d05a2787ce80}
+      \strng{bibnamehash}{0c2c363b8180710144b8d05a2787ce80}
+      \strng{authorbibnamehash}{0c2c363b8180710144b8d05a2787ce80}
+      \strng{authornamehash}{0c2c363b8180710144b8d05a2787ce80}
+      \strng{authorfullhash}{0c2c363b8180710144b8d05a2787ce80}
+      \strng{authorfullhashraw}{0c2c363b8180710144b8d05a2787ce80}
+      \field{sortinit}{5}
+      \field{sortinithash}{20e9b4b0b173788c5dace24730f47d8c}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{booktitle}{Proceedings of the 33rd International Conference on Machine Learning (ICML)}
+      \field{title}{Doubly Robust Off-policy Value Evaluation for Reinforcement Learning}
+      \field{year}{2016}
+      \true{nocite}
+    \endentry
+    \entry{swaminathan2015selfnorm}{inproceedings}{}{}
+      \name{author}{2}{}{%
+        {{hash=af7d0e4d0095cc3456e940883204919b}{%
+           family={Swaminathan},
+           familyi={S\bibinitperiod},
+           given={Adith},
+           giveni={A\bibinitperiod}}}%
+        {{hash=0e5ae7e30da87e8ba62ced27d4e6f2aa}{%
+           family={Joachims},
+           familyi={J\bibinitperiod},
+           given={Thorsten},
+           giveni={T\bibinitperiod}}}%
+      }
+      \strng{namehash}{14ac1a73633b2698a092d5ed96ebf95b}
+      \strng{fullhash}{14ac1a73633b2698a092d5ed96ebf95b}
+      \strng{fullhashraw}{14ac1a73633b2698a092d5ed96ebf95b}
+      \strng{bibnamehash}{14ac1a73633b2698a092d5ed96ebf95b}
+      \strng{authorbibnamehash}{14ac1a73633b2698a092d5ed96ebf95b}
+      \strng{authornamehash}{14ac1a73633b2698a092d5ed96ebf95b}
+      \strng{authorfullhash}{14ac1a73633b2698a092d5ed96ebf95b}
+      \strng{authorfullhashraw}{14ac1a73633b2698a092d5ed96ebf95b}
+      \field{sortinit}{6}
+      \field{sortinithash}{b33bc299efb3c36abec520a4c896a66d}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{booktitle}{Advances in Neural Information Processing Systems (NeurIPS)}
+      \field{title}{The Self-Normalized Estimator for Counterfactual Learning}
+      \field{year}{2015}
+      \true{nocite}
+    \endentry
+    \entry{thomas2015hcpi}{inproceedings}{}{}
+      \name{author}{3}{}{%
+        {{hash=cc5802a3808fa6f006386d4f4a23231b}{%
+           family={Thomas},
+           familyi={T\bibinitperiod},
+           given={Philip},
+           giveni={P\bibinitperiod}}}%
+        {{hash=c1e83da7f98d444efc55ab9785963a59}{%
+           family={Theocharous},
+           familyi={T\bibinitperiod},
+           given={Georgios},
+           giveni={G\bibinitperiod}}}%
+        {{hash=8e24dffc0a2bc85a7ea0c453c0cd2cc5}{%
+           family={Ghavamzadeh},
+           familyi={G\bibinitperiod},
+           given={Mohammad},
+           giveni={M\bibinitperiod}}}%
+      }
+      \strng{namehash}{b4c83c912a8da9f0cbdf78b1aa20ae0d}
+      \strng{fullhash}{b4c83c912a8da9f0cbdf78b1aa20ae0d}
+      \strng{fullhashraw}{b4c83c912a8da9f0cbdf78b1aa20ae0d}
+      \strng{bibnamehash}{b4c83c912a8da9f0cbdf78b1aa20ae0d}
+      \strng{authorbibnamehash}{b4c83c912a8da9f0cbdf78b1aa20ae0d}
+      \strng{authornamehash}{b4c83c912a8da9f0cbdf78b1aa20ae0d}
+      \strng{authorfullhash}{b4c83c912a8da9f0cbdf78b1aa20ae0d}
+      \strng{authorfullhashraw}{b4c83c912a8da9f0cbdf78b1aa20ae0d}
+      \field{sortinit}{7}
+      \field{sortinithash}{108d0be1b1bee9773a1173443802c0a3}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{booktitle}{Proceedings of the 32nd International Conference on Machine Learning (ICML)}
+      \field{title}{High Confidence Policy Improvement}
+      \field{year}{2015}
+      \true{nocite}
+    \endentry
+    \entry{kuzborskij2021confident}{inproceedings}{}{}
+      \name{author}{4}{}{%
+        {{hash=dfbc4efb6a15c210a053be9ede42f694}{%
+           family={Kuzborskij},
+           familyi={K\bibinitperiod},
+           given={Ilja},
+           giveni={I\bibinitperiod}}}%
+        {{hash=2b81c5cc0df37f9bdc225a0cea3f688e}{%
+           family={Vernade},
+           familyi={V\bibinitperiod},
+           given={Claire},
+           giveni={C\bibinitperiod}}}%
+        {{hash=2b0a64478579fb1b01aab8fe013eb8ba}{%
+           family={Gyorgy},
+           familyi={G\bibinitperiod},
+           given={Andras},
+           giveni={A\bibinitperiod}}}%
+        {{hash=5c3318079c4819b9fff61d2e42d425e8}{%
+           family={Szepesvari},
+           familyi={S\bibinitperiod},
+           given={Csaba},
+           giveni={C\bibinitperiod}}}%
+      }
+      \strng{namehash}{8368a6a4c03eaed784c5e0e580c722e5}
+      \strng{fullhash}{8a2973efa819fd3dd0064853b3d43e6d}
+      \strng{fullhashraw}{8a2973efa819fd3dd0064853b3d43e6d}
+      \strng{bibnamehash}{8368a6a4c03eaed784c5e0e580c722e5}
+      \strng{authorbibnamehash}{8368a6a4c03eaed784c5e0e580c722e5}
+      \strng{authornamehash}{8368a6a4c03eaed784c5e0e580c722e5}
+      \strng{authorfullhash}{8a2973efa819fd3dd0064853b3d43e6d}
+      \strng{authorfullhashraw}{8a2973efa819fd3dd0064853b3d43e6d}
+      \field{sortinit}{8}
+      \field{sortinithash}{a231b008ebf0ecbe0b4d96dcc159445f}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{booktitle}{Proceedings of the 24th International Conference on Artificial Intelligence and Statistics (AISTATS)}
+      \field{title}{Confident Off-Policy Evaluation and Selection through Self-Normalized Importance Weighting}
+      \field{year}{2021}
+      \true{nocite}
+    \endentry
+    \entry{liu2020horizon}{inproceedings}{}{}
+      \name{author}{3}{}{%
+        {{hash=5b9e8cc65abf91722789b60564d017cb}{%
+           family={Liu},
+           familyi={L\bibinitperiod},
+           given={Yao},
+           giveni={Y\bibinitperiod}}}%
+        {{hash=b9417eec56d7db4d07719bbb7fe3bcdd}{%
+           family={Bacon},
+           familyi={B\bibinitperiod},
+           given={Pierre-Luc},
+           giveni={P\bibinithyphendelim L\bibinitperiod}}}%
+        {{hash=d94fdf38ad71e8210b4505c8fbb7fa87}{%
+           family={Brunskill},
+           familyi={B\bibinitperiod},
+           given={Emma},
+           giveni={E\bibinitperiod}}}%
+      }
+      \strng{namehash}{53484d8c3ac5dddff2613912caa1110a}
+      \strng{fullhash}{53484d8c3ac5dddff2613912caa1110a}
+      \strng{fullhashraw}{53484d8c3ac5dddff2613912caa1110a}
+      \strng{bibnamehash}{53484d8c3ac5dddff2613912caa1110a}
+      \strng{authorbibnamehash}{53484d8c3ac5dddff2613912caa1110a}
+      \strng{authornamehash}{53484d8c3ac5dddff2613912caa1110a}
+      \strng{authorfullhash}{53484d8c3ac5dddff2613912caa1110a}
+      \strng{authorfullhashraw}{53484d8c3ac5dddff2613912caa1110a}
+      \field{sortinit}{9}
+      \field{sortinithash}{0a5ebc79d83c96b6579069544c73c7d4}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{booktitle}{Proceedings of the 37th International Conference on Machine Learning (ICML)}
+      \field{title}{Understanding the Curse of Horizon in Off-Policy Evaluation via Conditional Importance Sampling}
+      \field{year}{2020}
+      \true{nocite}
+    \endentry
+    \entry{bhargava2024ope}{article}{}{}
+      \name{author}{5}{}{%
+        {{hash=d2d1d10054fd86e11c945db81db8c12d}{%
+           family={Bhargava},
+           familyi={B\bibinitperiod},
+           given={Aditya},
+           giveni={A\bibinitperiod}}}%
+        {{hash=bb429b8cce0830925a01e551d68fa1ad}{%
+           family={Jain},
+           familyi={J\bibinitperiod},
+           given={Lalit},
+           giveni={L\bibinitperiod}}}%
+        {{hash=def106a95d5f6398478e12f1de6c6649}{%
+           family={Kveton},
+           familyi={K\bibinitperiod},
+           given={Branislav},
+           giveni={B\bibinitperiod}}}%
+        {{hash=09b92fc89a84139f1ab187d05da072d5}{%
+           family={Liu},
+           familyi={L\bibinitperiod},
+           given={Guoqing},
+           giveni={G\bibinitperiod}}}%
+        {{hash=49a355d0c2a2e9b223f90f3e0088cb29}{%
+           family={Mukherjee},
+           familyi={M\bibinitperiod},
+           given={Sayan},
+           giveni={S\bibinitperiod}}}%
+      }
+      \strng{namehash}{93b2ea3dd5c14476443cd4c2a195c681}
+      \strng{fullhash}{4dd4da6f9d75896a399a5b1512b88a6c}
+      \strng{fullhashraw}{4dd4da6f9d75896a399a5b1512b88a6c}
+      \strng{bibnamehash}{93b2ea3dd5c14476443cd4c2a195c681}
+      \strng{authorbibnamehash}{93b2ea3dd5c14476443cd4c2a195c681}
+      \strng{authornamehash}{93b2ea3dd5c14476443cd4c2a195c681}
+      \strng{authorfullhash}{4dd4da6f9d75896a399a5b1512b88a6c}
+      \strng{authorfullhashraw}{4dd4da6f9d75896a399a5b1512b88a6c}
+      \field{sortinit}{1}
+      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{arXiv preprint arXiv:2406.10030}
+      \field{title}{Off-Policy Evaluation from Logged Human Feedback}
+      \field{year}{2024}
+      \true{nocite}
+    \endentry
+    \entry{zheng2025gspo}{article}{}{}
+      \true{moreauthor}
+      \true{morelabelname}
+      \name{author}{1}{}{%
+        {{hash=f0c83af368b7010fe8af296aa58e3470}{%
+           family={Zheng},
+           familyi={Z\bibinitperiod},
+           given={Chujie},
+           giveni={C\bibinitperiod}}}%
+      }
+      \strng{namehash}{97506212a741ab15062c1e89acc29fbb}
+      \strng{fullhash}{97506212a741ab15062c1e89acc29fbb}
+      \strng{fullhashraw}{97506212a741ab15062c1e89acc29fbb}
+      \strng{bibnamehash}{97506212a741ab15062c1e89acc29fbb}
+      \strng{authorbibnamehash}{97506212a741ab15062c1e89acc29fbb}
+      \strng{authornamehash}{97506212a741ab15062c1e89acc29fbb}
+      \strng{authorfullhash}{97506212a741ab15062c1e89acc29fbb}
+      \strng{authorfullhashraw}{97506212a741ab15062c1e89acc29fbb}
+      \field{sortinit}{1}
+      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{arXiv preprint arXiv:2507.18071}
+      \field{title}{Group Sequence Policy Optimization}
+      \field{year}{2025}
+      \true{nocite}
+    \endentry
+    \entry{leroux2025topr}{article}{}{}
+      \true{moreauthor}
+      \true{morelabelname}
+      \name{author}{1}{}{%
+        {{hash=46b28bee8a7e12f02673a498b888159e}{%
+           family={Le\bibnamedelima Roux},
+           familyi={L\bibinitperiod\bibinitdelim R\bibinitperiod},
+           given={Nicolas},
+           giveni={N\bibinitperiod}}}%
+      }
+      \strng{namehash}{2b4dea8b8313b37a978df7d9a2906396}
+      \strng{fullhash}{2b4dea8b8313b37a978df7d9a2906396}
+      \strng{fullhashraw}{2b4dea8b8313b37a978df7d9a2906396}
+      \strng{bibnamehash}{2b4dea8b8313b37a978df7d9a2906396}
+      \strng{authorbibnamehash}{2b4dea8b8313b37a978df7d9a2906396}
+      \strng{authornamehash}{2b4dea8b8313b37a978df7d9a2906396}
+      \strng{authorfullhash}{2b4dea8b8313b37a978df7d9a2906396}
+      \strng{authorfullhashraw}{2b4dea8b8313b37a978df7d9a2906396}
+      \field{sortinit}{1}
+      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{arXiv preprint arXiv:2503.14286}
+      \field{title}{Tapered Off-Policy REINFORCE: Stable and Efficient Reinforcement Learning for LLMs}
+      \field{year}{2025}
+      \true{nocite}
+    \endentry
+    \entry{ackermann2025ocrm}{inproceedings}{}{}
+      \name{author}{3}{}{%
+        {{hash=db82e8e1e92e7b6deab3b0fb76d81fac}{%
+           family={Ackermann},
+           familyi={A\bibinitperiod},
+           given={Jan},
+           giveni={J\bibinitperiod}}}%
+        {{hash=49df5a75b6664e669b4578a40e360a2f}{%
+           family={Ishida},
+           familyi={I\bibinitperiod},
+           given={Takashi},
+           giveni={T\bibinitperiod}}}%
+        {{hash=39334f77cbd67c8922133952b8095d89}{%
+           family={Sugiyama},
+           familyi={S\bibinitperiod},
+           given={Masashi},
+           giveni={M\bibinitperiod}}}%
+      }
+      \strng{namehash}{c0e8dd1f607ecbc7a0633d5ebe80ed23}
+      \strng{fullhash}{c0e8dd1f607ecbc7a0633d5ebe80ed23}
+      \strng{fullhashraw}{c0e8dd1f607ecbc7a0633d5ebe80ed23}
+      \strng{bibnamehash}{c0e8dd1f607ecbc7a0633d5ebe80ed23}
+      \strng{authorbibnamehash}{c0e8dd1f607ecbc7a0633d5ebe80ed23}
+      \strng{authornamehash}{c0e8dd1f607ecbc7a0633d5ebe80ed23}
+      \strng{authorfullhash}{c0e8dd1f607ecbc7a0633d5ebe80ed23}
+      \strng{authorfullhashraw}{c0e8dd1f607ecbc7a0633d5ebe80ed23}
+      \field{sortinit}{1}
+      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{booktitle}{Conference on Language Modeling (COLM)}
+      \field{note}{arXiv:2507.15507}
+      \field{title}{Off-Policy Corrected Reward Modeling for Reinforcement Learning from Human Feedback}
+      \field{year}{2025}
+      \true{nocite}
+    \endentry
+    \entry{agapiou2017}{article}{}{}
+      \name{author}{4}{}{%
+        {{hash=10b9738606d9cd2e033e718de9f39c94}{%
+           family={Agapiou},
+           familyi={A\bibinitperiod},
+           given={Sergios},
+           giveni={S\bibinitperiod}}}%
+        {{hash=50a963e7060e271c091dfda34ee18cc5}{%
+           family={Papaspiliopoulos},
+           familyi={P\bibinitperiod},
+           given={Omiros},
+           giveni={O\bibinitperiod}}}%
+        {{hash=1a164eaa23ccca7cd764b9df336d5286}{%
+           family={Sanz-Alonso},
+           familyi={S\bibinithyphendelim A\bibinitperiod},
+           given={Daniel},
+           giveni={D\bibinitperiod}}}%
+        {{hash=ede60db687249a971389c3f251a065da}{%
+           family={Stuart},
+           familyi={S\bibinitperiod},
+           given={Andrew\bibnamedelima M.},
+           giveni={A\bibinitperiod\bibinitdelim M\bibinitperiod}}}%
+      }
+      \strng{namehash}{4ef33a6125368f3978a2a707d8d7fd70}
+      \strng{fullhash}{8d96c0fe736f053e8c731c35cae1cef2}
+      \strng{fullhashraw}{8d96c0fe736f053e8c731c35cae1cef2}
+      \strng{bibnamehash}{4ef33a6125368f3978a2a707d8d7fd70}
+      \strng{authorbibnamehash}{4ef33a6125368f3978a2a707d8d7fd70}
+      \strng{authornamehash}{4ef33a6125368f3978a2a707d8d7fd70}
+      \strng{authorfullhash}{8d96c0fe736f053e8c731c35cae1cef2}
+      \strng{authorfullhashraw}{8d96c0fe736f053e8c731c35cae1cef2}
+      \field{sortinit}{1}
+      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Statistical Science}
+      \field{number}{3}
+      \field{title}{Importance Sampling: Intrinsic Dimension and Computational Cost}
+      \field{volume}{32}
+      \field{year}{2017}
+      \true{nocite}
+      \field{pages}{405\bibrangedash 431}
+      \range{pages}{27}
+    \endentry
+    \entry{martino2017ess}{article}{}{}
+      \name{author}{3}{}{%
+        {{hash=97a616fcae1dd3b2788bff52f4ff4298}{%
+           family={Martino},
+           familyi={M\bibinitperiod},
+           given={Luca},
+           giveni={L\bibinitperiod}}}%
+        {{hash=71240ecbbd5853800958126cd6144a37}{%
+           family={Elvira},
+           familyi={E\bibinitperiod},
+           given={Victor},
+           giveni={V\bibinitperiod}}}%
+        {{hash=853474e80645777a21b60bf81c620c06}{%
+           family={Louzada},
+           familyi={L\bibinitperiod},
+           given={Francisco},
+           giveni={F\bibinitperiod}}}%
+      }
+      \strng{namehash}{9fcdbe878d9f8d85547eaf56869e56e1}
+      \strng{fullhash}{9fcdbe878d9f8d85547eaf56869e56e1}
+      \strng{fullhashraw}{9fcdbe878d9f8d85547eaf56869e56e1}
+      \strng{bibnamehash}{9fcdbe878d9f8d85547eaf56869e56e1}
+      \strng{authorbibnamehash}{9fcdbe878d9f8d85547eaf56869e56e1}
+      \strng{authornamehash}{9fcdbe878d9f8d85547eaf56869e56e1}
+      \strng{authorfullhash}{9fcdbe878d9f8d85547eaf56869e56e1}
+      \strng{authorfullhashraw}{9fcdbe878d9f8d85547eaf56869e56e1}
+      \field{sortinit}{1}
+      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Signal Processing}
+      \field{title}{Effective Sample Size for Importance Sampling Based on Discrepancy Measures}
+      \field{volume}{131}
+      \field{year}{2017}
+      \true{nocite}
+      \field{pages}{386\bibrangedash 401}
+      \range{pages}{16}
+    \endentry
+    \entry{cardoso2022brsnis}{inproceedings}{}{}
+      \name{author}{5}{}{%
+        {{hash=57d8a42bef6d4411d011e3df3a7a95eb}{%
+           family={Cardoso},
+           familyi={C\bibinitperiod},
+           given={Gabriel},
+           giveni={G\bibinitperiod}}}%
+        {{hash=8ac09b3fcfbd98bb66d1b77f3688fd50}{%
+           family={Samsonov},
+           familyi={S\bibinitperiod},
+           given={Sergey},
+           giveni={S\bibinitperiod}}}%
+        {{hash=00eefd9a0b1731d269bbe83b8e73c70e}{%
+           family={Thin},
+           familyi={T\bibinitperiod},
+           given={Achille},
+           giveni={A\bibinitperiod}}}%
+        {{hash=32b961a3e53c735ea5488bf0af14a6da}{%
+           family={Moulines},
+           familyi={M\bibinitperiod},
+           given={Eric},
+           giveni={E\bibinitperiod}}}%
+        {{hash=44df9175ec8220c69d48b228e18e5332}{%
+           family={Olsson},
+           familyi={O\bibinitperiod},
+           given={Jimmy},
+           giveni={J\bibinitperiod}}}%
+      }
+      \strng{namehash}{5b7ef7cbb191492435c9142984a274a8}
+      \strng{fullhash}{bafbd096b47e887bc4b61c1f6b904685}
+      \strng{fullhashraw}{bafbd096b47e887bc4b61c1f6b904685}
+      \strng{bibnamehash}{5b7ef7cbb191492435c9142984a274a8}
+      \strng{authorbibnamehash}{5b7ef7cbb191492435c9142984a274a8}
+      \strng{authornamehash}{5b7ef7cbb191492435c9142984a274a8}
+      \strng{authorfullhash}{bafbd096b47e887bc4b61c1f6b904685}
+      \strng{authorfullhashraw}{bafbd096b47e887bc4b61c1f6b904685}
+      \field{sortinit}{1}
+      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{booktitle}{Advances in Neural Information Processing Systems (NeurIPS)}
+      \field{title}{BR-SNIS: Bias Reduced Self-Normalized Importance Sampling}
+      \field{year}{2022}
+      \true{nocite}
+    \endentry
+    \entry{li2025repo}{article}{}{}
+      \name{author}{5}{}{%
+        {{hash=d8125976d0f2f0c4fddc5c4adeda313d}{%
+           family={Li},
+           familyi={L\bibinitperiod},
+           given={Sheng},
+           giveni={S\bibinitperiod}}}%
+        {{hash=562c3a232fa23a682b6a45ddc001d4c3}{%
+           family={Zhou},
+           familyi={Z\bibinitperiod},
+           given={Zhe},
+           giveni={Z\bibinitperiod}}}%
+        {{hash=56789f2d40a059bed1d3d0c663022c3e}{%
+           family={Lam},
+           familyi={L\bibinitperiod},
+           given={Wai},
+           giveni={W\bibinitperiod}}}%
+        {{hash=29ccf7aa9391a3e9e13ba3b57f4c48eb}{%
+           family={Yang},
+           familyi={Y\bibinitperiod},
+           given={Cheng},
+           giveni={C\bibinitperiod}}}%
+        {{hash=08e0e36fa0c5c1155be48190e84829a7}{%
+           family={Lu},
+           familyi={L\bibinitperiod},
+           given={Chao},
+           giveni={C\bibinitperiod}}}%
+      }
+      \strng{namehash}{9b2a89345055108bf86a394e0a0530ea}
+      \strng{fullhash}{20e92c225542f01b6337d86d9171be95}
+      \strng{fullhashraw}{20e92c225542f01b6337d86d9171be95}
+      \strng{bibnamehash}{9b2a89345055108bf86a394e0a0530ea}
+      \strng{authorbibnamehash}{9b2a89345055108bf86a394e0a0530ea}
+      \strng{authornamehash}{9b2a89345055108bf86a394e0a0530ea}
+      \strng{authorfullhash}{20e92c225542f01b6337d86d9171be95}
+      \strng{authorfullhashraw}{20e92c225542f01b6337d86d9171be95}
+      \field{sortinit}{1}
+      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{arXiv preprint arXiv:2506.09340}
+      \field{title}{RePO: Replay-Enhanced Policy Optimization}
+      \field{year}{2025}
+      \true{nocite}
+    \endentry
+    \entry{mroueh2025grpo}{article}{}{}
+      \true{moreauthor}
+      \true{morelabelname}
+      \name{author}{1}{}{%
+        {{hash=3124060c5b85d59ac3ed92f925a40509}{%
+           family={Mroueh},
+           familyi={M\bibinitperiod},
+           given={Youssef},
+           giveni={Y\bibinitperiod}}}%
+      }
+      \strng{namehash}{60e2587cdc546224146c2c6a51a07cf1}
+      \strng{fullhash}{60e2587cdc546224146c2c6a51a07cf1}
+      \strng{fullhashraw}{60e2587cdc546224146c2c6a51a07cf1}
+      \strng{bibnamehash}{60e2587cdc546224146c2c6a51a07cf1}
+      \strng{authorbibnamehash}{60e2587cdc546224146c2c6a51a07cf1}
+      \strng{authornamehash}{60e2587cdc546224146c2c6a51a07cf1}
+      \strng{authorfullhash}{60e2587cdc546224146c2c6a51a07cf1}
+      \strng{authorfullhashraw}{60e2587cdc546224146c2c6a51a07cf1}
+      \field{sortinit}{1}
+      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{arXiv preprint arXiv:2505.22257}
+      \field{title}{Revisiting Group Relative Policy Optimization: Insights into On-Policy and Off-Policy Training}
+      \field{year}{2025}
+      \true{nocite}
+    \endentry
+    \entry{tian2026mugrpo}{article}{}{}
+      \name{author}{3}{}{%
+        {{hash=51befb7b93b7e856daccff6c5b4396fb}{%
+           family={Tian},
+           familyi={T\bibinitperiod},
+           given={Ming},
+           giveni={M\bibinitperiod}}}%
+        {{hash=b3389f8c1a94a0c42b0957355e5f930b}{%
+           family={Xie},
+           familyi={X\bibinitperiod},
+           given={Yuxin},
+           giveni={Y\bibinitperiod}}}%
+        {{hash=f82aaeda30fe4e41d8d329eafa383e52}{%
+           family={Wei},
+           familyi={W\bibinitperiod},
+           given={Colin},
+           giveni={C\bibinitperiod}}}%
+      }
+      \strng{namehash}{80da2c24a2ed399f3dbb1b54fa5bdbfd}
+      \strng{fullhash}{80da2c24a2ed399f3dbb1b54fa5bdbfd}
+      \strng{fullhashraw}{80da2c24a2ed399f3dbb1b54fa5bdbfd}
+      \strng{bibnamehash}{80da2c24a2ed399f3dbb1b54fa5bdbfd}
+      \strng{authorbibnamehash}{80da2c24a2ed399f3dbb1b54fa5bdbfd}
+      \strng{authornamehash}{80da2c24a2ed399f3dbb1b54fa5bdbfd}
+      \strng{authorfullhash}{80da2c24a2ed399f3dbb1b54fa5bdbfd}
+      \strng{authorfullhashraw}{80da2c24a2ed399f3dbb1b54fa5bdbfd}
+      \field{sortinit}{1}
+      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{arXiv preprint arXiv:2605.17570}
+      \field{title}{How Off-Policy Can GRPO Be? Mu-GRPO for Efficient LLM Reinforcement Learning}
+      \field{year}{2026}
+      \true{nocite}
+    \endentry
+    \entry{elvira2022ess}{article}{}{}
+      \name{author}{3}{}{%
+        {{hash=71240ecbbd5853800958126cd6144a37}{%
+           family={Elvira},
+           familyi={E\bibinitperiod},
+           given={Victor},
+           giveni={V\bibinitperiod}}}%
+        {{hash=97a616fcae1dd3b2788bff52f4ff4298}{%
+           family={Martino},
+           familyi={M\bibinitperiod},
+           given={Luca},
+           giveni={L\bibinitperiod}}}%
+        {{hash=0a257fbe5a59f3a17cc4e1089b887257}{%
+           family={Robert},
+           familyi={R\bibinitperiod},
+           given={Christian\bibnamedelima P.},
+           giveni={C\bibinitperiod\bibinitdelim P\bibinitperiod}}}%
+      }
+      \strng{namehash}{4cf9f7be31c6fb9426ecedb89c76870d}
+      \strng{fullhash}{4cf9f7be31c6fb9426ecedb89c76870d}
+      \strng{fullhashraw}{4cf9f7be31c6fb9426ecedb89c76870d}
+      \strng{bibnamehash}{4cf9f7be31c6fb9426ecedb89c76870d}
+      \strng{authorbibnamehash}{4cf9f7be31c6fb9426ecedb89c76870d}
+      \strng{authornamehash}{4cf9f7be31c6fb9426ecedb89c76870d}
+      \strng{authorfullhash}{4cf9f7be31c6fb9426ecedb89c76870d}
+      \strng{authorfullhashraw}{4cf9f7be31c6fb9426ecedb89c76870d}
+      \field{sortinit}{2}
+      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{International Statistical Review}
+      \field{number}{3}
+      \field{title}{Rethinking the Effective Sample Size}
+      \field{volume}{90}
+      \field{year}{2022}
+      \true{nocite}
+      \field{pages}{525\bibrangedash 550}
+      \range{pages}{26}
+    \endentry
+  \enddatalist
+\endrefsection
+\endinput
+

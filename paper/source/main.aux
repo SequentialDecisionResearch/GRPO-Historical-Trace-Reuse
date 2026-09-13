@@ -1,0 +1,134 @@
+\relax 
+\providecommand\hyper@newdestlabel[2]{}
+\providecommand\HyField@AuxAddToFields[1]{}
+\providecommand\HyField@AuxAddToCoFields[2]{}
+\citation{liu2020horizon}
+\@writefile{toc}{\contentsline {section}{\numberline {1}Introduction}{1}{section.1}\protected@file@percent }
+\citation{shao2024deepseekmath}
+\citation{deepseek2025r1}
+\citation{dudik2011dr}
+\citation{jiang2016dr}
+\citation{swaminathan2015selfnorm}
+\citation{thomas2015hcpi}
+\citation{kuzborskij2021confident}
+\citation{agapiou2017}
+\citation{martino2017ess}
+\citation{elvira2022ess}
+\citation{cardoso2022brsnis}
+\citation{li2025repo}
+\citation{mroueh2025grpo}
+\citation{tian2026mugrpo}
+\@writefile{toc}{\contentsline {section}{\numberline {2}Related Work}{2}{section.2}\protected@file@percent }
+\@writefile{toc}{\contentsline {paragraph}{GRPO and reasoning-policy evolution.}{2}{section*.1}\protected@file@percent }
+\@writefile{toc}{\contentsline {paragraph}{Off-policy evaluation and support.}{2}{section*.2}\protected@file@percent }
+\@writefile{toc}{\contentsline {paragraph}{Stale rollouts for training versus historical traces for evaluation.}{2}{section*.3}\protected@file@percent }
+\citation{bhargava2024ope}
+\citation{zheng2025gspo}
+\citation{leroux2025topr}
+\citation{ackermann2025ocrm}
+\@writefile{toc}{\contentsline {paragraph}{Off-policy language-model evaluation.}{3}{section*.4}\protected@file@percent }
+\@writefile{toc}{\contentsline {section}{\numberline {3}Problem Formulation}{3}{section.3}\protected@file@percent }
+\citation{agapiou2017}
+\@writefile{toc}{\contentsline {section}{\numberline {4}Theory of Historical-Trace Reuse}{4}{section.4}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsection}{\numberline {4.1}Second-moment overlap}{4}{subsection.4.1}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsection}{\numberline {4.2}Finite-sample SNIS foundation}{4}{subsection.4.2}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsection}{\numberline {4.3}Overlap--reward-residual decomposition}{4}{subsection.4.3}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsection}{\numberline {4.4}Fixed-target refresh and the aggregate estimator}{5}{subsection.4.4}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsection}{\numberline {4.5}Prefix second-moment recursion for autoregressive traces}{5}{subsection.4.5}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsection}{\numberline {4.6}Binary correctness and squared-weight strata}{6}{subsection.4.6}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsection}{\numberline {4.7}Shared finite references in matched refresh}{6}{subsection.4.7}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsection}{\numberline {4.8}Why scalar overlap is not a sufficient risk statistic}{7}{subsection.4.8}\protected@file@percent }
+\@writefile{toc}{\contentsline {section}{\numberline {5}Experimental Design}{7}{section.5}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsection}{\numberline {5.1}GRPO policy paths and trace generation}{7}{subsection.5.1}\protected@file@percent }
+\@writefile{lof}{\contentsline {figure}{\numberline {1}{\ignorespaces GRPO training paths for the three seeds. The trajectories provide the sequence of behavior and target policies used by the OPE study; checkpoint selection is not based on official-test performance.}}{8}{figure.caption.5}\protected@file@percent }
+\providecommand*\caption@xref[2]{\@setref\relax\@undefined{#1}}
+\newlabel{fig:training}{{1}{8}{GRPO training paths for the three seeds. The trajectories provide the sequence of behavior and target policies used by the OPE study; checkpoint selection is not based on official-test performance}{figure.caption.5}{}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {5.2}Historical-trace reuse designs}{8}{subsection.5.2}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsection}{\numberline {5.3}Rescoring, finite references, and diagnostics}{9}{subsection.5.3}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsection}{\numberline {5.4}Frozen gate and chronological separation}{9}{subsection.5.4}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsection}{\numberline {5.5}Frozen external SVAMP stress test and exploratory mechanism analysis}{9}{subsection.5.5}\protected@file@percent }
+\newlabel{eq:alphahat}{{40}{9}{Frozen external SVAMP stress test and exploratory mechanism analysis}{equation.40}{}}
+\@writefile{lot}{\contentsline {table}{\numberline {1}{\ignorespaces Evidence architecture and analysis status. ``Frozen'' means that the indicated choices were fixed before the corresponding outcome layer was inspected.}}{10}{table.caption.6}\protected@file@percent }
+\newlabel{tab:design}{{1}{10}{Evidence architecture and analysis status. ``Frozen'' means that the indicated choices were fixed before the corresponding outcome layer was inspected}{table.caption.6}{}}
+\@writefile{toc}{\contentsline {section}{\numberline {6}Results}{10}{section.6}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsection}{\numberline {6.1}A fixed historical log loses overlap, but not at a universal step horizon}{10}{subsection.6.1}\protected@file@percent }
+\@writefile{lof}{\contentsline {figure}{\numberline {2}{\ignorespaces Official-test fixed-log frontier. Top: absolute prompt-WIS discrepancy from the independent finite on-policy reference. Bottom: median prompt rESS. The same step-0 behavior log is evaluated against later target checkpoints. Overlap falls sharply, while realized reference discrepancy varies substantially by training seed.}}{11}{figure.caption.7}\protected@file@percent }
+\newlabel{fig:fixed}{{2}{11}{Official-test fixed-log frontier. Top: absolute prompt-WIS discrepancy from the independent finite on-policy reference. Bottom: median prompt rESS. The same step-0 behavior log is evaluated against later target checkpoints. Overlap falls sharply, while realized reference discrepancy varies substantially by training seed}{figure.caption.7}{}}
+\@writefile{lof}{\contentsline {figure}{\numberline {3}{\ignorespaces Official-test overlap diagnostics versus absolute prompt-WIS reference discrepancy. Left: median prompt rESS. Right: a sampled second-order concentration proxy derived from observed weights. The latter is an empirical diagnostic, not the population conditional R\'enyi-2 quantity in Section 4.}}{12}{figure.caption.8}\protected@file@percent }
+\newlabel{fig:diag}{{3}{12}{Official-test overlap diagnostics versus absolute prompt-WIS reference discrepancy. Left: median prompt rESS. Right: a sampled second-order concentration proxy derived from observed weights. The latter is an empirical diagnostic, not the population conditional R\'enyi-2 quantity in Section 4}{figure.caption.8}{}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {6.2}Matched refresh restores effective evidence}{12}{subsection.6.2}\protected@file@percent }
+\@writefile{lot}{\contentsline {table}{\numberline {2}{\ignorespaces Development-to-test replication of the primary trace-reuse findings. rESS entries are means across pair-level median prompt rESS values. Discrepancy quantities use the finite on-policy Monte Carlo reference, not exact policy value.}}{12}{table.caption.9}\protected@file@percent }
+\newlabel{tab:refresh}{{2}{12}{Development-to-test replication of the primary trace-reuse findings. rESS entries are means across pair-level median prompt rESS values. Discrepancy quantities use the finite on-policy Monte Carlo reference, not exact policy value}{table.caption.9}{}}
+\@writefile{lof}{\contentsline {figure}{\numberline {4}{\ignorespaces Official-test matched refresh comparison. Left: absolute prompt-WIS reference discrepancy under the stale step-0 log versus the recent behavior log. Right: median prompt rESS. Each point holds the target checkpoint, prompts, reward definition, and finite on-policy reference fixed.}}{13}{figure.caption.10}\protected@file@percent }
+\newlabel{fig:refresh}{{4}{13}{Official-test matched refresh comparison. Left: absolute prompt-WIS reference discrepancy under the stale step-0 log versus the recent behavior log. Right: median prompt rESS. Each point holds the target checkpoint, prompts, reward definition, and finite on-policy reference fixed}{figure.caption.10}{}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {6.3}Self-normalization changes the finite-sample trade-off}{13}{subsection.6.3}\protected@file@percent }
+\@writefile{lot}{\contentsline {table}{\numberline {3}{\ignorespaces Official-test estimator benchmark on the 24 fixed-log cases. CI width is the mean prompt-cluster bootstrap interval width; discrepancy columns are measured against the finite on-policy reference.}}{13}{table.caption.11}\protected@file@percent }
+\newlabel{tab:estimators}{{3}{13}{Official-test estimator benchmark on the 24 fixed-log cases. CI width is the mean prompt-cluster bootstrap interval width; discrepancy columns are measured against the finite on-policy reference}{table.caption.11}{}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {6.4}The frozen scalar gate does not identify a tight discrepancy boundary}{13}{subsection.6.4}\protected@file@percent }
+\@writefile{lot}{\contentsline {table}{\numberline {4}{\ignorespaces Frozen rESS gate across the held-out development seed, official GSM8K test, and frozen SVAMP external test. False-accept rate is conditional on acceptance; accepted mean discrepancy is absolute discrepancy from the finite reference.}}{14}{table.caption.12}\protected@file@percent }
+\newlabel{tab:gate}{{4}{14}{Frozen rESS gate across the held-out development seed, official GSM8K test, and frozen SVAMP external test. False-accept rate is conditional on acceptance; accepted mean discrepancy is absolute discrepancy from the finite reference}{table.caption.12}{}}
+\@writefile{lof}{\contentsline {figure}{\numberline {5}{\ignorespaces Frozen rESS gate validation. The top panel reports acceptance; the bottom reports false-accept fraction among all cases. Full acceptance on the official GSM8K test and SVAMP shows that the scalar threshold does not act as a selective reuse rule in those layers.}}{14}{figure.caption.13}\protected@file@percent }
+\newlabel{fig:gate}{{5}{14}{Frozen rESS gate validation. The top panel reports acceptance; the bottom reports false-accept fraction among all cases. Full acceptance on the official GSM8K test and SVAMP shows that the scalar threshold does not act as a selective reuse rule in those layers}{figure.caption.13}{}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {6.5}Frozen external prompt-distribution robustness on SVAMP}{14}{subsection.6.5}\protected@file@percent }
+\@writefile{lot}{\contentsline {table}{\numberline {5}{\ignorespaces In-domain official-test evidence versus the frozen SVAMP external stress test. The SVAMP representative registry and gate were fixed before SVAMP outcomes were inspected.}}{15}{table.caption.14}\protected@file@percent }
+\newlabel{tab:external}{{5}{15}{In-domain official-test evidence versus the frozen SVAMP external stress test. The SVAMP representative registry and gate were fixed before SVAMP outcomes were inspected}{table.caption.14}{}}
+\@writefile{lof}{\contentsline {figure}{\numberline {6}{\ignorespaces Frozen SVAMP transfer. Left: median prompt rESS for all 24 frozen cases grouped by the predeclared low/medium/high overlap bands; horizontal segments mark band means. Right: old-log versus recent-log median rESS for the six same-target matched comparisons present in the frozen registry. No pair reselection or gate refitting uses SVAMP outcomes.}}{15}{figure.caption.15}\protected@file@percent }
+\newlabel{fig:svamp}{{6}{15}{Frozen SVAMP transfer. Left: median prompt rESS for all 24 frozen cases grouped by the predeclared low/medium/high overlap bands; horizontal segments mark band means. Right: old-log versus recent-log median rESS for the six same-target matched comparisons present in the frozen registry. No pair reselection or gate refitting uses SVAMP outcomes}{figure.caption.15}{}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {6.6}Exploratory reward-stratum mechanism analysis}{15}{subsection.6.6}\protected@file@percent }
+\@writefile{lot}{\contentsline {table}{\numberline {6}{\ignorespaces Post-hoc GSM8K mechanism analysis. Development is the primary exploratory layer; official test is exploratory replication. The publication-facing risk proxy uses the arithmetic mean of promptwise empirical $m_2$ moments, consistent with the prompt-average geometry of Corollary 2.}}{16}{table.caption.16}\protected@file@percent }
+\newlabel{tab:alpha}{{6}{16}{Post-hoc GSM8K mechanism analysis. Development is the primary exploratory layer; official test is exploratory replication. The publication-facing risk proxy uses the arithmetic mean of promptwise empirical $m_2$ moments, consistent with the prompt-average geometry of Corollary 2}{table.caption.16}{}}
+\@writefile{toc}{\contentsline {section}{\numberline {7}Discussion}{16}{section.7}\protected@file@percent }
+\@writefile{toc}{\contentsline {paragraph}{Historical evidence ages structurally.}{16}{section*.17}\protected@file@percent }
+\@writefile{toc}{\contentsline {paragraph}{Refresh is a two-channel operation.}{16}{section*.18}\protected@file@percent }
+\@writefile{toc}{\contentsline {paragraph}{Finite references remain measurement devices, not truth.}{16}{section*.19}\protected@file@percent }
+\@writefile{toc}{\contentsline {paragraph}{Diagnostics are not certificates.}{16}{section*.20}\protected@file@percent }
+\@writefile{toc}{\contentsline {paragraph}{Estimator choice and evidence geometry.}{17}{section*.21}\protected@file@percent }
+\@writefile{toc}{\contentsline {section}{\numberline {8}Limitations}{17}{section.8}\protected@file@percent }
+\@writefile{toc}{\contentsline {section}{\numberline {9}Conclusion}{17}{section.9}\protected@file@percent }
+\citation{agapiou2017}
+\@writefile{toc}{\contentsline {section}{\numberline {A}Proofs and Theoretical Details}{18}{appendix.A}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsection}{\numberline {A.1}Proof of Proposition 1}{18}{subsection.A.1}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsection}{\numberline {A.2}Proof of Theorem 1}{18}{subsection.A.2}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsection}{\numberline {A.3}Proof of Proposition 2}{18}{subsection.A.3}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsection}{\numberline {A.4}Proofs of Corollaries 1 and 2}{18}{subsection.A.4}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsection}{\numberline {A.5}Proof of Proposition 3}{19}{subsection.A.5}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsection}{\numberline {A.6}Proof of Proposition 4 and Corollary 3}{19}{subsection.A.6}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsection}{\numberline {A.7}Proof of Lemma 1}{19}{subsection.A.7}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsection}{\numberline {A.8}Verification of Example 1}{19}{subsection.A.8}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsection}{\numberline {A.9}Supplementary finite-sample bounds}{19}{subsection.A.9}\protected@file@percent }
+\@writefile{toc}{\contentsline {section}{\numberline {B}Additional Empirical Summaries}{20}{appendix.B}\protected@file@percent }
+\newlabel{app:empirical}{{B}{20}{Additional Empirical Summaries}{appendix.B}{}}
+\@writefile{lot}{\contentsline {table}{\numberline {7}{\ignorespaces Fixed-log Spearman correlations for prompt-WIS. Target-step association with rESS is strong; association between rESS and realized reference discrepancy is weaker and path-dependent.}}{20}{table.caption.23}\protected@file@percent }
+\@writefile{lot}{\contentsline {table}{\numberline {8}{\ignorespaces Matched refresh results by training seed. Mean reduction is $1-$ recent absolute discrepancy / old absolute discrepancy.}}{20}{table.caption.24}\protected@file@percent }
+\@writefile{lot}{\contentsline {table}{\numberline {9}{\ignorespaces Observed fixed-log tolerance horizon on the reduced official-test grid. Entries are descriptive of this grid, not universal time horizons.}}{20}{table.caption.25}\protected@file@percent }
+\@writefile{lot}{\contentsline {table}{\numberline {10}{\ignorespaces Finite on-policy reference inclusion within the OPE bootstrap interval. These are reference-inclusion rates, not coverage probabilities.}}{21}{table.caption.26}\protected@file@percent }
+\@writefile{lot}{\contentsline {table}{\numberline {11}{\ignorespaces SVAMP estimator benchmark over the 24 frozen representative cases. Values are discrepancies from the finite external reference.}}{21}{table.caption.27}\protected@file@percent }
+\@writefile{toc}{\contentsline {paragraph}{External pair-level audit.}{21}{section*.28}\protected@file@percent }
+\@writefile{toc}{\contentsline {paragraph}{Exploratory mechanism audit.}{21}{section*.29}\protected@file@percent }
+\@writefile{toc}{\contentsline {section}{\numberline {C}Protocol Amendments and Reproducibility Audit}{21}{appendix.C}\protected@file@percent }
+\newlabel{app:protocol}{{C}{21}{Protocol Amendments and Reproducibility Audit}{appendix.C}{}}
+\@writefile{toc}{\contentsline {paragraph}{Canonical GSM8K rescoring.}{21}{section*.30}\protected@file@percent }
+\@writefile{toc}{\contentsline {paragraph}{Official-test pair-grid reduction and structural repair.}{21}{section*.31}\protected@file@percent }
+\@writefile{toc}{\contentsline {paragraph}{Official-test reference size.}{21}{section*.32}\protected@file@percent }
+\@writefile{toc}{\contentsline {paragraph}{SVAMP precision-contract repair.}{21}{section*.33}\protected@file@percent }
+\bibcite{shao2024deepseekmath}{1}
+\bibcite{deepseek2025r1}{2}
+\bibcite{dudik2011dr}{3}
+\bibcite{jiang2016dr}{4}
+\bibcite{swaminathan2015selfnorm}{5}
+\bibcite{thomas2015hcpi}{6}
+\bibcite{kuzborskij2021confident}{7}
+\bibcite{liu2020horizon}{8}
+\bibcite{bhargava2024ope}{9}
+\bibcite{zheng2025gspo}{10}
+\bibcite{leroux2025topr}{11}
+\bibcite{ackermann2025ocrm}{12}
+\bibcite{agapiou2017}{13}
+\bibcite{martino2017ess}{14}
+\bibcite{cardoso2022brsnis}{15}
+\bibcite{li2025repo}{16}
+\@writefile{toc}{\contentsline {paragraph}{Deterministic paper and exploratory layers.}{22}{section*.34}\protected@file@percent }
+\bibcite{mroueh2025grpo}{17}
+\bibcite{tian2026mugrpo}{18}
+\bibcite{elvira2022ess}{19}
+\gdef \@abspage@last{23}

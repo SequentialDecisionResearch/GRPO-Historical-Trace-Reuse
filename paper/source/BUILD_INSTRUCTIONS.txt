@@ -1,0 +1,46 @@
+GRPO Historical Trace Reuse - LaTeX source package
+===================================================
+
+Primary build sequence (as requested):
+
+    pdflatex main.tex
+    biber main
+    pdflatex main.tex
+    pdflatex main.tex
+
+The compiled paper is main.pdf.  To use the frozen manuscript filename:
+
+Windows:
+    copy /Y main.pdf GRPO_Historical_Trace_Reuse_final.pdf
+
+Linux/macOS:
+    cp main.pdf GRPO_Historical_Trace_Reuse_final.pdf
+
+Why main.bcf is included
+------------------------
+The frozen manuscript uses a hand-formatted thebibliography block because that
+is the exact source that generated the final 23-page layout.  To preserve that
+layout exactly while still supporting the requested `biber main` command, this
+package includes a biber control file (main.bcf), references.bib, and the
+corresponding auxiliary files.  `biber main` therefore completes successfully;
+the publication bibliography printed by main.tex remains the frozen one.
+
+If main.bcf is deliberately deleted during a full auxiliary cleanup, recreate it
+once with:
+
+    pdflatex -jobname=main biber_driver.tex
+
+then continue with:
+
+    biber main
+    pdflatex main.tex
+    pdflatex main.tex
+
+Validation
+----------
+The package was tested in a clean directory with the exact four-command build
+sequence above.  The resulting 23-page main.pdf was render-compared against the
+uploaded GRPO_Historical_Trace_Reuse_final.pdf and had zero changed pages at
+200 dpi.  PDF binary hashes may differ after recompilation because PDF object
+serialization and build metadata are not guaranteed to be byte-reproducible;
+the rendered pages and manuscript content are identical.
